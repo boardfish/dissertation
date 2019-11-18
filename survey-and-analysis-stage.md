@@ -1,29 +1,42 @@
 ﻿---
-title: Building a Framework for Digital Interaction in Escape Rooms
-subtitle: Survey and Analysis Stage, COM3610
-author: "Simon Fish | Supervisor: Andrew Stratton"
+title: Building a Framework for Digital Interaction in Escape Rooms \
+  \large Survey and Analysis Stage, COM3610
+subtitle: 
+author: |
+  Simon Fish | Supervisor: Andrew Stratton \
+  This report is submitted in partial fulfilment of the requirement for \
+  the degree of Computer Science with a Year in Industry by Simon Fish.
 geometry: margin=1in
 papersize: a4
-# date: 2019-10-03
 links-as-notes: true
 bibliography: bibliography.bib
 link-citations: true
-documentclass: scrartcl
 table-of-contents: true
+documentclass: book
 ---
-<!-- Title page -->
-This report is submitted in partial fulfilment of the requirement for the degree of Computer Science with a Year in Industry by Simon Fish.
-
+\frontmatter
 <!-- First page -->
+\hspace{0pt}
+\vfill
+### Signed Declaration
+
+\begin{center}
 All sentences or passages quoted in this report from other people's work have been specifically acknowledged by clear cross-referencing to author, work and page(s). Any illustrations that are not the work of the author of this report have been used with the explicit permission of the originator and are specifically acknowledged. I understand that failure to do this amounts to plagiarism and will be considered grounds for failure in this project and the degree examination as a whole.
 
 Simon Fish
-
+\end{center}
+\vfill
+\hspace{0pt}
+\pagebreak
 <!-- Abstract -->
 <!-- This should be two or three short paragraphs (100-150 words total), summarising the report. A suggested flow is background, project aims, and achievements to date. It should not simply be a restatement of the original project outline. -->
+### Abstract
+
+abstract-text
 
 <!-- Contents -->
-
+\tableofcontents
+\mainmatter
 # Introduction
 
 <!--

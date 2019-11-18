@@ -1,1 +1,1 @@
-pandoc --toc --variable date=$(date --iso-8601) --filter pandoc-citeproc -o output.pdf *.md
+pandoc --variable date=$(date --iso-8601) --filter pandoc-citeproc -o output.pdf *.md
