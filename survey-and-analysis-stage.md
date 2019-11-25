@@ -56,7 +56,9 @@ I have identified two research questions, which this stage of the project will b
 1. What do escape room owners consider their biggest timesinks?
 2. What would need to be built in order to rectify these problems in a way that serves escape room owners most effectively?
 
-I intend for this stage of the report to decide the scope I intend to tackle with the artifact I will build for this project.
+I intend for this stage of the report to decide the scope I intend to tackle with the artifact I will build for this project, after which I will find the answer to the third question I have:
+
+3. Does the solution I have developed effectively counteract an identified timesink?
 
 # Literature Survey
 
@@ -75,10 +77,19 @@ Think of the review as writing an essay on the background literature for your pr
 It is usual to assume that the reader is familiar with first and second year course material. Any further material needed should be summarised either and suitable references cited.
 -->
 
-There is an absence of relevant research in this area. This could be due to a variety of factors:
+Relevant research was very difficult for me to find in this area. I suspected this was for a variety of reasons.
 
-- the secrecy and competitiveness of the market @nicholson2015peeking
-- the focus in existing research on the effects of escape rooms on their participants @wiemker2015escape <!-- TODO: back this up -->
+**The secrecy and competitiveness of the market** means that "there are not resources publicly available to help those wanting to start or improve an escape room" (@nicholson2015peeking). The latter case is particularly relevant to my aims, which seek to mitigate common timesinks for escape room owners. Nicholson runs a [Facebook group](https://www.facebook.com/groups/608883549212939/) for escape room enthusiasts, encompassing both owners and participants, to which I sought and gained access as part of my work. The majority of posts, at the time of writing, seem to be from enthusiasts who report back from rooms they have attended, though I have seen posts about types of puzzles that can be implemented. I intend to survey this group, as it appears to be a central hub for what may be a sparse online community. 
+
+However, escape room blog The Logic Escapes Me reports that [ERIC](https://thelogicescapesme.com/news/eric-2019-a-roundup/), an industry convention, has been running for three years. This year's iteration hosted talks in which such themes as immersion, a "hierarchy of needs", and an analysis of the industry in China were discussed. Opportunities such as these can expose the potential for iteration upon existing ideas (@nicholson2015peeking).
+
+<!-- TODO: cite TLEM properly -->
+
+**The participant focus in existing research** seeks to understand the sentiment of those who attend escape rooms. Often, this is with the intent of drawing conclusions about where escape room owners should focus their efforts, or the effects of an owner's design choices on their participants (@wiemker2015escape). These, however, do not target the more fundamental changes that can be made in how an escape room is run day-to-day, and do not expose the difficulties of running an escape room.
+
+<!-- , @dilek2018real, @stasiak2016escape) TODO: back this up -->
+
+**The novelty of the market** is likely to be a large factor - escape rooms began to surge only around 2012-2013 in various parts of the world, though they have existed since as early as 2007 (@nicholson2015peeking). Their relative infamy means that they have not become a widespread research target, though **their use in education** (@clarke2016escaped) is becoming an area in which research is growing, as gamification brings a variety of benefits to the field of education (@kiesler2011gamification).
 <!-- TODO: more... -->
 
 ## Keywords
