@@ -1,5 +1,5 @@
 ﻿---
-title: Building a Framework for Digital Interaction in Escape Rooms \
+title: Building Digital Tools Assisting Escape Room Owners \
   \large Survey and Analysis Stage, COM3610
 subtitle: 
 author: |
