@@ -1,5 +1,5 @@
 ﻿---
-title: Building Digital Tools Assisting Escape Room Owners \
+title: Building Digital Tools Assisting Escape Room Owners \break
   \large Survey and Analysis Stage, COM3610
 subtitle: 
 author: |
@@ -47,9 +47,11 @@ Simon Fish
 
 Escape rooms are physical, interactive experiences in which a group of participants must solve puzzles to escape a locked room, solve a mystery, or otherwise meet some goal in a particular timespan. They are a phenomenon that has existed since around 2007 @nicholson2015peeking, and are a growing industry. Escape rooms are run both by enthusiasts as solo ventures, and as franchises across the country.
 
-The aim of this project is to build tested tools to meet the needs of escape room owners. Research will be focused towards exploring the needs of escape room owners, such that a product can be designed and built to target one or several of these. These needs may be related to issues such as making sure a timer is visible to the group, or to processes that currently take more time than necessary, such as posting photos of teams to social media @liam2019.
+The aim of this project is to build tested tools to meet the needs of escape room owners. Research will be focused towards exploring the needs of escape room owners, such that a product can be designed and built to target one or several of these. These needs may be related to issues such as making sure a timer is visible to the group, or to processes that currently take more time than necessary, such as posting photos of teams to social media (@liam2019).
 
 ## Research Questions
+
+<!-- TODO: reframe -->
 
 I have identified two research questions, which this stage of the project will be focused towards answering:
 
@@ -90,11 +92,12 @@ However, escape room blog The Logic Escapes Me reports that [ERIC](https://thelo
 <!-- , @dilek2018real, @stasiak2016escape) TODO: back this up -->
 
 **The novelty of the market** is likely to be a large factor - escape rooms began to surge only around 2012-2013 in various parts of the world, though they have existed since as early as 2007 (@nicholson2015peeking). Their relative infamy means that they have not become a widespread research target, though **their use in education** (@clarke2016escaped) is becoming an area in which research is growing, as gamification brings a variety of benefits to the field of education (@kiesler2011gamification).
-<!-- TODO: more... -->
 
 ## Keywords
 
 I identified the following keywords for use in my search. The search was conducted using the Google Scholar search engine.
+
+<!-- TODO: keywords aren't search terms -->
 
 - escape room owner
 - escape room host
@@ -117,9 +120,15 @@ What have you achieved to date? Describe any results you have. It may be appropr
 <!--
 - Got in touch with Liam from the Lockup
 - Emailed the rest of the rooms bar Great Escape
-- Tried to join Nicholson's facebook group - should get in touch with him!
+- Joined Nicholson's facebook group - should get in touch with him!
 - Learned my way around the ESP32/unPhone on the IoT module
 -->
+
+I have been able to make good progress in defining my scope this semester. The most important thing I have had to do is to get in contact with the escape room community - I have been able to reach out to all of Sheffield's escape rooms, though only one has returned any interest in supporting the project. This was The Lockup Escape Rooms in Sheffield.
+
+I got in contact early in November, which was a busy time for all rooms. In initial communications with The Lockup, Liam offered a free attempt at the escape room pro bono. I took up this offer on the 29th November.
+
+Before this, I met with Liam <!-- todo: date --> to discuss the challenges he faces as an escape room owner, and his philosophy in developing the rooms he offers at The Lockup. Engagement, visibility and breakability all inspire his approach: the entire party must be able to interact with, and be engaged by, puzzles in the room, and the puzzles should not take long to reset to their initial state for the next party that attends the escape room (@liam2019). Liam suggested some areas that could be targeted, which will inspire a survey I send to the Facebook group created by @nicholson2015peeking.
 
 # Conclusions and Project Plan
 

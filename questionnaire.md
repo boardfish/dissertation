@@ -13,3 +13,9 @@ features:
 - membership
 - communication with party before escape room starts - chatbot, group?
 - timer visible both to owner and participants
+
+---
+
+Need to frame research questions in terms of something that *can be answered by the literature* - maybe work backwards?
+
+facebook survey: can incorporate, but where?
