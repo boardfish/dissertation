@@ -9,7 +9,7 @@ author: |
 geometry: margin=1in
 papersize: a4
 links-as-notes: true
-bibliography: bibliography.bib
+bibliography: [bibliography.bib]
 link-citations: true
 table-of-contents: true
 documentclass: book
@@ -55,12 +55,8 @@ The aim of this project is to build tested tools to meet the needs of escape roo
 
 I have identified two research questions, which this stage of the project will be focused towards answering:
 
-1. What do escape room owners consider their biggest timesinks?
-2. What would need to be built in order to rectify these problems in a way that serves escape room owners most effectively?
-
-I intend for this stage of the report to decide the scope I intend to tackle with the artifact I will build for this project, after which I will find the answer to the third question I have:
-
-3. Does the solution I have developed effectively counteract an identified timesink?
+1. What has been reported from studies conducted using escape rooms, particularly with regards to their mechanics?
+2. What can be drawn from these reports?
 
 # Literature Survey
 
@@ -79,19 +75,15 @@ Think of the review as writing an essay on the background literature for your pr
 It is usual to assume that the reader is familiar with first and second year course material. Any further material needed should be summarised either and suitable references cited.
 -->
 
-Relevant research was very difficult for me to find in this area. I suspected this was for a variety of reasons.
+Escape rooms have grown popular in many locations across the world as a recreational activity (@nicholson2015peeking, @stasiak2016escape), even serving as a tourist attraction (@dilek2018real). Nicholson reports that the *Real Escape Game* by SCRAP was the earliest well-documented activity branded as such. SCRAP has gone on to develop escape rooms at a much larger scale than the typical escape room, which serves teams of an average size of 4.58 people (@nicholson2015peeking).
+<!-- studies conducted in commerical escape rooms? -->
 
-**The secrecy and competitiveness of the market** means that "there are not resources publicly available to help those wanting to start or improve an escape room" (@nicholson2015peeking). The latter case is particularly relevant to my aims, which seek to mitigate common timesinks for escape room owners. Nicholson runs a [Facebook group](https://www.facebook.com/groups/608883549212939/) for escape room enthusiasts, encompassing both owners and participants, to which I sought and gained access as part of my work. The majority of posts, at the time of writing, seem to be from enthusiasts who report back from rooms they have attended, though I have seen posts about types of puzzles that can be implemented. I intend to survey this group, as it appears to be a central hub for what may be a sparse online community. 
-
-However, escape room blog The Logic Escapes Me reports that [ERIC](https://thelogicescapesme.com/news/eric-2019-a-roundup/), an industry convention, has been running for three years. This year's iteration hosted talks in which such themes as immersion, a "hierarchy of needs", and an analysis of the industry in China were discussed. Opportunities such as these can expose the potential for iteration upon existing ideas (@nicholson2015peeking).
-
-<!-- TODO: cite TLEM properly -->
+Escape rooms' relative infamy means that they have not become a widespread research target, though **their use in education**  is becoming an area in which research is growing, as gamification brings a variety of benefits to the field of education (@kiesler2011gamification).
+<!-- in education -->
+<!-- https://scholar.google.com/scholar?cites=14456240303786552354&as_sdt=2005&sciodt=0,5&hl=en -->
+Escape rooms (@clarke2016escaped)
 
 **The participant focus in existing research** seeks to understand the sentiment of those who attend escape rooms. Often, this is with the intent of drawing conclusions about where escape room owners should focus their efforts, or the effects of an owner's design choices on their participants (@wiemker2015escape). These, however, do not target the more fundamental changes that can be made in how an escape room is run day-to-day, and do not expose the difficulties of running an escape room.
-
-<!-- , @dilek2018real, @stasiak2016escape) TODO: back this up -->
-
-**The novelty of the market** is likely to be a large factor - escape rooms began to surge only around 2012-2013 in various parts of the world, though they have existed since as early as 2007 (@nicholson2015peeking). Their relative infamy means that they have not become a widespread research target, though **their use in education** (@clarke2016escaped) is becoming an area in which research is growing, as gamification brings a variety of benefits to the field of education (@kiesler2011gamification).
 
 ## Keywords
 
@@ -117,18 +109,15 @@ Detail the aims and objectives of your project and analyse individual parts in d
 What have you achieved to date? Describe any results you have. It may be appropriate for your project to combine this chapter with the following chapter - discuss this with your supervisor.
 -->
 
-<!--
-- Got in touch with Liam from the Lockup
-- Emailed the rest of the rooms bar Great Escape
-- Joined Nicholson's facebook group - should get in touch with him!
-- Learned my way around the ESP32/unPhone on the IoT module
--->
-
 I have been able to make good progress in defining my scope this semester. The most important thing I have had to do is to get in contact with the escape room community - I have been able to reach out to all of Sheffield's escape rooms, though only one has returned any interest in supporting the project. This was The Lockup Escape Rooms in Sheffield.
 
 I got in contact early in November, which was a busy time for all rooms. In initial communications with The Lockup, Liam offered a free attempt at the escape room pro bono. I took up this offer on the 29th November.
 
-Before this, I met with Liam <!-- todo: date --> to discuss the challenges he faces as an escape room owner, and his philosophy in developing the rooms he offers at The Lockup. Engagement, visibility and breakability all inspire his approach: the entire party must be able to interact with, and be engaged by, puzzles in the room, and the puzzles should not take long to reset to their initial state for the next party that attends the escape room (@liam2019). Liam suggested some areas that could be targeted, which will inspire a survey I send to the Facebook group created by @nicholson2015peeking.
+Before this, I met with Liam on the 20th November to discuss the challenges he faces as an escape room owner, and his philosophy in developing the rooms he offers at The Lockup. Engagement, visibility and breakability all inspire his approach: the entire party must be able to interact with, and be engaged by, puzzles in the room, and the puzzles should not take long to reset to their initial state for the next party that attends the escape room (@liam2019). Liam and I discussed some areas that could be targeted, which will inspire a survey I send to the Facebook group created by @nicholson2015peeking.
+
+Nicholson runs a [Facebook group](https://www.facebook.com/groups/608883549212939/) for escape room enthusiasts, encompassing both owners and participants, to which I sought and gained access as part of my work. The majority of posts, at the time of writing, seem to be from enthusiasts who report back from rooms they have attended, though I have seen posts about types of puzzles that can be implemented. I intend to survey this group, as it appears to be a central hub for what may be a sparse online community. 
+
+Though I have not yet locked in my approach, I have been learning to develop for the ESP32 microcontroller and the unPhone platform.  This provides a strong framework for IoT development at a low cost and may be an outlet to explore in the development of my artifact. <!-- TODO: cite https://unphone.net/ -->
 
 # Conclusions and Project Plan
 
