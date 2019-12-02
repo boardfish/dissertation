@@ -51,12 +51,10 @@ The aim of this project is to build tested tools to meet the needs of escape roo
 
 ## Research Questions
 
-<!-- TODO: reframe -->
-
 I have identified two research questions, which this stage of the project will be focused towards answering:
 
-1. What has been reported from studies conducted using escape rooms, particularly with regards to their mechanics?
-2. What can be drawn from these reports?
+**RQ1**: How are concepts used in escape rooms applied in different environments?   
+**RQ2**: Based on this, what can we establish as the requirements for escape games, independent of their environment?
 
 # Literature Survey
 
@@ -78,10 +76,11 @@ It is usual to assume that the reader is familiar with first and second year cou
 Escape rooms have grown popular in many locations across the world as a recreational activity (@nicholson2015peeking, @stasiak2016escape), even serving as a tourist attraction (@dilek2018real). Nicholson reports that the *Real Escape Game* by SCRAP was the earliest well-documented activity branded as such. SCRAP has gone on to develop escape rooms at a much larger scale than the typical escape room, which serves teams of an average size of 4.58 people (@nicholson2015peeking).
 <!-- studies conducted in commerical escape rooms? -->
 
-Escape rooms' relative infamy means that they have not become a widespread research target, though **their use in education**  is becoming an area in which research is growing, as gamification brings a variety of benefits to the field of education (@kiesler2011gamification).
+Escape rooms' relative infamy means that they have not become a widespread research target, though **their use in education**  is becoming an area in which research is growing. Gamification brings a variety of benefits to the field of education (@kiesler2011gamification), which are capitalised upon by those implementing escape rooms in education. There are various tested means of implementing escape rooms in the classroom, from [Breakout EDU](https://www.breakoutedu.com/) to recruiting an agency for this purpose (@zhang2018trapped), to implementing one using resources already available in the classroom. This brings some benefits not available to commerical escape rooms, which employ physical puzzles that require a reset (@liam2019). In particular, a study by @lopezuse organised its puzzles in a manner whereby ordering is not necessary, allowing multiple groups to attend the room at once. This can have commercial application, and could be considered by those exploring portable escape rooms as an outlet, such as Tuzak, an Istanbul company developing escape games (@gunduz2018preventing).
+<!-- https://www.breakoutedu.com/ -->
 <!-- in education -->
 <!-- https://scholar.google.com/scholar?cites=14456240303786552354&as_sdt=2005&sciodt=0,5&hl=en -->
-Escape rooms (@clarke2016escaped)
+<!-- Escape rooms (@clarke2016escaped) -->
 
 **The participant focus in existing research** seeks to understand the sentiment of those who attend escape rooms. Often, this is with the intent of drawing conclusions about where escape room owners should focus their efforts, or the effects of an owner's design choices on their participants (@wiemker2015escape). These, however, do not target the more fundamental changes that can be made in how an escape room is run day-to-day, and do not expose the difficulties of running an escape room.
 
