@@ -33,6 +33,14 @@ Simon Fish
 ### Abstract
 
 <!-- TODO: -->
+<!-- - explain topic -->
+Escape rooms are physical, interactive experiences in which a group of participants must solve puzzles to escape a locked room, solve a mystery, or otherwise meet some goal in a particular timespan.
+<!-- - explain content -->
+This paper uses various studies into applications of escape rooms to discuss the priorities of well-made escape games, and marks my current progress in research into my dissertation topic as in the title.
+<!-- - explain highlights -->
+It focuses on the difficulties in applying technology in escape rooms and priorities that should be held in order to mitigate these.
+<!-- - explain purpose of paper -->
+On this basis, it serves to document universal requirements to bear in mind when developing hardware or software for escape rooms.
 
 <!-- Contents -->
 \tableofcontents
@@ -93,7 +101,7 @@ Escape rooms' relative infamy means that they have not become a widespread resea
 
 The increasing application of IT in education means that computers are often part of the school environment. Application of technology in escape rooms comes with some uncertainty, and a break in the flow of the escape room experience can shatter participants' immersion and lead to bad reviews (@liam2019). This also creates some difficulty when it comes to visibility - unless monitors are suitably placed and large enough to be viewed by a full party, the whole team may not be able to interface with a puzzle that applies technology.
 
-@rouse2017lessons applied technology to an escape room in the classroom using a game loaded from a memory stick. This application seems understandable, as Rouse's audience was likely to have some basic level of expertise in and enthusiasm for handling computers as part of the digital native generation. However, in practice, it brings to mind the image of a small group of people crowding around a screen. @liam2019 warns against situations like this, saying that visibility of the puzzle to the entire team should be a priority. \@duplessie also outlines a shortcoming of this approach in recommending movement away from what he calls the "glowing rectangles". These disadvantages of the applications of the escape room tech guide many owners not to use it much, if at all. <!-- TODO: cite the Matt DuPlessie talk -->
+@rouse2017lessons applied technology to an escape room in the classroom using a game loaded from a memory stick. This application seems understandable, as Rouse's audience was likely to have some basic level of expertise in and enthusiasm for handling computers as part of the digital native generation. However, in practice, it brings to mind the image of a small group of people crowding around a screen. @liam2019 warns against situations like this, saying that visibility of the puzzle to the entire team should be a priority. @duplessie2013go also outlines a shortcoming of this approach in recommending movement away from what he calls the "glowing rectangles". These disadvantages of the applications of the escape room tech guide many owners not to use it much, if at all. <!-- TODO: cite the Matt DuPlessie talk -->
 
 However, escape rooms and technology are inherently linked - digital escape-the-room games such as *Myst* precede and inspire physical escape rooms (@nicholson2015peeking). These forms of escape room lack a shortcoming that is one of physical escape room owners' biggest bugbears - resetting these rooms is as simple as resetting the game. Whether this is done by restarting an attempt, restarting the game, or removing save files and starting over, it is often trivial compared to how long it takes to reset escape rooms. @liam2019 suggests that resetting rooms can often take as long as 15 minutes, and that it is something escape room owners seek to optimise. The shorter a reset takes, the more time is available to welcome customers.
 
