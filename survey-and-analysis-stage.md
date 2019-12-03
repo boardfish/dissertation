@@ -45,9 +45,9 @@ Simon Fish
 - summarise the remaining chapters of the report, in effect giving the reader an overview of what is to come
 -->
 
-Escape rooms are physical, interactive experiences in which a group of participants must solve puzzles to escape a locked room, solve a mystery, or otherwise meet some goal in a particular timespan. They are a phenomenon that has existed since around 2007 (@nicholson2015peeking), and are a growing industry. Escape rooms are run both by enthusiasts as solo ventures, and as franchises across the country.
-
 The aim of this project is to build tested tools to meet the needs of escape room owners. Research will be focused towards exploring the needs of escape room owners, such that a product can be designed and built to target one or several of these. These needs may be related to issues such as making sure a timer is visible to the group, or to processes that currently take more time than necessary, such as posting photos of teams to social media (@liam2019).
+
+In order to guide the focus of my project, I will use this paper to discuss the features of escape rooms and analyse their implementation across existing research. I intend to do so guided by my chosen research questions.
 
 ## Research Questions
 
@@ -55,6 +55,19 @@ I have identified two research questions, which this stage of the project will b
 
 **RQ1**: How are concepts used in escape rooms applied in different environments?   
 **RQ2**: Based on this, what can we establish as the requirements for escape games, independent of their environment?
+
+# Background and Motivation
+
+<!--
+- explain escape rooms, inc origin (nicholson)
+- why are you doing your lit review on escape rooms?
+-->
+
+Escape rooms are physical, interactive experiences in which a group of participants must solve puzzles to escape a locked room, solve a mystery, or otherwise meet some goal in a particular timespan. They are a phenomenon that has existed since around 2007 (@nicholson2015peeking), and are a growing industry. Escape rooms are run both by enthusiasts as solo ventures, and as franchises across the country. @nicholson2015peeking documents escape rooms as the culmination of a variety of media. Of those he has listed, I feel the puzzle or treasure hunt genre shares the most fundamentals with escape rooms - a team-based problem-solving challenge done in person. Various others have lent features to escape rooms, such as immersion in a story as the "hero", which @duplessie2013go reports as being something participants enjoy.
+
+<!-- TODO: figure from nicholson -->
+
+My goal in writing this literature survey is to understand not just the state of the commercial escape room industry, but the application of escape rooms in education and other contexts. The major difference between these contexts is that the commercial escape room industry is most regularly founded on permanent fixtures, and educational escape rooms are often applied in a classroom environment. These different environments dictate some differences between escape room experiences - for example, @lopezuse's escape room was designed for multiple groups to attend at once, whereas most commercial escape rooms accept only one team per room. However, as I intend to show in the literature survey, inspiration can be taken from both contrasting environments and applied universally.
 
 # Literature Survey
 
@@ -122,6 +135,8 @@ The objective of my project is to build a tool for the escape room community. Th
 
 This has evolved from the initial proposal, which was to build an escape room exclusively using technology. After much discussion with my supervisor, we determined that this was too vast of a goal for the project. This would have been a distributed system using a variety of networked technology. The next phase of this idea was to create a framework for digital puzzles, which would use a variety of inputs and outputs - using the Quando framework developed by @stratton2019quando, I would quickly be able to construct interactions across many media. Quando has support for the Leap Motion @leap hand-tracking device, micro:bit @micro, and a variety of in-browser technology. However, the project may use a closed-source license in future (@stratton2019), which meant that I found it difficult to rely on for my work. Additionally, @liam2019 warns that digital uptake in escape rooms may be middling due to the inherent risk, as discussed in the literature survey.
 
+My next step is to survey the industry, which is subject to the approval of an ethics review of my questionnaire. A questionnaire will be sent to the Facebook group created and maintained by @nicholson2015peeking. This will help to solidify the direction of my project.
+
 # Progress
 
 <!--
@@ -143,3 +158,12 @@ Though I have not yet locked in my approach, I have been learning to develop for
 <!--
 Give a brief summary of the main achievements to date and a detailed plan of work (e.g. using a Gantt chart) to the end of project.
 -->
+
+It is difficult for me to provide a detailed plan at this stage, since I have not been able to calibrate the scope of my project in time for submission of the literature review. However, I should be able to define this once I understand from my survey what the industry wants. Independent of what I choose to build, I intend to:
+
+- Break the task down into epics and tickets, as explained by <!-- TODO: cite Atlassian -->.
+- Refine the tickets. The goal is to be able to pick up any given ticket and to have left myself enough information that I could comfortably progress with it.
+- Estimate the tickets using story points. Of course, these would be subjective estimates, but I have no doubt that they will assist in helping me to prioritise and schedule work. They will give me confidence in being able to predict how much I should be able to complete by the end of the project.
+- Begin work, focusing in particular towards research into unknown areas. Should I choose to use a tool that I don't yet have full knowledge of, I will first make sure that my knowledge and capabilities in using it are adequate.
+
+# Bibliography
