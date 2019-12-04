@@ -171,7 +171,7 @@ Though I have not yet locked in my approach, I have been learning to develop for
 Give a brief summary of the main achievements to date and a detailed plan of work (e.g. using a Gantt chart) to the end of project.
 -->
 
-It is difficult for me to provide a detailed plan at this stage, since I have not been able to calibrate the scope of my project in time for submission of the literature review. However, I should be able to define this once I understand from my survey what the industry wants. Independent of what I choose to build, I intend to:
+It is difficult for me to provide a detailed plan at this stage, since I have not been able to calibrate the scope of my project in time for submission of the literature review. However, I should be able to define this once I understand from my survey what the industry wants. I intend to aim for completion of the project in mid-April, which will give me two months of float to work with. Independent of what I choose to build, I intend to:
 
 - Break the task down into epics and tickets, as explained by @drumondscrum.
 - Refine the tickets. The goal is to be able to pick up any given ticket and to have left myself enough information that I could comfortably progress with it.
