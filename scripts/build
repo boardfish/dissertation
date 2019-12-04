@@ -1,1 +1,6 @@
+# Requirements:
+# pandoc
+# pandoc-citeproc
+# texlive-full
+# librsvg2-bin
 pandoc --variable date=$(date --iso-8601) --filter pandoc-citeproc -o output.pdf survey-and-analysis-stage.md
