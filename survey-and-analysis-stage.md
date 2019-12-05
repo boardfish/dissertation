@@ -54,7 +54,7 @@ On this basis, it serves to document universal requirements to bear in mind when
 
 The aim of this project is to build tested tools to meet the needs of escape room owners. Research will be focused towards exploring the needs of escape room owners, such that a product can be designed and built to target one or several of these. These needs may be related to issues such as making sure a timer is visible to the group, or to processes that currently take more time than necessary, such as posting photos of teams to social media (@liam2019).
 
-In order to guide the focus of my project, I will use this paper to discuss the features of escape rooms and analyse their implementation across existing research. I intend to do so guided by my chosen research questions. This will reveal some 
+In order to guide the focus of my project, I will use this paper to discuss the features of escape rooms and analyse their implementation across existing research. I intend to do so guided by my chosen research questions. This will reveal some <!-- FIXME: UNFINISHED -->
 
 ## Research Questions
 
