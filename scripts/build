@@ -3,4 +3,10 @@
 # pandoc-citeproc
 # texlive-full
 # librsvg2-bin
-pandoc --variable date=$(date --iso-8601) --filter pandoc-citeproc -o output.pdf dissertation.md
+cat dissertation.md > tmp.md
+for i in contents/*; do
+  cat "$i" >> tmp.md
+  echo "\n" >> tmp.md
+done
+sleep 2
+pandoc --variable date=$(date --iso-8601) --filter pandoc-citeproc -o output.pdf tmp.md
