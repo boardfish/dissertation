@@ -125,38 +125,6 @@ contrasting environments and applied universally.
 
 # Literature Survey
 
-<!--
-Depending on the type of the project, relevant literature may be hard to find,
-and a technology survey/review of relevant mathematics/review of similar
-software tools may be more appropriate - you should discuss this with your
-supervisor. 
-
-- demonstrate your awareness and understanding of the background literature to
-  your topic
-- set the proposed research in a wide context
-- progress to a more detailed account of the most relevant work in the area
-- take care to include some up-to-date references
-- Reviewing the literature can help to identify questions and issues that have
-  not yet been answered, ideally questions that will be addressed through your
-  project.
-- can incorporate criticisms of previous work, although you need to take care
-  here that your criticisms do not reflect a lack of understanding.
-
-Think of the review as writing an essay on the background literature for your
-project. You should not just provide a list of references followed by a short
-summary of each of them. Instead the review should be organised and structured
-in a meaningful way, and the themes and relationships between the references
-identified. You should expect to redraft the review several times in order to
-arrive at a text that is clearly written, easy to understand, but that displays
-an in-depth understanding of the topic. 
-
-It is usual to assume that the reader is familiar with first and second year
-course material. Any further material needed should be summarised either and
-suitable references cited.
--->
-
-<!-- Escape rooms' relative infamy means that they have not become a widespread research target, though **their use in education**  is becoming an area in which research is growing. Gamification brings a variety of benefits to the field of education [@kiesler2011gamification], which are capitalised upon by those implementing escape rooms in education. There are various tested means of implementing escape rooms in the classroom, from Breakout EDU @breakoutedu to recruiting an agency for this purpose [@zhang2018trapped], to implementing one using resources already available in the classroom.  -->
-
 Escape room maintainers are able to apply technology to varying degrees. On the
 outside of the escape room experience, maintainers implement leaderboards, share
 team photos to social media, and interact with the team via a screen or handheld
@@ -265,8 +233,6 @@ reliability, with negative reviews being the consequence for ill implementation
 [@liam2019]. The strength of escape rooms as an educational tool has also been
 demonstrated here, which is worth consideration when building for the escape
 room industry.
-
-<!-- **The participant focus in existing research** seeks to understand the sentiment of those who attend escape rooms. Often, this is with the intent of drawing conclusions about where escape room maintainers should focus their efforts, or the effects of an owner's design choices on their participants [@wiemker2015escape]. These, however, do not target the more fundamental changes that can be made in how an escape room is run day-to-day, and do not expose the difficulties of running an escape room. -->
 
 ## Keywords
 
@@ -412,13 +378,93 @@ happy with the base functionality and usability that came to be.
  <!-- cite: https://www.atlassian.com/agile/kanban/kanban-vs-scrum
 -->
 
-# Progress
+# Design
 
 <!--
-What have you achieved to date? Describe any results you have. It may be
-appropriate for your project to combine this chapter with the following chapter
-- discuss this with your supervisor.
+This should explain the design technique chosen (and justify why it is
+appropriate) from the various ones available; it should select a suitable subset
+of the things described in the analysis chapter and develop a design. Where
+trade-offs exist between different designs, the chosen approach should be
+justified. Suitable diagram-techniques (e.g. UML, other drawings) should be used
+where appropriate. If a method is applied selectively, explain which parts were
+used and why. Experimental projects should pay careful attention to control
+conditions, samples selected, etc. to ensure a valid result.
 -->
+
+# Implementation and Testing
+
+<!--
+In addition to illustrating "coding traps", this should highlight particular
+novel aspects to algorithms. Testing should be according to the scheme presented
+in the Analysis chapter and should follow some suitable model - e.g. category
+partition, state machine-based. Both functional testing and user-acceptance
+testing are appropriate. For experimental/investigative projects, techniques
+developed should be evaluated against a standard result set for calibration, as
+well as the "live" data set. For theoretical projects, the relative
+power/expressiveness of the theory should be evaluated with respect to competing
+approaches.
+-->
+
+RSpec was employed for testing.
+
+## Time constraints
+
+If time were not an issue, I would have employed the following:
+
+### Test coverage
+
+SimpleCov was the standard at UKCloud with regards to coverage testing. I would
+have employed this and aimed for at least 80% test coverage. In the end, my
+testing strategy was to cover only novel backend functionality that sat
+somewhere outside the standard Rails CRUD mold. This included:
+
+- additional routes created beyond a standard Rails scaffold, such as those that
+  make the current user a maintainer/enthusiast or those that remove image
+  associations from a `Clear` or `EscapeGame` object
+- secured routes - tests were created that challenged whether some attacking
+  user could change a user ID in a form to steal ownership of a record
+- some validations, such as those relating to limits on the number of image
+  uploads for `EscapeGame`s and `Clear`s.
+- some queries, particularly those relating to user privacy and escape room
+  hiding.
+
+
+- frontend testing with Jest
+
+# Results and Discussion
+
+<!--
+The main results of your work should be presented, together with critical discussion. The chapter should cover three things (although these would not be used as section headings): 
+
+    Findings - present all the results (products, experimental findings, theories, etc.) generated during the project. This may also include some off-topic findings that were not expected, or which were side-effects of other explorations.
+    Goals achieved - describes the degree to which the findings support the original objectives laid out for the project. The goals may be partially or fully achieved, or exceeded. An experimental project may prove, or disprove the original thesis. A theoretical project may cover some or all of the example cases. Note that reporting of failures to achieve goals is important since a fundamental feature of the assessment procedures is that the processes (how you went about your project) are often as important as the products of the project.
+    Further work - describes two things: firstly, new areas of investigation prompted by developments in this project, and secondly parts of the current work which were not completed due to time constraints and/or problems encountered.
+-->
+
+The product of my development process is a web application written in Ruby on
+Rails, with React.js used to generate and drive some areas of the frontend.
+Blacklight allows users to log in through the Auth0 authentication service only,
+though this allows for plenty of expansion in and of itself. Users are prompted
+to define themselves as an escape game maintainer, enthusiast, or both. This
+only affects the user's experience, not their level of access.
+
+Escape game maintainers have options revealed to them to create and manage
+escape games. These escape games have an array of associated data that can be
+added, including the expected time to complete them, their location (by way of
+Google Maps integration), images, and a Markdown-compatible extended
+description. Listings can also be hidden from view and access via a checkbox on
+the editing form.
+
+Enthusiasts can browse these escape games and mark them as cleared by selecting
+the lock icon on any listing. This is consistent across the site. Doing so adds
+the escape game to the 'My Cleared Games' section of the site for that user.
+There, users can upload photos to associate with each escape room, which also
+appear to the left of the list in a singular photo gallery.
+
+Users have profiles where they can write a bio, set their location, and link to
+their own website. Here, those interested can see all escape games by a single
+maintainer, and all escape games cleared by a user. Which of these is shown
+depends on whether they have self-assigned as a maintainer, enthusiast, or both.
 
 I have been able to make good progress in defining my scope this semester. The
 most important thing I have had to do is to get in contact with the escape room
@@ -448,48 +494,31 @@ sent to the Facebook group created by @nicholson2015peeking.
 Nicholson runs a [Facebook
 group](https://www.facebook.com/groups/608883549212939/) for escape room
 enthusiasts, encompassing both maintainers and participants, to which I sought
-and gained access as part of my work. The majority of posts, at the time of
-writing, seem to be from enthusiasts who report back from rooms they have
-attended, though I have seen posts about types of puzzles that can be
-implemented. I intend to survey this group, as it appears to be a central hub
-for what may be a sparse online community. 
+and gained access as part of my work. The majority of posts during research were
+from enthusiasts who would report back from rooms they have attended, though I
+have seen posts about types of puzzles that can be implemented. I chose to
+survey this group, as it appeared to be a central hub for what seemed to be a
+sparse online community. 
 
-Though I have not yet locked in my approach, I have been learning to develop for
-the ESP32 microcontroller and the unPhone platform [@cunningham2019unphone].
-This provides a strong framework for IoT development at a low cost and may be an
-outlet to explore in the development of my artifact. My solution may take the
-form of a web application - a MVC or static site genneration/progressive web app
-approach may be used depending on the scope of the data stored serverside.
+After setting my focus, I decided my solution would take the form of a web
+application. Ruby on Rails was chosen as the development platform. The QOC
+analysis below was the source of this decision, in which I weighed up other
+potential candidates such as Iron (Rust), ASP.NET MVC 5 (C#), and Next.js.
 
-# Conclusions and Project Plan
+|  | **Priority** | 4 | 5 | 4 | 2 | 4 | 3 | 3 | 5 |
+|:-----:|:----------------:|:-----------:|:-------------:|:---------:|:-------------:|:--------------------------:|:----------------------------:|:---------:|:-----------------:|
+|  | **Criteria** | Famili-<br>arity | Documen-<br>tation | Sta-<br>bility | Linux support | Available Docker resources | Developer tools (generators) | Comm-<br>unity | Develop-<br>ment cycle |
+| 145 | Rails (ERB) | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4 |
+| 108 | Next.js | 3 | 4 | 3 | 5 | 5 | 1 | 2 | 5 |
+| 109 | ASP.NET MVC 5 | 2 | 5 | 5 | 1 | 5 | 5 | 3 | 2 |
+| 66 | Iron | 1 | 2 | 1 | 5 | 3 | 1 | 1 | 4 |
+| 130 | Rails (React) | 4 | 4 | 5 | 5 | 5 | 3 | 5 | 4 |
 
-<!--
-Give a brief summary of the main achievements to date and a detailed plan of work (e.g. using a Gantt chart) to the end of project.
--->
-
-It is difficult for me to provide a detailed plan at this stage, since I have
-not been able to calibrate the scope of my project in time for submission of the
-literature review. However, I should be able to define this once I understand
-from my survey what the industry wants. I intend to aim for completion of the
-project in mid-April, which will give me two months of float to work with.
-Independent of what I choose to build, I intend to:
-
-- Break the task down into epics and tickets, as explained by @drumondscrum.
-- Refine the tickets. The goal is to be able to pick up any given ticket and to
-  have left myself enough information that I could comfortably progress with it.
-- Estimate the tickets using story points. Of course, these would be subjective
-  estimates, but I have no doubt that they will assist in helping me to
-  prioritise and schedule work. They will give me confidence in being able to
-  predict how much I should be able to complete by the end of the project.
-- Begin work, focusing in particular towards research into unknown areas. Should
-  I choose to use a tool that I don't yet have full knowledge of, I will first
-  make sure that my knowledge and capabilities in using it are adequate.
-
-In writing this literature survey, I have extended my awareness of both the
-strengths and difficulties in implementing technology in escape rooms. I will
-need to bear this in mind strongly when development of my solution begins. I
-have also been shown the value of escape room technology in other forms than the
-typical commercial application - a tool that is as effective in pedagogy as it
-is in escape rooms is of the essence.
+Originally, I weighed ERB and React against one another as view engines. This
+estimation was taken on the assumption that I would use React even where
+interactivity and state management were not required. In hindsight, this
+approach would have slowed development. Instead, my final approach of applying
+React only where functional improved the quality of the application without
+hampering development time.
 
 # Bibliography
