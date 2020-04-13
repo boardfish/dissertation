@@ -29,11 +29,18 @@ Additionally, @liam2019 warned that digital uptake in traditional escape rooms
 may be middling due to the inherent risk and time involvement, as discussed in
 the literature survey.
 
-I surveyed the escape room community on Facebook to determine a firmer course of
-action, taking a selection of options as discussed with an escape room owner
-[@liam2019] for further feedback. The Facebook group created by
-@nicholson2015peeking was chosen to be surveyed. From the seven responses
-received, the following conclusions were drawn:
+I met with Liam on the 20th November to discuss the challenges he faces as an
+escape room owner, and his philosophy in developing the rooms he offers at The
+Lockup. Liam and I discussed some areas that could be targeted, which inspired a
+survey I sent to the Facebook group created by @nicholson2015peeking. This group
+is for escape room enthusiasts, encompassing both maintainers and participants,
+to which I sought and gained access as part of my work. The majority of posts
+during research were from enthusiasts who would report back from rooms they have
+attended, though I have seen posts about types of puzzles that can be
+implemented. I chose to survey this group, as it appeared to be a central hub
+for what seemed to be a sparse online community. 
+
+From the seven responses received, the following conclusions were drawn:
 
 - The majority of the group already shares photos online, but those that do not
   are all interested by the prospect of it
@@ -105,13 +112,29 @@ functionality, setting that groundwork in the right way would take slow and
 careful decisions. Scaffolds would dictate the flow of the rest of the project
 to a degree.
 
-Forgoing the later milestones, and many ideas that might even give Blacklight
-commercial viability with them, was a difficult decision to make. However, I am
-happy with the base functionality and usability that came to be.
-
 - **Dev commenced** Mar 12th
 - **Must done** Mar 26th (actual 24th)
 - **Should done** Apr 16th (actual 13th)
 
+After setting my focus, I decided my solution would take the form of a web
+application. Ruby on Rails was chosen as the development platform. The QOC
+analysis below was the source of this decision, in which I weighed up other
+potential candidates such as Iron (Rust), ASP.NET MVC 5 (C#), and Next.js.
+
+|  | **Priority** | 4 | 5 | 4 | 2 | 4 | 3 | 3 | 5 |
+|:-----:|:----------------:|:-----------:|:-------------:|:---------:|:-------------:|:--------------------------:|:----------------------------:|:---------:|:-----------------:|
+|  | **Criteria** | Famili-<br>arity | Documen-<br>tation | Sta-<br>bility | Linux support | Available Docker resources | Developer tools (generators) | Comm-<br>unity | Develop-<br>ment cycle |
+| 145 | Rails (ERB) | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4 |
+| 108 | Next.js | 3 | 4 | 3 | 5 | 5 | 1 | 2 | 5 |
+| 109 | ASP.NET MVC 5 | 2 | 5 | 5 | 1 | 5 | 5 | 3 | 2 |
+| 66 | Iron | 1 | 2 | 1 | 5 | 3 | 1 | 1 | 4 |
+| 130 | Rails (React) | 4 | 4 | 5 | 5 | 5 | 3 | 5 | 4 |
+
+Originally, I weighed ERB and React against one another as view engines. This
+estimation was taken on the assumption that I would use React even where
+interactivity and state management were not required. In hindsight, this
+approach would have slowed development. Instead, my final approach of applying
+React only where functional improved the quality of the application without
+hampering development time.
  <!-- cite: https://www.atlassian.com/agile/kanban/kanban-vs-scrum
 -->

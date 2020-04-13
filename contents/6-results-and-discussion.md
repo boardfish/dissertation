@@ -33,57 +33,6 @@ their own website. Here, those interested can see all escape games by a single
 maintainer, and all escape games cleared by a user. Which of these is shown
 depends on whether they have self-assigned as a maintainer, enthusiast, or both.
 
-I have been able to make good progress in defining my scope this semester. The
-most important thing I have had to do is to get in contact with the escape room
-community - I have been able to reach out to all of Sheffield's escape rooms,
-though only one has returned any interest in supporting the project. This was
-The Lockup Escape Rooms in Sheffield.
-
-I got in contact early in November, which was a busy time for all rooms. In
-initial communications with The Lockup, Liam offered a free attempt at one of
-the two rooms offered pro bono. I took up this offer on the 29th November with a
-group of friends, tackling the *Meltdown* escape room and its hard mode option
-in 53 minutes and 57 seconds. The experience was enjoyable for all, and I was
-interested to see some science applied within the room - one of the puzzles
-relied on mixing chemicals and using the colours of the resultant reactions to
-solve the next puzzle. 
-<!-- TODO: quote nicholson. This puzzle seemed to dabble in needing real-world knowledge, but was also heavily guided, so it seemed the focus was more on doing something interactive and captivating rather than difficult in this instance. -->
-
-Before this, I met with Liam on the 20th November to discuss the challenges he
-faces as an escape room owner, and his philosophy in developing the rooms he
-offers at The Lockup. Engagement, visibility and breakability all inspire his
-approach: the entire party must be able to interact with, and be engaged by,
-puzzles in the room, and the puzzles should not take long to reset to their
-initial state for the next party that attends the escape room [@liam2019]. Liam
-and I discussed some areas that could be targeted, which inspired a survey I
-sent to the Facebook group created by @nicholson2015peeking.
-
-Nicholson runs a [Facebook
-group](https://www.facebook.com/groups/608883549212939/) for escape room
-enthusiasts, encompassing both maintainers and participants, to which I sought
-and gained access as part of my work. The majority of posts during research were
-from enthusiasts who would report back from rooms they have attended, though I
-have seen posts about types of puzzles that can be implemented. I chose to
-survey this group, as it appeared to be a central hub for what seemed to be a
-sparse online community. 
-
-After setting my focus, I decided my solution would take the form of a web
-application. Ruby on Rails was chosen as the development platform. The QOC
-analysis below was the source of this decision, in which I weighed up other
-potential candidates such as Iron (Rust), ASP.NET MVC 5 (C#), and Next.js.
-
-|  | **Priority** | 4 | 5 | 4 | 2 | 4 | 3 | 3 | 5 |
-|:-----:|:----------------:|:-----------:|:-------------:|:---------:|:-------------:|:--------------------------:|:----------------------------:|:---------:|:-----------------:|
-|  | **Criteria** | Famili-<br>arity | Documen-<br>tation | Sta-<br>bility | Linux support | Available Docker resources | Developer tools (generators) | Comm-<br>unity | Develop-<br>ment cycle |
-| 145 | Rails (ERB) | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4 |
-| 108 | Next.js | 3 | 4 | 3 | 5 | 5 | 1 | 2 | 5 |
-| 109 | ASP.NET MVC 5 | 2 | 5 | 5 | 1 | 5 | 5 | 3 | 2 |
-| 66 | Iron | 1 | 2 | 1 | 5 | 3 | 1 | 1 | 4 |
-| 130 | Rails (React) | 4 | 4 | 5 | 5 | 5 | 3 | 5 | 4 |
-
-Originally, I weighed ERB and React against one another as view engines. This
-estimation was taken on the assumption that I would use React even where
-interactivity and state management were not required. In hindsight, this
-approach would have slowed development. Instead, my final approach of applying
-React only where functional improved the quality of the application without
-hampering development time.
+Forgoing the later milestones, and many ideas that might even give Blacklight
+commercial viability with them, was a difficult decision to make. However, I am
+happy with the base functionality and usability that came to be.
