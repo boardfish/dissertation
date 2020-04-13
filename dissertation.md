@@ -1,10 +1,4 @@
 ﻿---
-note:
-    createdAt: 2020-04-13T09:21:10.163Z
-    modifiedAt: 2020-04-13T09:21:27.994Z
-    tags: []
----
-﻿---
 title: Building Digital Tools Assisting Escape Room Maintainers \break
   \large Survey and Analysis Stage, COM3610
 subtitle: 
