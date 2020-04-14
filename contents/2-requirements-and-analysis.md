@@ -127,6 +127,8 @@ potential candidates such as Iron (Rust), ASP.NET MVC 5 (C#), and Next.js.
 | 66 | Iron | 1 | 2 | 1 | 5 | 3 | 1 | 1 | 4 |
 | 130 | Rails (React) | 4 | 4 | 5 | 5 | 5 | 3 | 5 | 4 |
 
+Table: QOC chart for choice of stack, with priority values and totals revealed.
+
 Originally, I weighed ERB and React against one another as view engines. This
 estimation was taken on the assumption that I would use React even where
 interactivity and state management were not required. In hindsight, this
