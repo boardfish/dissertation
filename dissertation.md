@@ -33,7 +33,7 @@ Simon Fish
 \hspace{0pt}
 \pagebreak
 <!-- Abstract -->
-<!-- This should be two or three short paragraphs (100-150 words total), summarising the report. A suggested flow is background, project aims, and achievements to date. It should not simply be a restatement of the original project outline. -->
+<!-- This should be two or three short paragraphs (100-150 words total), summarising the dissertation. It is important that this is not just a restatement of the original project outline. A suggested flow is background, project aims and main achievements. A bad abstract would have a final paragraph that just said "the achievements will be described" - this is useless, as it says nothing. From the abstract a reader should be able to ascertain if the project is of interest to them and presents results of which they would like to know more details. -->
 ### Abstract
 
 <!-- - explain topic -->
@@ -46,6 +46,16 @@ priorities that should be held in order to mitigate these.
 <!-- - explain purpose of paper -->
 On this basis, it serves to document universal requirements to bear in mind when
 developing hardware or software for escape rooms.
+
+### Acknowledgements
+
+My deepest thanks to my family, and my friends at University of Sheffield Tea
+Society, for supporting me this year. Thanks also to Andrew Stratton for
+supervising the project, and to Liam Woff of the Lockup Escape Room in Sheffield
+for providing helpful insights and allowing me to bring a group to his escape
+room. Finally, thank you to those working in Development at UKCloud for giving
+me the skills needed to build Blacklight - special mentions to Ben Saunders,
+Chris Couzens, and Oliver Nye.
 
 <!-- Contents -->
 \tableofcontents

@@ -61,11 +61,13 @@ time constraints. However, my use of React components for major features like
 the Explore page means that swathes of the app are untested. `react-rails`
 documents component testing <!-- TODO: cite -->
 [here](https://github.com/reactjs/react-rails/blob/d5da11129459cd75fd003c75319b1f7440c37322/README.md#test-component).
-If I wanted to test that controllers render views containing React components
-with the desired props, I would use this. 
+Stateless components such as `Avatar`s would be better tested this way - all
+that would need to be asserted is that they are rendered with the correct props.
+Or, to state that more generically, the correct arguments are passed to them at
+page render.
 
-Some are dependent on asynchronous functionality - the Explore view makes a
-request to the app's `/explore.json` endpoint on first render, and again
+Some components are dependent on asynchronous functionality - the Explore view
+makes a request to the app's `/explore.json` endpoint on first render, and again
 afterwards. In these situations, directly employing Facebook's
 [Jest](https://jestjs.io) would be preferable.
 

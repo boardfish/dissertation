@@ -38,7 +38,7 @@ to which I sought and gained access as part of my work. The majority of posts
 during research were from enthusiasts who would report back from rooms they have
 attended, though I have seen posts about types of puzzles that can be
 implemented. I chose to survey this group, as it appeared to be a central hub
-for what seemed to be a sparse online community. 
+for what seemed, to an outsider, to be a sparse online community. 
 
 From the seven responses received, the following conclusions were drawn:
 
@@ -88,23 +88,20 @@ a differing scale and limit, but the basic principle of keeping stories small
 and manageable is there. Velocity is of the essence, and smaller tickets assist
 with that. <!-- https://www.atlassian.com/agile/project-management/estimation -->
 
-Another factor I kept in mind when creating stories was keeping them open.
-Stories, as often as possible, would need to describe what the user would wish
-to achieve, as opposed to what the developer working on them should aim to do.
-Framing stories from this perspective allowed me to keep their implementation
+Another factor that was kept in mind when creating stories was keeping them
+open. Stories, as often as possible, would need to describe what the user would
+wish to achieve, as opposed to what the developer working on them should aim to
+do. Framing stories from this perspective allowed their implementation to remain
 open to change and interpretation.
 
-<!-- TODO: explain rationale behind Rails -->
-
-My approach was not reminiscent of the Scrum process used in my team last year.
-Instead, I elected to move towards a Kanban approach. Kanban is employed when
-more flexibility is desired. It prioritises throughput and encourages a "culture
-of 'done'" by enforcing work-in-progress limits<!--
-https://www.atlassian.com/agile/kanban/wip-limits -->. With this in mind, it
-would be difficult to set more than two development milestones. Treating each
-MSCW category as an epic and taking the amount of time necessary for work on
-this report and my other modules into account, I aimed to work on the project
-for a month, devoting about two weeks to each milestone.
+As mentioned in the previous chapter, I have had more hands-on experience with
+Scrum than with Kanban. Kanban is employed when more flexibility is desired. It
+prioritises throughput and encourages a "culture of 'done'" by enforcing
+work-in-progress limits<!-- https://www.atlassian.com/agile/kanban/wip-limits
+-->.With this in mind, it would be difficult to set more than two development
+milestones. Treating each MSCW category as an epic and taking the amount of time
+necessary for work on this report and my other modules into account, I aimed to
+work on the project for a month, devoting about two weeks to each milestone.
 
 I figured that each milestone would take a similar amount of time - while Rails'
 built-in generators would likely ease the burden of scaffolding the initial
@@ -135,6 +132,11 @@ estimation was taken on the assumption that I would use React even where
 interactivity and state management were not required. In hindsight, this
 approach would have slowed development. Instead, my final approach of applying
 React only where functional improved the quality of the application without
-hampering development time.
- <!-- cite: https://www.atlassian.com/agile/kanban/kanban-vs-scrum
+hampering development time. I would have liked to have combiend the two further
+and made the site entirely usable without the need for JS, "embrac[ing] HTML
+over the wire" as Rails creator David Heinemer-Hansson encourages. I was not
+aware of the concept of progressive enhancement at the time.
+<!-- FIXME: https://gds.blog.gov.uk/2013/10/21/how-many-people-are-missing-out-on-javascript-enhancement/ -->
+<!-- FIXME: https://twitter.com/dhh/status/1223251586874396672 -->
+<!-- FIXME:: https://www.atlassian.com/agile/kanban/kanban-vs-scrum
 -->

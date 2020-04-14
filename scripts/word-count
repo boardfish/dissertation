@@ -1,9 +1,12 @@
 #!/bin/bash
-# scripts/build
-# CURRENT_WORD_COUNT=$(pdftotext output.pdf - | tr -d '.' | wc -w)
-CURRENT_WORD_COUNT=$(ps2ascii output.pdf | wc -w)
-MINIMUM_WORD_COUNT=3000
-TARGET_WORD_COUNT=6000
-PERCENTAGE_WORD_COUNT=$(echo "scale=2; $CURRENT_WORD_COUNT*100/$TARGET_WORD_COUNT" | bc)
-scripts/build
-[ $CURRENT_WORD_COUNT -gt $TARGET_WORD_COUNT ] && echo "Word count $(($CURRENT_WORD_COUNT - $TARGET_WORD_COUNT)) over limit." || echo "Word count: $CURRENT_WORD_COUNT/$TARGET_WORD_COUNT. $PERCENTAGE_WORD_COUNT% complete."
+total=0
+minimum=7000
+maximum=14000
+for i in contents/*; do
+  padded=$(printf %-50s $i)
+  wc=$(scripts/mwc.py "$i")
+  echo "$padded: $wc"
+  total=$((total+wc))
+done
+echo $total
+echo "$((minimum-total)) remaining"
