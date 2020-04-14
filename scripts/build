@@ -8,5 +8,5 @@ for i in contents/*; do
   cat "$i" >> tmp.md
   echo "\n" >> tmp.md
 done
-sleep 2
+scripts/mwc.py tmp.md
 pandoc --variable date=$(date --iso-8601) --filter pandoc-citeproc -o output.pdf tmp.md
