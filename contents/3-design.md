@@ -11,7 +11,10 @@ used and why. Experimental projects should pay careful attention to control
 conditions, samples selected, etc. to ensure a valid result.
 -->
 
-## React: Atomic Design
+This chapter discusses choices I made with regards to design methodology and
+choice of approach. 
+
+## React Components: Atomic Design
 
 I selectively applied [Atomic
 Design](https://atomicdesign.bradfrost.com/chapter-2/) in creation of React
@@ -43,7 +46,7 @@ ascertain what should be an atom and what should be a molecule. <!-- FIXME:
 review --> In the final codebase, some components are considered atoms where
 they should be molecules.
 
-## Authentication: OmniAuth
+## Authentication: OmniAuth/Auth0
 
 Authentication, as one of the first and most fundamental areas tackled on the
 project, was of high importance to get right. Personal familiarity lies with
@@ -103,3 +106,32 @@ needing to run an authentication service in a separate container, or additional
 networking configuration. Developer documentation is additionally very strong
 with Auth0 - I am glad to report that my experience in implementing Auth0 was
 mostly straightforward.
+
+In this instance, the choice to use Auth0 as an authentication provider was
+valid for several reasons. Creating a dependency of large size would mean that
+in the event of a situation that called for further development, an extortionate
+amount of time would need to be expended. Such situations could include, for
+example, a security flaw or a significant update. Centralising this on two major
+dependencies - Auth0 and the `omniauth-auth0` gem, which are both managed by
+Auth0 Inc. - puts it in far safer hands.
+
+## Rich Text: Markdown
+
+My intent from the offset was to allow escape game maintainers a strong degree
+of control over their profile, with the intent that much of the data could be
+used by enthusiasts for filtering. This would allow them to find escape games to
+suit them. Part of this was allowing them to submit a rich-text description for
+their room, including text formatting and links. The aim here was to take
+inspiration from [Kickstarter](https://kickstarter.com), which allows rich-text
+descriptions that campaign runners use to good effect with images acting as
+subtitles. <!-- TODO: attach screencap -->
+
+@ovadia2014markdown thoroughly describes use and benefits of Markdown in a
+variety of contexts. In selection of Markdown as the engine to drive rich text
+for Blacklight, it was strongly acknowledged that users may find learning
+Markdown "prohibitively difficult". However, Markdown is employed on blogging
+sites such as Tumblr, Reddit and WordPress [@ovadia2014markdown], with which I
+expected escape room maintainers may have some familiarity. Though I could not
+devote time to building a fully-fledged Markdown editor as a React component, I
+endeavoured to build a usable approach with a live preview and a link to a
+Markdown guide for those unfamiliar with it.

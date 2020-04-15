@@ -24,7 +24,11 @@ This is embodied by live-action roleplaying, another inspiration for the genre
 [@nicholson2015peeking]. Nicholson presents the precursors to escape rooms in
 further depth in his paper - Figure 2.1 summarises these.
 
-![Nicholson (2019) presents the precursors to, and inspirations for, the escape room phenomenon in this diagram. Adapted with permission from Nicholson, Scott. 2015. “Peeking Behind the Locked Door: A Survey of Escape Room Facilities.” *White paper available online at http://scottnicholson.com/pubs/erfacwhite.pdf*.](nicholson-figure.svg)
+![Nicholson (2019) presents the precursors to, and inspirations for, the escape
+room phenomenon in this diagram. Adapted with permission from Nicholson, Scott.
+2015. “Peeking Behind the Locked Door: A Survey of Escape Room Facilities.”
+*White paper available online at
+http://scottnicholson.com/pubs/erfacwhite.pdf*.](nicholson-figure.svg){ width=50% }
 
 Escape rooms have grown popular in many locations across the world as a
 recreational activity [@nicholson2015peeking; @stasiak2016escape], even serving

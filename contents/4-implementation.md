@@ -32,17 +32,11 @@ both tests and linting passing before merging. Towards the end of my development
 cycle, when I had deployed to Heroku, I would also run through a set of checkout
 testing steps I devised as a manual end-to-end regression test.
 
-## Time constraints
+## Automated Testing
 
-If time were not an issue, I would have employed the following development
-practices:
-
-### Test coverage
-
-SimpleCov was the standard at UKCloud with regards to coverage testing. I would
-have employed this and aimed for at least 80% test coverage. In the end, my
-testing strategy was to cover only novel backend functionality that sat
-somewhere outside the standard Rails CRUD mold. This included:
+I aimed to use test-driven development wherever it was most critical. Primarily,
+this meant securing controller routes and making sure that novel routes outside
+the standard Rails scaffold functioned as expected. This included:
 
 - additional routes created beyond a standard Rails scaffold, such as those that
   make the current user a maintainer/enthusiast or those that remove image
@@ -54,12 +48,33 @@ somewhere outside the standard Rails CRUD mold. This included:
 - some queries, particularly those relating to user privacy and escape room
   hiding.
 
+SimpleCov was the standard at UKCloud with regards to coverage testing. I would
+have employed this and aimed for at least 80% test coverage, had time allowed
+for it.
+
+The RSpec test suite ran at each commit on CircleCI's platform, halting in the
+instance of a failed Docker build, linting failure, or failed test. Though the
+environment in which I ran tests locally was incredibly similar, continuous
+integration served to ensure that the `master` branch continued to pass and was
+stable.
+
+There were instances in which merging was delayed. CircleCI limits usage and
+fails all builds that fall outside a given quota. In these instances, I
+would either wait until my credits with CircleCI had reset and rerun the build,
+or trust that running the tests locally qualified instead and merge. In the
+event of a CI failure in an industry scenario, this would be discussed in the
+department - generally, CI serves as a strict gatekeep to `master`, so in the
+majority of cases, development departments would resolve not to merge to
+`master` until their CI server functioned again. Due to time constraints, I was
+not quite so strict around it.
+
 ### Frontend testing
 
 I omitted frontend testing that strayed too far beyond scaffolded tests due to
 time constraints. However, my use of React components for major features like
-the Explore page means that swathes of the app are untested. `react-rails`
-documents component testing <!-- TODO: cite -->
+the Explore page means that swathes of the app are untested.
+
+`react-rails` documents component testing <!-- TODO: cite -->
 [here](https://github.com/reactjs/react-rails/blob/d5da11129459cd75fd003c75319b1f7440c37322/README.md#test-component).
 Stateless components such as `Avatar`s would be better tested this way - all
 that would need to be asserted is that they are rendered with the correct props.
