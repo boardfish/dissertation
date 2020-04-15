@@ -95,3 +95,43 @@ checkout testing steps in Blacklight's README, with clear indication that if the
 project were to continue, checkout testing would be automated. If possible, I
 would also follow up deployment with automated checkout testing at every
 instance.
+
+## On user acceptance testing
+
+User acceptance testing became difficult to conduct due to the COVID-19
+pandemic. This event endangered the very purpose of Blacklight itself, and made
+it difficult to justify revealing Blacklight. The industry is already
+experiencing great turbulence worldwide due to government orders to stay at
+home, and would not have a use for Blacklight in its current form.
+
+In order to make Blacklight suitable for this situation, the `EscapeGame` model
+would need to make some allowances for "in-home" escape games - sets of locks,
+puzzles, and props, which are distributed by escape game maintainers. These
+allow enthusiasts to run their own escape game experience in the home. I would
+likely do this by creating additional fields on `EscapeGame` and create another
+model through Rails' [single-table
+inheritance](https://api.rubyonrails.org/classes/ActiveRecord/Inheritance.html)
+mechanism. The idea behind this would be that both kinds of escape game could be
+shown side-by-side in views such as the Explore view. 
+
+## Security concerns
+
+I aimed to make as complete a software product as possible, given the time. Part
+and parcel of this was ensuring security. In Rails, this tends to mean enforcing
+restraints on which users can edit models, and which fields a user is able to
+submit. There are two parts to this:
+
+1. ensuring that users not associated with the object cannot edit it
+2. ensuring that the object's associated user cannot be changed
+
+In Blacklight, this is done as follows:
+
+1. retrieving the object by way of a query that asks for it among only the
+   current user's escape games; returning a 404 status code otherwise
+2. setting the object's associated user to the current user
+
+On its own, the second part of my solution would be insecure. The more standard
+way of doing this on update would be to strip out the incoming user ID from the
+hidden field in the form. However, there is good reasoning behind it.
+This methodology is used on create as well as on update, which means that users
+cannot create records in other users' names.

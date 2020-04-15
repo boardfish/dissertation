@@ -35,14 +35,13 @@ from escape room environments outright. Instead, I feel technology has the
 potential to inspire change in escape rooms. Escape rooms and technology are
 inherently linked - digital escape-the-room games such as *Myst* precede and
 inspire physical escape rooms [@nicholson2015peeking]. These forms of escape
-room evade a shortfall that is one of physical escape room maintainers' greatest
-anathemas - resetting these rooms is as simple as resetting the game. Whether
-this is done by restarting an attempt, restarting the game, or removing save
-files and starting over, it is often trivial compared to how long it takes to
-reset escape rooms. @liam2019 suggests that resetting rooms can often take as
-long as 15 minutes, and that it is something escape room maintainers seek to
-optimise; the shorter a reset takes, the more time is available to welcome
-customers.
+room evade one of physical escape room maintainers' greatest anathemas -
+resetting these rooms is as simple as resetting the game. Whether this is done
+by restarting an attempt, restarting the game, or removing save files and
+starting over, it is often trivial compared to how long it takes to reset escape
+rooms. @liam2019 explains that resetting rooms can often take as long as 15
+minutes, and that it is something escape room maintainers seek to optimise; the
+shorter a reset takes, the more time is available to welcome customers.
 
 Commercial escape rooms are often permanent fixtures. This means that more
 immersive environments and more complex physical puzzles can be built. However,
@@ -55,13 +54,14 @@ the room at once, at the cost of immersion and interactivity. A study by
 in any order, allowing multiple groups to attend the room at once. One example
 puzzle given in the study was an exercise likely done on paper - exercises in
 this form make resets trivial, as a fresh worksheet is all that is necessary,
-but they also demonstrate the lack of immersion. Commercial escape rooms
-regularly employ more physical interaction - 78% of escape rooms employ a search
-for physical objects as part of the experience [@nicholson2015peeking]. Some
-varieties of commercial escape room visit the other end of this spectrum, such
-as those developed by Tuzak, an Istanbul company developing portable escape
-games [@gunduz2018preventing]. Portable or temporary escape games often trade
-immersion for greater logical challenge.
+but they also demonstrate the lack of immersion.
+
+Commercial escape rooms regularly employ more physical interaction - 78% of
+escape rooms employ a search for physical objects as part of the experience
+[@nicholson2015peeking]. Some varieties of commercial escape room visit the
+other end of this spectrum, such as those developed by Tuzak, an Istanbul
+company developing portable escape games [@gunduz2018preventing]. Portable or
+temporary escape games often trade immersion for greater logical challenge.
 
 Application of technology in escape rooms comes with some uncertainty, and a
 break in the flow of the escape room experience can shatter participants'
@@ -80,24 +80,26 @@ reincarnating the modern wave of physical escape rooms in the digital form that
 inspired them.
 
 While the escape room industry cautiously explores the "glowing rectangles"
-@duplessie2013go warns against, the video games industry sometimes takes small
-strides to recede from them. This has resulted in concepts that escape rooms,
-and interactive experiences of all kinds, can learn from. [*Keep Talking and
-Nobody Explodes*](https://keeptalkinggame.com/) focuses on asynchronous
-gameplay, in which one player must defuse a bomb while the others guide them
-using the [bomb's manual](https://bombmanual.com). Conceptually, the game shares
-fundamentals with escape rooms, but what is of most importance here is that the
-foremost task in the game is communication. Escape rooms already apply
-asynchronous gameplay - The Lockup Escape Rooms' *Meltdown* [@liam2019] begins
-with most of the party in individual chambers, with the designated 'leader'
-communicating from outside - but *Keep Talking and Nobody Explodes* demonstrates
-that with technology, it is possible in almost any location.
+@duplessie2013go warns against, the video games industry that lent it
+inspiration sometimes takes small strides to recede from them. This has resulted
+in concepts that escape rooms, and interactive experiences of all kinds, can
+learn from. [*Keep Talking and Nobody Explodes*](https://keeptalkinggame.com/)
+focuses on asynchronous gameplay, in which one player must defuse a bomb while
+the others guide them using the [bomb's manual](https://bombmanual.com).
+Conceptually, the game shares fundamentals with escape rooms, but what is of
+most importance to the point is that the foremost task in the game is
+communication. Escape rooms already apply asynchronous gameplay - The Lockup
+Escape Rooms' *Meltdown* [@liam2019] begins with most of the party in individual
+chambers, with the designated 'leader' communicating from outside - but *Keep
+Talking and Nobody Explodes* demonstrates that with technology, it is possible
+in almost any location.
 [*1-2-Switch*](https://www.nintendo.co.uk/Games/Nintendo-Switch/1-2-Switch-1173186.html)
 similarly pulls away from the screen, with the majority of its minigames relying
 on what is done physically with the Joy-Con controller and instructing players
 to face their opponent directly. It is an effective example of how to apply
 technology in a way that does not lock singular players into staring at a
-screen.
+screen. Such examples as these can serve as positive influences in escape room
+development.
 
 In summary, technology brings a variety of benefits, from quick resets when used
 as part of a puzzle to interesting and reactive ideas that may not otherwise be

@@ -2,11 +2,31 @@
 # Introduction
 
 <!--
-The introduction has several purposes. Clearly one is to set the scene for the project by giving a little relevant background information - try to grab the reader's interest early. Another is to clearly elucidate the aims and objectives of the project and the constraints that might affect the way in which the project is carried out. If the project involves the solution of a specific problem or the production of a specific system this should be clearly specified in an informal way. Finally, the introduction should summarise the remaining chapters of the dissertation, in effect giving the reader an overview of what is to come.
+The introduction has several purposes. Clearly one is to set the scene for the
+project by giving a little relevant background information - try to grab the
+reader's interest early. Another is to clearly elucidate the aims and objectives
+of the project and the constraints that might affect the way in which the
+project is carried out. If the project involves the solution of a specific
+problem or the production of a specific system this should be clearly specified
+in an informal way. Finally, the introduction should summarise the remaining
+chapters of the dissertation, in effect giving the reader an overview of what is
+to come.
 
-The type of project will dictate the content and structure of the following chapters and you should discuss this with your supervisor. For example, for a theoretical project it is likely that several chapters will be devoted to constructing the theoretical foundations for the project and will consist of your own interpretation and synthesis of existing work with suitable examples discussed throughout. A sequence of chapters that cover theoretical framework, conditions and assumptions and theory application and comparisons may be appropriate. For an experimental project, the experimental goals, design, execution and evaluation might be covered. What now follows is a typical structure for a 'design and build' project. 
+The type of project will dictate the content and structure of the following
+chapters and you should discuss this with your supervisor. For example, for a
+theoretical project it is likely that several chapters will be devoted to
+constructing the theoretical foundations for the project and will consist of
+your own interpretation and synthesis of existing work with suitable examples
+discussed throughout. A sequence of chapters that cover theoretical framework,
+conditions and assumptions and theory application and comparisons may be
+appropriate. For an experimental project, the experimental goals, design,
+execution and evaluation might be covered. What now follows is a typical
+structure for a 'design and build' project. 
 
-At the end of chapter 1, you should include a brief discussion of your view of the relationship between your project, and your degree programme. In your discussion, you should mention any advantages or challenges created by this relationship.
+At the end of chapter 1, you should include a brief discussion of your view of
+the relationship between your project, and your degree programme. In your
+discussion, you should mention any advantages or challenges created by this
+relationship.
 -->
 
 Escape rooms are physical, interactive experiences in which a group of

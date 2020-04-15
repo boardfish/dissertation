@@ -18,6 +18,9 @@ namesake, being:
 - ...used by maintainers as an escape room tool
 - ...used by enthusiasts to discover something new
 
+At the time of writing, Blacklight can be accessed at
+https://blacklight-dev.herokuapp.com.
+
 ## Functionality Overview
 
 Blacklight allows users to log in through the Auth0 authentication service only,
@@ -112,4 +115,18 @@ Ideas further beyond this included:
     [Apivore](https://github.com/westfieldlabs/apivore).
 - Integration with social media, allowing Blacklight to consume more data from
   Google Maps and display Facebook embeds for escape room pages
-- A review system specific to Blacklight
+- A review system specific to Blacklight (i.e. not backed by existing Google
+  Maps data), with some way of weighing more experienced users' feedback against
+  newer users
+- maintainer groups, particularly in the instance of large franchises where
+  multiple people may be responsible for the franchise's online image - this
+  would allow multiple people to have ownership of an escape game
+- as previously mentioned, measures to include "in-home" escape games, which
+  would entail:
+  - an additional filter
+  - further fields available to the `EscapeGame` model, such as a definitive
+    `price` - this was omitted as a field in its own right in Blacklight, as 39%
+    of escape rooms charge per team and 55% charge per person, with a further 5%
+    charging in other ways [@nicholson2015peeking]. Such a difference calls for
+    at least two unique approaches to both collecting the data from, and
+    representing the data to, the user.

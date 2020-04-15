@@ -1,6 +1,6 @@
 ﻿---
-title: Building Digital Tools Assisting Escape Room Maintainers \break
-  \large Survey and Analysis Stage, COM3610
+title: Building a Platform for the Escape Game Community \break
+  \large COM3610 Dissertation Project
 subtitle: 
 author: |
   Simon Fish | Supervisor: Andrew Stratton \
@@ -49,13 +49,14 @@ developing hardware or software for escape rooms.
 
 ### Acknowledgements
 
-My deepest thanks to my family, and my friends at University of Sheffield Tea
-Society, for supporting me this year. Thanks also to Andrew Stratton for
-supervising the project, and to Liam Woff of the Lockup Escape Room in Sheffield
-for providing helpful insights and allowing me to bring a group to his escape
-room. Finally, thank you to those working in Development at UKCloud for giving
-me the skills needed to build Blacklight - special mentions to Ben Saunders,
-Chris Couzens, and Oliver Nye.
+My deepest thanks to my family, my friends at University of Sheffield Tea
+Society, and my mentor Dalbinder Kular. All have strongly supported me this
+year. Thanks also to Andrew Stratton for supervising and providing a guiding
+hand during the project. Thanks to Liam Woff of the Lockup Escape Room in
+Sheffield for providing helpful insights and allowing me to bring a group to his
+escape room. Finally, thank you to those working in Development at UKCloud for
+giving me the skills needed to build Blacklight - special mentions to Ben
+Saunders, Chris Couzens, and Oliver Nye.
 
 <!-- Contents -->
 \tableofcontents
