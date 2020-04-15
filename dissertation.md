@@ -21,9 +21,12 @@ documentclass: book
 ### Signed Declaration
 
 \begin{center}
-All sentences or passages quoted in this report from other people's work have been specifically acknowledged by clear cross-referencing to author, work and page(s). Any illustrations that are not the work of the author 
-of this report have been used with the explicit permission of the originator and
-are specifically acknowledged. I understand that failure to do this amounts to
+
+All sentences or passages quoted in this report from other people's work have
+been specifically acknowledged by clear cross-referencing to author, work and
+page(s). Any illustrations that are not the work of the author of this report
+have been used with the explicit permission of the originator and are
+specifically acknowledged. I understand that failure to do this amounts to
 plagiarism and will be considered grounds for failure in this project and the
 degree examination as a whole.
 
@@ -33,19 +36,33 @@ Simon Fish
 \hspace{0pt}
 \pagebreak
 <!-- Abstract -->
-<!-- This should be two or three short paragraphs (100-150 words total), summarising the dissertation. It is important that this is not just a restatement of the original project outline. A suggested flow is background, project aims and main achievements. A bad abstract would have a final paragraph that just said "the achievements will be described" - this is useless, as it says nothing. From the abstract a reader should be able to ascertain if the project is of interest to them and presents results of which they would like to know more details. -->
+<!--
+This should be two or three short paragraphs (100-150 words total), summarising
+the dissertation. It is important that this is not just a restatement of the
+original project outline. A suggested flow is background, project aims and main
+achievements. A bad abstract would have a final paragraph that just said "the
+achievements will be described" - this is useless, as it says nothing. From the
+abstract a reader should be able to ascertain if the project is of interest to
+them and presents results of which they would like to know more details.
+-->
 ### Abstract
 
 <!-- - explain topic -->
-Escape rooms are physical, interactive experiences in which a group of participants must solve puzzles to escape a locked room, solve a mystery, or otherwise meet some goal in a particular timespan.
+Escape rooms are physical, interactive experiences in which a group of
+participants must solve puzzles to escape a locked room, solve a mystery, or
+otherwise meet some goal in a particular timespan.
 <!-- - explain content -->
-This report uses various studies into applications of escape rooms to discuss the priorities of well-made escape games, particularly with regards to the inclusion of technology. It also marks my current progress in research into my dissertation topic as expressed in the title.
+This project aimed to build a tool primarily to serve the needs of escape room
+maintainers. Though the original brief expressed intent to craft a networked
+solution for use within the escape room itself, research and scope changed this
+focus. Instead, a web application was developed as a social network between
+escape room maintainers and enthusiasts.
 <!-- - explain highlights -->
-It focuses on the difficulties in applying technology in escape rooms and 
-priorities that should be held in order to mitigate these.
+The final product is built with industry-standard knowledge, principles, tools
+and best practices amassed during the degree programme. 
 <!-- - explain purpose of paper -->
-On this basis, it serves to document universal requirements to bear in mind when
-developing hardware or software for escape rooms.
+This dissertation paper serves to document, and justify decisions made along,
+the process of development of this product.
 
 ### Acknowledgements
 

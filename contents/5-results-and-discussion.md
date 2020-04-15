@@ -1,11 +1,26 @@
 # Results and Discussion
 
 <!--
-The main results of your work should be presented, together with critical discussion. The chapter should cover three things (although these would not be used as section headings): 
+The main results of your work should be presented, together with critical
+discussion. The chapter should cover three things (although these would not be
+used as section headings): 
 
-    Findings - present all the results (products, experimental findings, theories, etc.) generated during the project. This may also include some off-topic findings that were not expected, or which were side-effects of other explorations.
-    Goals achieved - describes the degree to which the findings support the original objectives laid out for the project. The goals may be partially or fully achieved, or exceeded. An experimental project may prove, or disprove the original thesis. A theoretical project may cover some or all of the example cases. Note that reporting of failures to achieve goals is important since a fundamental feature of the assessment procedures is that the processes (how you went about your project) are often as important as the products of the project.
-    Further work - describes two things: firstly, new areas of investigation prompted by developments in this project, and secondly parts of the current work which were not completed due to time constraints and/or problems encountered.
+Findings - present all the results (products, experimental findings, theories,
+etc.) generated during the project. This may also include some off-topic
+findings that were not expected, or which were side-effects of other
+explorations.
+
+Goals achieved - describes the degree to which the findings support the original
+objectives laid out for the project. The goals may be partially or fully
+achieved, or exceeded. An experimental project may prove, or disprove the
+original thesis. A theoretical project may cover some or all of the example
+cases. Note that reporting of failures to achieve goals is important since a
+fundamental feature of the assessment procedures is that the processes (how you
+went about your project) are often as important as the products of the project.
+
+Further work - describes two things: firstly, new areas of investigation
+prompted by developments in this project, and secondly parts of the current work
+which were not completed due to time constraints and/or problems encountered.
 -->
 
 The product of my development process is a web application written in Ruby on
