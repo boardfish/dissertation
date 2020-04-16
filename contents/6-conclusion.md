@@ -17,13 +17,17 @@ maintainers to advertise among other escape rooms and share photos. Enthusiasts
 would also gain a captivating experience and useful tool in the pursuit of new
 rooms to tackle.
 
-The product of this was Blacklight, a web application that meets needs expressed
-by maintainers and suggested by enthusiasts. Blacklight was engineered through
-thorough application of industry practices such as use of Kanban and automated
-testing, with some allowances made for time constraints. The result is a secured
-and usable web application using Ruby on Rails and React. This was able to meet
-the basic requirements, but I believe that with more time available, I might
-have been able to give it enough features for it to be a fully compelling
-product in its own right.
+The product of this was Blacklight, a responsive web application that meets
+needs expressed by maintainers and suggested by enthusiasts. Blacklight was
+engineered through thorough application of industry practices such as use of
+Kanban and automated testing, with some allowances made for time constraints.
+The result is a secured and usable web application using Ruby on Rails and
+React.
+
+This was able to meet the basic requirements, but I believe that with
+more time available, I might have been able to give it enough features for it to
+be a fully compelling product in its own right. Should Blacklight be able to go
+public, there is more than enough room for it to grow as a platform, but these
+uncertain times seem to dictate its fate more than anything else.
 
 # Bibliography

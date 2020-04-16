@@ -49,12 +49,19 @@ From the seven responses received, the following conclusions were drawn:
 - Memberships are agreed upon by those interested as something that should not
   be done without the involvement of technology
 
+Comments of note included that use of technology in escape rooms is
+*"limit[ed]/eliminate[d]"* due to loss of revenue in the event of failure without
+failover - *"dependability and available work around (sic)"* were agreed to be of importance. Additionally, investment in technology as a showpiece is avoided as
+*"each room only lasts 1-[1.5] years"* in that particular offering.
+
 I was able to elicit a direction from these conclusions - the idea of a social
 network shared by escape room maintainers and enthusiasts allowed me to
 potentially target several of these factors at once. In particular, the purpose
 of this social network would be to allow escape rooms to advertise among others
 of their ilk and share photos. I concluded my analysis of the results by setting
 a goal statement.
+
+\pagebreak
 
 ---
 
@@ -107,11 +114,13 @@ I figured that each milestone would take a similar amount of time - while Rails'
 built-in generators would likely ease the burden of scaffolding the initial
 functionality, setting that groundwork in the right way would take slow and
 careful decisions. Scaffolds would dictate the flow of the rest of the project
-to a degree.
+to a degree. In the end, the following deadlines were decided:
 
-- **Dev commenced** Mar 12th
-- **Must done** Mar 26th (actual 24th)
-- **Should done** Apr 16th (actual 13th)
+- **Development commences** March 12th
+- **Must milestone completed** March 26th *(actual completion date: March 24th)*
+- **Should milestone completed** April 16th *(actual completion date: April 13th)*
+
+\pagebreak
 
 After setting my focus, I decided my solution would take the form of a web
 application. Ruby on Rails was chosen as the development platform. The QOC

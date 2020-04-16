@@ -56,10 +56,11 @@ the escape game to the 'My Cleared Games' section of the site for that user.
 There, users can upload photos to associate with each escape room, which also
 appear to the left of the list in a singular photo gallery.
 
-Users have profiles where they can write a bio, set their location, and link to
-their own website. Here, those interested can see all escape games by a single
-maintainer, and all escape games cleared by a user. Which of these is shown
-depends on whether they have self-assigned as a maintainer, enthusiast, or both.
+Users have profiles on which they can write a bio, set their location, and link
+to their own website. Here, those interested can see all escape games by a
+single maintainer, and all escape games cleared by a user. Which of these is
+shown depends on whether they have self-assigned as a maintainer, enthusiast, or
+both.
 
 Forgoing the later milestones, and many ideas that might even give Blacklight
 commercial viability with them, was a difficult decision to make. However, I am
@@ -67,15 +68,16 @@ happy with the base functionality and usability that came to be.
 
 ## Discussion
 
-To give a summary answer, the goals of the project have been met. A tool has
-been developed that allows escape room maintainers to advertise their rooms and
-upload photos, and allows enthusiasts to do the same in relation to escape rooms
-that they have cleared. Measures have been taken to ensure that it is secure,
-functionally consistent, well-designed and feature-complete. Despite this, I
-cannot shake the notion that with more time available, Blacklight would feel
-whole, and potentially viable for public rollout. Of course, in the current
-climate, Blacklight may serve little purpose unless it were repurposed - in any
-other world, my personal feelings towards it would be justified.
+To give a summary answer as regards the project's success, the goals of the
+project have been met. A tool has been developed that allows escape room
+maintainers to advertise their rooms and upload photos, and allows enthusiasts
+to do the same in relation to escape rooms that they have cleared. Measures have
+been taken to ensure that it is secure, functionally consistent, well-designed
+and feature-complete. Despite this, I cannot shake the notion that with more
+time available, Blacklight would feel whole, and potentially viable for public
+rollout. Of course, in the current climate, Blacklight may serve little purpose
+unless it were repurposed - in any other world, my personal feelings towards it
+would be justified.
 
 My implementation of continuous integration and containerisation surpasses
 previous attempts I have made in personal projects. I feel as though I have
@@ -89,6 +91,13 @@ of running available under my current GitHub plan, I would have been able to run
 somewhere over 400 builds at the average rate per month, which I expect would
 have been more than enough. For comparison, I have run 201 builds against
 CircleCI at the time of writing.
+
+I recognise that my focus towards industry as opposed to academia complicated
+the process and used much of my available time. Some might also say that my
+focus on the practical, as opposed to the theoretical, limited the potential for
+my project to be particularly novel in its approach. One survey respondent even
+suggested that the intention was to introduce technology to *"trivial
+features"*.
 
 As regards further work on the project, the initial scope included the below as
 ambitions. The existing framework should serve to make these straightforward to
