@@ -12,8 +12,29 @@ links-as-notes: true
 bibliography: [bibliography.bib]
 link-citations: true
 table-of-contents: true
-documentclass: book
+documentclass: report
 ---
+\makeatletter
+
+\newcommand\frontmatter{%
+    \cleardoublepage
+  %\@mainmatterfalse
+  \pagenumbering{roman}}
+
+\newcommand\mainmatter{%
+    \cleardoublepage
+ % \@mainmattertrue
+  \pagenumbering{arabic}}
+
+\newcommand\backmatter{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+ % \@mainmatterfalse
+   }
+\makeatother
 \frontmatter
 <!-- First page -->
 \hspace{0pt}

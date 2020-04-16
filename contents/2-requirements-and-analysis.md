@@ -61,8 +61,6 @@ of this social network would be to allow escape rooms to advertise among others
 of their ilk and share photos. I concluded my analysis of the results by setting
 a goal statement.
 
-\pagebreak
-
 ---
 
 **Goal Statement**
@@ -119,8 +117,6 @@ to a degree. In the end, the following deadlines were decided:
 - **Development commences** March 12th
 - **Must milestone completed** March 26th *(actual completion date: March 24th)*
 - **Should milestone completed** April 16th *(actual completion date: April 13th)*
-
-\pagebreak
 
 After setting my focus, I decided my solution would take the form of a web
 application. Ruby on Rails was chosen as the development platform. The QOC

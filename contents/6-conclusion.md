@@ -30,4 +30,11 @@ be a fully compelling product in its own right. Should Blacklight be able to go
 public, there is more than enough room for it to grow as a platform, but these
 uncertain times seem to dictate its fate more than anything else.
 
-# Bibliography
+# References
+
+::: {#refs}
+:::
+
+\backmatter
+
+# Appendices
