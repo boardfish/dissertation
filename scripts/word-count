@@ -2,7 +2,7 @@
 total=0
 minimum=7000
 maximum=14000
-for i in contents/*; do
+for i in contents/{0..6}*; do
   padded=$(printf %-50s $i)
   wc=$(scripts/mwc.py "$i")
   echo "$padded: $wc"
