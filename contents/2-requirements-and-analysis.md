@@ -74,10 +74,8 @@ To design and build a system that:
 
 ---
 
-<!-- TODO: appendix for initial requirements -->
-
 With these as an initial guide, I began to set requirements using the MSCW
-system, aiming to complete all defined as **Must**- and **Should**-Have by the
+system (see Appendix I), aiming to complete all defined as **Must**- and **Should**-Have by the
 end of the project. Though these were not formally defined and did not dictate
 the order in which I completed tasks, I thought on what I had learned during my
 year in industry - while haste was of the essence, I made strides to emulate the
@@ -102,11 +100,11 @@ open to change and interpretation.
 As mentioned in the previous chapter, I have had more hands-on experience with
 Scrum than with Kanban. Kanban is employed when more flexibility is desired. It
 prioritises throughput and encourages a "culture of 'done'" by enforcing
-work-in-progress limits<!-- https://www.atlassian.com/agile/kanban/wip-limits
--->.With this in mind, it would be difficult to set more than two development
-milestones. Treating each MSCW category as an epic and taking the amount of time
-necessary for work on this report and my other modules into account, I aimed to
-work on the project for a month, devoting about two weeks to each milestone.
+work-in-progress limits [@rehkopf2018kanban]. With this in mind, it would be
+difficult to set more than two development milestones. Treating each MSCW
+category as an epic and taking the amount of time necessary for work on this
+report and my other modules into account, I aimed to work on the project for a
+month, devoting about two weeks to each milestone.
 
 I figured that each milestone would take a similar amount of time - while Rails'
 built-in generators would likely ease the burden of scaffolding the initial
@@ -137,13 +135,14 @@ Table: QOC chart for choice of stack, with priority values and totals revealed.
 Originally, I weighed ERB and React against one another as view engines. This
 estimation was taken on the assumption that I would use React even where
 interactivity and state management were not required. In hindsight, this
-approach would have slowed development. Instead, my final approach of applying
+approach would have slowed development. Instead, my final decision to apply
 React only where functional improved the quality of the application without
-hampering development time. I would have liked to have combiend the two further
-and made the site entirely usable without the need for JS, "embrac[ing] HTML
-over the wire" as Rails creator David Heinemer-Hansson encourages. I was not
-aware of the concept of progressive enhancement at the time.
-<!-- FIXME: https://gds.blog.gov.uk/2013/10/21/how-many-people-are-missing-out-on-javascript-enhancement/ -->
-<!-- FIXME: https://twitter.com/dhh/status/1223251586874396672 -->
-<!-- FIXME:: https://www.atlassian.com/agile/kanban/kanban-vs-scrum
--->
+hampering development time.
+
+However, doing so came at the cost of accessibility. With wider prior knowledge,
+perhaps this not have been the case - the web design strategy of progressive
+enhancement [@champeon2020web], in combination with use of the WAI-ARIA standard
+[@aria], could have been used to mitigate this from the outset. I was not aware
+of progressive enhancement as a priority during development. I realise that it
+is not practical to dismiss the absence of progressive enhancement - after all,
+1.1% of users are not getting JS enhancements [@herlihy2013how].

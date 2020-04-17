@@ -26,7 +26,7 @@ precedent to running it on a platform like Kubernetes with the right expertise.
 
 Continuous integration tests code at each commit. I was able to configure
 CircleCI to build the Docker image used locally, and lint and test the code -
-this combined well with my use of the <!-- TODO: Cite! --> [GitHub
+this combined well with my use of the [GitHub
 Flow](https://guides.github.com/introduction/flow/), in which I would aim to get
 both tests and linting passing before merging. Towards the end of my development
 cycle, when I had deployed to Heroku, I would also run through a set of checkout
@@ -34,7 +34,7 @@ testing steps I devised as a manual end-to-end regression test.
 
 ## Automated Testing
 
-I aimed to use test-driven development wherever it was most critical. Primarily,
+I aimed to use test-driven development to the best of my ability. Primarily,
 this meant securing controller routes and making sure that novel routes outside
 the standard Rails scaffold functioned as expected. This included:
 
@@ -54,7 +54,7 @@ for it.
 
 The RSpec test suite ran at each commit on CircleCI's platform, halting in the
 instance of a failed Docker build, linting failure, or failed test. Though the
-environment in which I ran tests locally was incredibly similar, continuous
+environment in which I ran tests locally reflected its configuration, continuous
 integration served to ensure that the `master` branch continued to pass and was
 stable.
 
@@ -74,8 +74,8 @@ I omitted frontend testing that strayed too far beyond scaffolded tests due to
 time constraints. However, my use of React components for major features like
 the Explore page means that swathes of the app are untested.
 
-`react-rails` documents component testing <!-- TODO: cite -->
-[here](https://github.com/reactjs/react-rails/blob/d5da11129459cd75fd003c75319b1f7440c37322/README.md#test-component).
+`react-rails` documents [component testing against rendered Rails
+views](https://github.com/reactjs/react-rails/blob/d5da11129459cd75fd003c75319b1f7440c37322/README.md#test-component).
 Stateless components such as `Avatar`s would be better tested this way - all
 that would need to be asserted is that they are rendered with the correct props.
 Or, to state that more generically, the correct arguments are passed to them at
@@ -88,13 +88,22 @@ afterwards. In these situations, directly employing Facebook's
 
 ### Automated regression and checkout testing against production
 
-During my year in industry, this was in high demand. Deployment of the company's
-primary products would take some quite time due to the number of manual steps
-involved - checkout testing played no small part in this. I have documented
-checkout testing steps in Blacklight's README, with clear indication that if the
-project were to continue, checkout testing would be automated. If possible, I
-would also follow up deployment with automated checkout testing at every
-instance.
+CHeckout testing usually comprises a series of steps taken from an end user
+perspective against a production instance. It ensures that end users can
+continue to use the application as intended by checking that all features of the
+experience work as intended.
+
+During my year in industry, checkout testing after deployment was not automated.
+Developers sought to automate the process so that deployment might not consume
+as much time. Libraries such as
+[Puppeteer](https://github.com/puppeteer/puppeteer/) can be useful for such a
+purpose - previously, I have used Puppeteer to [create PDF forms of webpages
+repeatably](https://github.com/boardfish/CV/blob/ed664d0e87e4d0ec1d6afab8214a5753e033669e/topdf.js).
+
+I have documented checkout testing steps in Blacklight's README, with clear
+indication that if the project were to continue, checkout testing would be
+automated. If possible, I would also follow up deployment with automated
+checkout testing at every instance.
 
 ## On user acceptance testing
 

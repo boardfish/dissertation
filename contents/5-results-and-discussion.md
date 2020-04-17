@@ -62,9 +62,17 @@ single maintainer, and all escape games cleared by a user. Which of these is
 shown depends on whether they have self-assigned as a maintainer, enthusiast, or
 both.
 
-Forgoing the later milestones, and many ideas that might even give Blacklight
-commercial viability with them, was a difficult decision to make. However, I am
-happy with the base functionality and usability that came to be.
+### Practical Use
+
+Were Blacklight to be released, I would encourage its use in the following ways:
+
+- Using the Explore view when searching for new escape games to tackle alone or
+  with friends
+- Linking to escape games during discussion and recommendations on other
+  platforms
+- After completion, marking an escape game as cleared and uploading photos
+  directly to the site
+- Showing records of escape games cleared, and the associated photos, to others
 
 ## Discussion
 
@@ -97,60 +105,88 @@ the process and used much of my available time. Some might also say that my
 focus on the practical, as opposed to the theoretical, limited the potential for
 my project to be particularly novel in its approach. One survey respondent even
 suggested that the intention was to introduce technology to *"trivial
-features"*.
+features"*. Still, in spite of having had to limit the scope of the project
+further and forgo many ideas that might have even given Blacklight commercial
+viability, I am very satisfied with the quality of the product that I was able
+to make.
 
 As regards further work on the project, the initial scope included the below as
 ambitions. The existing framework should serve to make these straightforward to
 implement, but I lament that they could not be part of the final product.
 
-- improvements to factors relating to authentication, such as:
+- **Improvements to factors relating to authentication**, such as:
   - introducing two-factor authentication
   - permitting the use of social network accounts such as Facebook and Twitter
     for login.
-- a 'friends' feature, that would allow users to track other users' activity on
-  their timeline
-- a timeline for logged-in users that would show the aforementioned, alongside
-  introducing new escape games that had opened in the vicinity of the user
-- the ability to reorder photos on escape games and clear records
-- toggling of privacy on a user's profile per-field, e.g. visible to friends
-  only or private
-- metrics for maintainers - feedback on how many times their escape games and
+- **The ability for users to add others as friends**   
+  Doing so would allow users to track other users' activity on their timeline
+- **A timeline for logged-in users**   
+  This would show the aforementioned, alongside introducing new escape games
+  that had opened in the vicinity of the user
+- **Toggling of privacy on a user's profile per-field**   
+  e.g. visible to friends only or private
+- **Metrics for maintainers**   
+  Feedback on how many times their escape games and
   profile had been viewed recently
-- time recording and milestones for escape games - design and functionality
-  would take strong inspiration from
+- **Time recording and milestones for escape games**   
+  Design and functionality would take strong inspiration from
   [LiveSplit](https://github.com/LiveSplit/LiveSplit), and escape game
   maintainers would have a method of completing these for enthusiasts who attend
   their rooms
-- leaderboards for each escape game driven by the above
-- pagination of outputs
+- **The ability to reorder photos on escape games and clear records**
+- **Leaderboards for each escape game driven by the above**
+- **Pagination of outputs**
 
-Ideas further beyond this included:
+Many other ideas were discussed, but were not included in the original scope.
+These included the following:
 
-- an extensive tagging system and increased depth of filtering in the Explore
-  view, with a view to allowing those with accessibility issues to quickly find
-  rooms suitable for them
-  - It is of note that maintainers can outline this kind of information in the
-    description of their escape rooms. However, this cannot be searched or
-    filtered.
-- refinement of the API to be more standard
-  - This would include [OpenAPI
-    documentation](https://swagger.io/specification/), which could then be
-    verified against the app using a tool such as
-    [Apivore](https://github.com/westfieldlabs/apivore).
-- Integration with social media, allowing Blacklight to consume more data from
-  Google Maps and display Facebook embeds for escape room pages
-- A review system specific to Blacklight (i.e. not backed by existing Google
+- **Additional measures to improve accessibility**   
+  Blacklight's dark mode and use of the
+  [Solarized](https://github.com/altercation/solarized) theme, which uses CIELAB
+  [@ISO11664] to maintain readable color contrasts, encourages readability and
+  visibility across the site. However, additional measures could have been taken
+  to improve usability of the site with assistive technologies in line with the
+  WAI-ARIA specification [@aria], particularly with regards to React-heavy views
+  such as the Explore view.
+- **A searchable Google Maps view**
+- **An extensive tagging system** 
+- **Increased depth of filtering in the Explore view**   
+  Included with a view to allowing those with accessibility issues to quickly
+  find rooms suitable for them. This would be particularly effective in tandem
+  with the above suggestion. It is of note that maintainers can outline this
+  kind of information in the description of their escape rooms. However, this
+  cannot be searched or filtered.
+- **Refinement of the API to be more standard**   
+  This would include [OpenAPI documentation](https://swagger.io/specification/),
+  whose correctness could then be verified against the app using a tool such as
+  [Apivore](https://github.com/westfieldlabs/apivore). OpenAPI documentation
+  opens opportunities for a vast array of integrations with Blacklight's API
+  using tools such as [OpenAPI
+  Generator](https://github.com/OpenAPITools/openapi-generator), saving
+  developers the need to stub or create their own language-specific clients for
+  Blacklight.
+- **Integration with social media**   
+  More specifically, this would be to allow Blacklight to consume more data from
+  Google Maps and display other social media embeds for escape room pages. Doing
+  so would allow Blacklight to support escape rooms' existing social media
+  presence, and integrate location data into the experience in a more natural
+  way.
+- **A review system**   
+  This would be specific to Blacklight (i.e. not backed by existing Google
   Maps data), with some way of weighing more experienced users' feedback against
-  newer users
-- maintainer groups, particularly in the instance of large franchises where
-  multiple people may be responsible for the franchise's online image - this
-  would allow multiple people to have ownership of an escape game
-- as previously mentioned, measures to include "in-home" escape games, which
-  would entail:
+  newer users.
+- **Maintainer groups**   
+  This has a use case particularly in the instance of large franchises where
+  multiple people may be responsible for the franchise's online image. The
+  feature would allow multiple users to have ownership of an escape game.
+- **Measures to include "in-home" escape games**, which would entail:
   - an additional filter
   - further fields available to the `EscapeGame` model, such as a definitive
-    `price` - this was omitted as a field in its own right in Blacklight, as 39%
-    of escape rooms charge per team and 55% charge per person, with a further 5%
-    charging in other ways [@nicholson2015peeking]. Such a difference calls for
-    at least two unique approaches to both collecting the data from, and
-    representing the data to, the user.
+    `price`   
+    This was omitted as a field in its own right in Blacklight, as 39% of escape
+    rooms charge per team and 55% charge per person, with others pricing either
+    via a *"base cost...plus an additional fee per player"*, or *"banded
+    models"* in which groups of different sizes are charged differently.
+    [@nicholson2015peeking]. Such a difference calls for at least two unique
+    approaches to both collecting the data from, and representing the data to,
+    the user.

@@ -23,13 +23,11 @@ team during my time at UKCloud. Personal projects I have taken on in React thus
 far were all in motion before I was introduced to this, so I saw Blacklight as
 an excellent opportunity to apply it.
 
-In summary, Atomic Design serves as *"not a linear
-process, but rather a mental model to help us think of our user interfaces as
-both a cohesive whole and a collection of parts *at the same time*"*<!-- FIXME:
-https://atomicdesign.bradfrost.com/chapter-2/ -->. While Atomic Design in full
-uses five different levels of hierarchy - atoms, molecules, organisms,
-templates, and pages - I employed only three of these and expressed only two in
-React.
+In summary, Atomic Design serves as *"not a linear process, but rather a mental
+model to help us think of our user interfaces as both a cohesive whole and a
+collection of parts *at the same time*"* [@atomicdesign]. While Atomic Design in
+full uses a five-level hierarchy - atoms, molecules, organisms, templates, and
+pages - I employed only three of these and expressed only two in React.
 
 Atoms were designed with the intent of taking in one or several Rails objects as
 props, and representing those. They would not use asynchronous calls to APIs.
@@ -43,7 +41,7 @@ scope of a component with quicker self-justification if I could express that its
 capabilities should sit within certain bounds I had defined on principle.
 However, while it served useful in that regard, it was at times difficult to
 ascertain what should be an atom and what should be a molecule. <!-- FIXME:
-review --> In the final codebase, some components are considered atoms where
+review -->In the final codebase, some components are considered atoms where
 they should be molecules.
 
 ## Authentication: OmniAuth/Auth0
@@ -115,6 +113,8 @@ example, a security flaw or a significant update. Centralising this on two major
 dependencies - Auth0 and the `omniauth-auth0` gem, which are both managed by
 Auth0 Inc. - puts it in far safer hands.
 
+\pagebreak
+
 ## Rich Text: Markdown
 
 My intent from the offset was to allow escape game maintainers a strong degree
@@ -124,7 +124,12 @@ suit them. Part of this was allowing them to submit a rich-text description for
 their room, including text formatting and links. The aim here was to take
 inspiration from [Kickstarter](https://kickstarter.com), which allows rich-text
 descriptions that campaign runners use to good effect with images acting as
-subtitles. <!-- TODO: attach screencap -->
+subtitles.
+
+![A rich-text description from Kickstarter, showcasing use of bold text and
+inline images with captions. Playtonic Games, viewed on April 17, 2020
+"Yooka-Laylee - A 3D Platformer Rare-vival!" (Screenshot by
+author)](kickstarter.png){ width=50% }
 
 @ovadia2014markdown thoroughly describes use and benefits of Markdown in a
 variety of contexts. In selection of Markdown as the engine to drive rich text

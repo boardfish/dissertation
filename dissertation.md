@@ -13,6 +13,10 @@ bibliography: [bibliography.bib]
 link-citations: true
 table-of-contents: true
 documentclass: report
+header-includes: |
+  \usepackage{lscape}
+  \newcommand{\blandscape}{\begin{landscape}}
+  \newcommand{\elandscape}{\end{landscape}}
 ---
 \makeatletter
 
