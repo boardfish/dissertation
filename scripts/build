@@ -1,12 +1,16 @@
+#!/bin/bash
 # Requirements:
 # pandoc
 # pandoc-citeproc
 # texlive-full
 # librsvg2-bin
 cat dissertation.md > tmp.md
-for i in contents/*; do
+for i in contents/{0..6}*; do
   cat "$i" >> tmp.md
-  echo "\n" >> tmp.md
+  echo "" >> tmp.md
+  echo "" >> tmp.md
 done
 scripts/mwc.py tmp.md
+cat "contents/7-refs-appendices.md" >> tmp.md
+echo "" >> tmp.md
 pandoc --variable date=$(date --iso-8601) --filter pandoc-citeproc -o output.pdf tmp.md
