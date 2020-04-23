@@ -48,9 +48,9 @@ the standard Rails scaffold functioned as expected. This included:
 - some queries, particularly those relating to user privacy and escape room
   hiding.
 
-SimpleCov was the standard at UKCloud with regards to coverage testing. I would
-have employed this and aimed for at least 80% test coverage, had time allowed
-for it.
+SimpleCov was the standard on my year in industry with regards to coverage
+testing. I would have employed this and aimed for at least 80% test coverage
+across controllers, models and helpers, had time allowed for it.
 
 The RSpec test suite ran at each commit on CircleCI's platform, halting in the
 instance of a failed Docker build, linting failure, or failed test. Though the
@@ -68,27 +68,108 @@ majority of cases, development departments would resolve not to merge to
 `master` until their CI server functioned again. Due to time constraints, I was
 not quite so strict around it.
 
-### Frontend testing
+Below, an example from `spec/controllers/clears_controller_spec.rb` is featured.
+These tests ensure that none other than the creator of a clear can edit it - the
+helper method `random_user`, when given an `owner`, selects or creates a user
+other than the `owner`. This user becomes what the tests call the
+`attacking_user` - they are signed in and try to act against the `Clear` record.
+Both instances should raise a `404` error. `404` is generally returned across
+Blacklight when the user does not have access to the record in question, and is
+given back in the instance of an `ActiveRecord::RecordNotFound` error.
+
+```ruby
+RSpec.describe ClearsController, type: :controller do
+  before(:each) do
+    @clear = create(:clear)
+  end
+
+  it 'does not allow users to edit others\' clears' do
+    clear = @clear
+    attacking_user = random_user(owner: @clear.user)
+    sign_in attacking_user
+    expect do
+      put :update, params: {
+        id: clear.to_param,
+        clear: attributes_for(:clear).merge(user: attacking_user)
+      }
+    end.to raise_error(ActiveRecord::RecordNotFound)
+  end
+
+  it 'does not allow users to delete others\' clears' do
+    clear = @clear
+    attacking_user = random_user(owner: @clear.user)
+    sign_in attacking_user
+    expect do
+      delete :destroy, params: {
+        id: clear.to_param
+      }
+    end.to raise_error(ActiveRecord::RecordNotFound)
+  end
+end
+```
+
+### Focused Frontend Testing
 
 I omitted frontend testing that strayed too far beyond scaffolded tests due to
-time constraints. However, my use of React components for major features like
+time constraints. However, image attachment forms required testing to make sure
+that they behaved as users intended. One such case is detailed here.
+
+Rails 6.0.0 introduced a change whereby newly-uploaded attachments replaced
+existing attachments, as opposed to being appended to the existing group of
+attachments. [Pull request #36716](https://github.com/rails/rails/pull/36716)
+against the `rails` codebase describes the difference between `rails`' behaviour
+before and after 6.0.0 in this situation. Blacklight was generated as a `rails`
+6.0.2 application, and so needed a workaround for the new behavior. This was to
+include the signed IDs as hidden fields.
+
+The test below checks that if an image is attached to a record, a hidden field
+appears for it in the form when it is rendered.
+
+```ruby
+it 'doesn\'t overwrite files on update' do
+  # Attach an image so one already exists.
+  image_to_attach = File.open(
+    Rails.root.join(
+      'spec',
+      'fixtures',
+      'files',
+      'escape_game',
+      'SSBU-Big_Blue.png'
+    )
+  )
+  @clear.images.attach(
+    io: image_to_attach,
+    filename: 'original_image.png',
+    content_type: 'image/png'
+  )
+  render
+  # Make sure there's a hidden field for the image that already exists on the
+  # clear
+  assert_select 'form[action=?][method=?]', clear_path(@clear), 'post' do
+    assert_select 'input[multiple=multiple][type=hidden]' \
+                  '[name=clear\[images\]\[\]]'
+  end
+end
+```
+
+However, my use of React components for major features like
 the Explore page means that swathes of the app are untested.
 
 `react-rails` documents [component testing against rendered Rails
 views](https://github.com/reactjs/react-rails/blob/d5da11129459cd75fd003c75319b1f7440c37322/README.md#test-component).
 Stateless components such as `Avatar`s would be better tested this way - all
 that would need to be asserted is that they are rendered with the correct props.
-Or, to state that more generically, the correct arguments are passed to them at
-page render.
+To state that more generically, the assertion is that the correct arguments are
+passed to them at page render.
 
 Some components are dependent on asynchronous functionality - the Explore view
 makes a request to the app's `/explore.json` endpoint on first render, and again
 afterwards. In these situations, directly employing Facebook's
 [Jest](https://jestjs.io) would be preferable.
 
-### Automated regression and checkout testing against production
+### Automated Regression and Checkout Testing Against Production
 
-CHeckout testing usually comprises a series of steps taken from an end user
+Checkout testing usually comprises a series of steps taken from an end user
 perspective against a production instance. It ensures that end users can
 continue to use the application as intended by checking that all features of the
 experience work as intended.
@@ -103,27 +184,28 @@ repeatably](https://github.com/boardfish/CV/blob/ed664d0e87e4d0ec1d6afab8214a575
 I have documented checkout testing steps in Blacklight's README, with clear
 indication that if the project were to continue, checkout testing would be
 automated. If possible, I would also follow up deployment with automated
-checkout testing at every instance.
+checkout testing at every instance. The checkout testing steps are replicated
+below.
 
-## On user acceptance testing
+#### Checkout Testing Steps
 
-User acceptance testing became difficult to conduct due to the COVID-19
-pandemic. This event endangered the very purpose of Blacklight itself, and made
-it difficult to justify revealing Blacklight. The industry is already
-experiencing great turbulence worldwide due to government orders to stay at
-home, and would not have a use for Blacklight in its current form.
+Check that the...
 
-In order to make Blacklight suitable for this situation, the `EscapeGame` model
-would need to make some allowances for "in-home" escape games - sets of locks,
-puzzles, and props, which are distributed by escape game maintainers. These
-allow enthusiasts to run their own escape game experience in the home. I would
-likely do this by creating additional fields on `EscapeGame` and create another
-model through Rails' [single-table
-inheritance](https://api.rubyonrails.org/classes/ActiveRecord/Inheritance.html)
-mechanism. The idea behind this would be that both kinds of escape game could be
-shown side-by-side in views such as the Explore view. 
+- ...homepage renders correctly, particularly with regards to React components
+  like the navbar (visual check)
+- ...CSS is applied to the elements (visual check)
+- ...Bootstrap JS from asset pipeline works (try to open the Filters dropdown on
+  Explore)
+- ...Auth0 login flow works - i.e. it's possible to log in and hold a session
+- ...Auth0 logout flow works - i.e. it's possible to log out and your session is
+  destroyed
+- ...controllers work - i.e. Explore returns escape games if they exist. Create
+  one if it does not exist and make sure that the list of escape games you own
+  on your user#show page works.
+- ...JS views work - i.e. it's possible to remove images from a listing and
+  have the corresponding table row disappear
 
-## Security concerns
+## Security Concerns
 
 I aimed to make as complete a software product as possible, given the time. Part
 and parcel of this was ensuring security. In Rails, this tends to mean enforcing

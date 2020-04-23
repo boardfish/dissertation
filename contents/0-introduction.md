@@ -33,46 +33,38 @@ Escape rooms are physical, interactive experiences in which a group of
 participants must solve puzzles to escape a locked room, solve a mystery, or
 otherwise meet some goal in a particular timespan. They are a phenomenon that
 has existed since around 2007 [@nicholson2015peeking], and are a growing
-industry. Escape rooms are run both by enthusiasts as solo ventures, and as
-franchises across the country. Nicholson [-@nicholson2015peeking] documents
-escape rooms as the culmination of a variety of media. He identifies
-puzzle hunts as team-based problem-solving challenges<!-- TODO: is this a quote?
--->, which, with treasure hunts, appears most similar to escape rooms. Various
-others have lent features to escape rooms, such as immersion in a story as the
-"hero", which @duplessie2013go reports as being something participants enjoy.
-This is embodied by live-action roleplaying, another inspiration for the genre
-[@nicholson2015peeking]. Nicholson presents the precursors to escape rooms in
-further depth in his paper - Figure 2.1 summarises these.
+industry.
 
-![Nicholson (2019) presents the precursors to, and inspirations for, the escape
-room phenomenon in this diagram. Adapted with permission from Nicholson, Scott.
-2015. “Peeking Behind the Locked Door: A Survey of Escape Room Facilities.”
-*White paper available online at
-http://scottnicholson.com/pubs/erfacwhite.pdf*.](nicholson-figure.svg){ width=50% }
+---
 
-Escape rooms have grown popular in many locations across the world as a
-recreational activity [@nicholson2015peeking; @stasiak2016escape], even serving
-as a tourist attraction [@dilek2018real]. Nicholson reports that the *Real
-Escape Game* by SCRAP was the earliest well-documented activity branded as such.
-SCRAP has gone on to develop escape rooms at a much larger scale than the
-typical escape room, which serves teams of an average size of 4.58 people
-[@nicholson2015peeking].
+Please note the following definitions:
+
+**Maintainers** refer to those who own and run escape rooms. They are
+responsible for such things as building and maintaining the escape room, and
+running the experience for groups. In many cases, they are also responsible for
+elements of the escape room experience outside of the room itself, such as
+maintaining its image on social media.
+
+**Enthusiasts** refer to attendees of escape rooms - particularly those who take
+a firm interest in them, regardless of their degree of experience. 
+
+---
 
 My goal in this project was to understand the needs of the commercial escape
-room industry, such that software or hardware could be developed as appropriate.
-Such a product would aim to increase efficiency or expand the industry with new
+room industry, such that a product could be developed to remedy them. Such a
+product would aim to increase efficiency or expand the industry with new
 capabilities. The escape room industry has a wide variation of scale in
-application, from enthusiasts running singular escape rooms to major companies
+application, from maintainers running singular escape rooms to major companies
 such as SCRAP delivering escape games to dozens, if not hundreds, of people. It
 also has varied contexts - escape rooms on permanent fixtures, portable escape
-games, applications in education such as EscapED [@clarke2016escaped]. It can
-also be noted that during the COVID-19 pandemic taking hold at the time of
+games, and applications in education such as EscapED [@clarke2016escaped]. It
+can also be noted that during the COVID-19 pandemic taking hold at the time of
 writing, maintainers are moving towards products that enthusiasts can use in
 their own homes.
 
 With a strong understanding of this in mind, and feedback from the community
 itself, a product could then be designed and built to target some subset of
-these needs. These needs may be related to various issues - such as making sure
+these needs. These needs may be related to various issues, such as making sure
 a timer is visible to the participating group and maintainer, or to processes
 that currently take more time than necessary, such as posting photos of teams to
 social media [@liam2019].
@@ -92,17 +84,17 @@ games, independent of their environment?
 The project did not directly tie in with any of my modules this year. I
 acknowledged during research that my solution could potentially build on skills
 learned from modules such as *COM3505 Internet of Things*, should my solution
-have incorporated microcontroller hardware. In such an instance, I would have
-elected to use the ESP32 microcontroller out of familiarity.
+have incorporated microcontroller hardware. In such an instance, I would likely
+have elected to use the ESP32 microcontroller out of familiarity.
 
 However, my approach has been influenced by learnings from software
 development-focused modules such as *COM1001 Introduction to Software
-Development* and *COM3420 Software Hut*. In the former, the concept of agile
-processes was introduced, though my experience with *COM390 Year in Industry*
+Development* and *COM3420 Software Hut*. The concept of agile processes was
+introduced in the former, though my experience with *COM390 Year in Industry*
 presented this in a practical manner that more directly inspired my approach.
 The limited time available meant that many Rails best practices were not
 transferred through Software Hut - instead, many of these came through to me
-from working in Development at UKCloud on my year in industry.
+during my year in industry.
 
 My approach was not reminiscent of the Scrum process used in my team last year.
 Instead, I elected to move towards use of Kanban, which would allow me to be
@@ -113,6 +105,6 @@ development, particularly as regards programming. I wished to include
 industry-standard processes in my work, including continuous integration,
 vulnerability testing, and measurement of test coverage. While I was able to
 make efforts towards tackling the first two, I lament that I could not commit to
-any figure on test coverage, let alone track it. In essence, my experience at
-UKCloud widened the scope of my capabilities and priorities alike, but due to
-time constraints, I could not apply them to the fullest.
+any figure on test coverage, let alone track it. In essence, my experience
+during my year in industry widened the scope of my capabilities and priorities
+alike, but due to time constraints, I could not apply them to the fullest.

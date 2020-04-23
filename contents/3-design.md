@@ -14,20 +14,19 @@ conditions, samples selected, etc. to ensure a valid result.
 This chapter discusses choices I made with regards to design methodology and
 choice of approach. 
 
-## React Components: Atomic Design
+## Atomic Design
 
-I selectively applied [Atomic
-Design](https://atomicdesign.bradfrost.com/chapter-2/) in creation of React
-components for Blacklight. I was introduced to this by an internal development
-team during my time at UKCloud. Personal projects I have taken on in React thus
-far were all in motion before I was introduced to this, so I saw Blacklight as
-an excellent opportunity to apply it.
+In summary, [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
+serves as *"not a linear process, but rather a mental model to help us think of
+our user interfaces as both a cohesive whole and a collection of parts *at the
+same time*"* [@atomicdesign]. While Atomic Design in full uses a five-level
+hierarchy - atoms, molecules, organisms, templates, and pages - I employed three
+of these, of which two were expressed in React.
 
-In summary, Atomic Design serves as *"not a linear process, but rather a mental
-model to help us think of our user interfaces as both a cohesive whole and a
-collection of parts *at the same time*"* [@atomicdesign]. While Atomic Design in
-full uses a five-level hierarchy - atoms, molecules, organisms, templates, and
-pages - I employed only three of these and expressed only two in React.
+I was introduced to the concept by an internal development team during my year
+in industry. Personal projects I have taken on in React thus far were all in
+motion before I was introduced to this, so I saw Blacklight as an excellent
+opportunity to apply it.
 
 Atoms were designed with the intent of taking in one or several Rails objects as
 props, and representing those. They would not use asynchronous calls to APIs.
@@ -35,16 +34,15 @@ Molecules would comprise atoms, and in some specific cases use API calls to
 retrieve the objects to display. Both of these would be used for rendering as
 part of a page by the Rails templating engine.
 
-My justification for use of Atomic Design is that it helped me to define a
-purpose and a set of rules for components that I created. I could limit the
-scope of a component with quicker self-justification if I could express that its
-capabilities should sit within certain bounds I had defined on principle.
-However, while it served useful in that regard, it was at times difficult to
-ascertain what should be an atom and what should be a molecule. <!-- FIXME:
-review -->In the final codebase, some components are considered atoms where
-they should be molecules.
+Atomic Design helped me to define a purpose and a set of rules for components
+that I created. I could limit the scope of a component with quicker
+self-justification if I could express that its capabilities should sit within
+certain bounds I had defined on principle. However, while it served useful in
+that regard, it was at times difficult to ascertain what should be an atom and
+what should be a molecule. <!-- FIXME: review -->In the final codebase, some
+components are considered atoms where they should be molecules.
 
-## Authentication: OmniAuth/Auth0
+## Choosing an Authentication Service
 
 Authentication, as one of the first and most fundamental areas tackled on the
 project, was of high importance to get right. Personal familiarity lies with
@@ -61,7 +59,7 @@ have made necessary compromises here to avoid the pitfalls of self-hosting from
 interfering with my work. This would be another situation in which I would
 choose to compromise, as will be explained.
 
-Again, my time at UKCloud drew me in the direction of Keycloak and its Red
+Again, my year in industry drew me in the direction of Keycloak and its Red
 Hat-supported twin, Red Hat SSO. Both are OAuth authentication platforms, and
 have provisions for setting policies and permissions and creating groups. Red
 Hat SSO was running in production at UKCloud while I was there, and I personally
@@ -115,7 +113,7 @@ Auth0 Inc. - puts it in far safer hands.
 
 \pagebreak
 
-## Rich Text: Markdown
+## Rich Text
 
 My intent from the offset was to allow escape game maintainers a strong degree
 of control over their profile, with the intent that much of the data could be
@@ -140,3 +138,5 @@ expected escape room maintainers may have some familiarity. Though I could not
 devote time to building a fully-fledged Markdown editor as a React component, I
 endeavoured to build a usable approach with a live preview and a link to a
 Markdown guide for those unfamiliar with it.
+
+<!-- TODO: live preview screenshot -->

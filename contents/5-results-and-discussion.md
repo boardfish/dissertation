@@ -1,4 +1,4 @@
-# Results and Discussion
+# Results
 
 <!--
 The main results of your work should be presented, together with critical
@@ -110,45 +110,70 @@ further and forgo many ideas that might have even given Blacklight commercial
 viability, I am very satisfied with the quality of the product that I was able
 to make.
 
-As regards further work on the project, the initial scope included the below as
-ambitions. The existing framework should serve to make these straightforward to
-implement, but I lament that they could not be part of the final product.
+## Further Work
 
+The existing framework should serve to make the following features
+straightforward to implement. Security, basic stability, and social features
+take priority. Blacklight would be in a deployable state with features listed
+under **Immediate Priorities** - these would provide a stable experience with
+strong social links between users. Particularly, the increase in test coverage
+would make Blacklight a more stable platform on which to develop.
+
+### Initial Scope
+
+#### Immediate Priorities
+
+- **Pagination of outputs**
+- **>80% test coverage**
 - **Improvements to factors relating to authentication**, such as:
   - introducing two-factor authentication
   - permitting the use of social network accounts such as Facebook and Twitter
     for login.
 - **The ability for users to add others as friends**   
   Doing so would allow users to track other users' activity on their timeline
+- **Leaderboards for each escape game**
 - **A timeline for logged-in users**   
   This would show the aforementioned, alongside introducing new escape games
   that had opened in the vicinity of the user
-- **Toggling of privacy on a user's profile per-field**   
-  e.g. visible to friends only or private
-- **Metrics for maintainers**   
-  Feedback on how many times their escape games and
-  profile had been viewed recently
+- **The ability to reorder photos on escape games and clear records**
+
+#### Additional Features
+
 - **Time recording and milestones for escape games**   
   Design and functionality would take strong inspiration from
   [LiveSplit](https://github.com/LiveSplit/LiveSplit), and escape game
   maintainers would have a method of completing these for enthusiasts who attend
   their rooms
-- **The ability to reorder photos on escape games and clear records**
-- **Leaderboards for each escape game driven by the above**
-- **Pagination of outputs**
+- **Metrics for maintainers**   
+  Feedback on how many times their escape games and
+  profile had been viewed recently
+- **Toggling of privacy on a user's profile per-field**   
+  e.g. visible to friends only or private
+
+### Further Ideas
 
 Many other ideas were discussed, but were not included in the original scope.
 These included the following:
 
-- **Additional measures to improve accessibility**   
-  Blacklight's dark mode and use of the
-  [Solarized](https://github.com/altercation/solarized) theme, which uses CIELAB
-  [@ISO11664] to maintain readable color contrasts, encourages readability and
-  visibility across the site. However, additional measures could have been taken
-  to improve usability of the site with assistive technologies in line with the
-  WAI-ARIA specification [@aria], particularly with regards to React-heavy views
-  such as the Explore view.
-- **A searchable Google Maps view**
+#### Immediate Priorities
+
+- **Measures to include "in-home" escape games**   
+  These features would be immediately vital due to the COVID-19 outbreak. They
+  would aim to ensure that Blacklight would remain a viable product for use by
+  the industry. Blacklight has caveats that make it inappropriate for the
+  industry at present, such as some reliance on escape rooms having a physical
+  location. These features would encompass:
+  - an additional filter to select only "in-home" escape-games or standard
+    escape rooms
+  - further fields available to the `EscapeGame` model, such as a definitive
+    `price`   
+    This was omitted as a field in its own right in Blacklight, as 39% of escape
+    rooms charge per team and 55% charge per person, with others pricing either
+    via a *"base cost...plus an additional fee per player"*, or *"banded
+    models"* in which groups of different sizes are charged differently.
+    [@nicholson2015peeking]. Such a difference calls for at least two unique
+    approaches to both collecting the data from, and representing the data to,
+    the user.
 - **An extensive tagging system** 
 - **Increased depth of filtering in the Explore view**   
   Included with a view to allowing those with accessibility issues to quickly
@@ -165,28 +190,31 @@ These included the following:
   Generator](https://github.com/OpenAPITools/openapi-generator), saving
   developers the need to stub or create their own language-specific clients for
   Blacklight.
+- **The ability to bookmark escape games as an enthusiast**
+- **A review system**   
+  This would be specific to Blacklight (i.e. not backed by existing Google
+  Maps data), with some way of weighing more experienced users' feedback against
+  newer users.
+
+#### Additional Features
+
+- **Additional measures to improve accessibility**   
+  Blacklight's dark mode and use of the
+  [Solarized](https://github.com/altercation/solarized) theme, which uses CIELAB
+  [@ISO11664] to maintain readable color contrasts, encourages readability and
+  visibility across the site. However, additional measures could have been taken
+  to improve usability of the site with assistive technologies in line with the
+  WAI-ARIA specification [@aria], particularly with regards to React-heavy views
+  such as the Explore view.
+- **A searchable Google Maps view**
 - **Integration with social media**   
   More specifically, this would be to allow Blacklight to consume more data from
   Google Maps and display other social media embeds for escape room pages. Doing
   so would allow Blacklight to support escape rooms' existing social media
   presence, and integrate location data into the experience in a more natural
   way.
-- **A review system**   
-  This would be specific to Blacklight (i.e. not backed by existing Google
-  Maps data), with some way of weighing more experienced users' feedback against
-  newer users.
 - **Maintainer groups**   
   This has a use case particularly in the instance of large franchises where
   multiple people may be responsible for the franchise's online image. The
   feature would allow multiple users to have ownership of an escape game.
-- **Measures to include "in-home" escape games**, which would entail:
-  - an additional filter
-  - further fields available to the `EscapeGame` model, such as a definitive
-    `price`   
-    This was omitted as a field in its own right in Blacklight, as 39% of escape
-    rooms charge per team and 55% charge per person, with others pricing either
-    via a *"base cost...plus an additional fee per player"*, or *"banded
-    models"* in which groups of different sizes are charged differently.
-    [@nicholson2015peeking]. Such a difference calls for at least two unique
-    approaches to both collecting the data from, and representing the data to,
-    the user.
+

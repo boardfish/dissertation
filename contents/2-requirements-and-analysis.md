@@ -29,16 +29,16 @@ Additionally, @liam2019 warned that digital uptake in traditional escape rooms
 may be middling due to the inherent risk and time involvement, as discussed in
 the literature survey.
 
-I met with Liam on the 20th November to discuss the challenges he faces as an
-escape room owner, and his philosophy in developing the rooms he offers at The
-Lockup. Liam and I discussed some areas that could be targeted, which inspired a
-survey I sent to the Facebook group created by @nicholson2015peeking. This group
-is for escape room enthusiasts, encompassing both maintainers and participants,
-to which I sought and gained access as part of my work. The majority of posts
-during research were from enthusiasts who would report back from rooms they have
-attended, though I have seen posts about types of puzzles that can be
-implemented. I chose to survey this group, as it appeared to be a central hub
-for what seemed, to an outsider, to be a sparse online community. 
+To find some insight into the challenges escape room maintainers face, I met
+with Liam Woff on the 20th November. Liam and I discussed some areas that could
+be targeted, which inspired a survey I sent to the Facebook group created by
+@nicholson2015peeking. This group is for escape room enthusiasts, of which a
+subset are maintainers. I sought and gained access to the group as part of my
+work. The majority of posts during research were from enthusiasts who would
+report back from rooms they have attended, though I have seen posts about types
+of puzzles that can be implemented. I chose to survey this group as it appeared
+to be a central hub for what seemed, to an outsider, to be a sparse online
+community. 
 
 From the seven responses received, the following conclusions were drawn:
 
@@ -67,19 +67,20 @@ a goal statement.
 
 To design and build a system that:
 
-- allows escape room owners to share photos with their community
-- allows escape room owners to advertise among other escape rooms
+- allows escape room maintainers to share photos with their community
+- allows escape room maintainers to advertise among other escape rooms
 - allows escape room enthusiasts to discover new escape rooms to tackle
 - allows escape room enthusiasts to track which escape rooms they have cleared
 
 ---
 
 With these as an initial guide, I began to set requirements using the MSCW
-system (see Appendix I), aiming to complete all defined as **Must**- and **Should**-Have by the
-end of the project. Though these were not formally defined and did not dictate
-the order in which I completed tasks, I thought on what I had learned during my
-year in industry - while haste was of the essence, I made strides to emulate the
-software development process as I had seen it firsthand.
+system (see Appendix I), aiming to complete all defined as **Must**- and
+**Should**-Have by the end of the project. Though these were not formally
+defined and did not dictate the order in which I completed tasks, I thought on
+what I had learned during my year in industry - while haste was of the essence,
+I made strides to emulate the software development process as I had seen it
+firsthand.
 
 Stories were written with parts of the goal statement ('epics') in mind and
 estimated according to their complexity using a modified Fibonacci scale. In
@@ -114,7 +115,13 @@ to a degree. In the end, the following deadlines were decided:
 
 - **Development commences** March 12th
 - **Must milestone completed** March 26th *(actual completion date: March 24th)*
-- **Should milestone completed** April 16th *(actual completion date: April 13th)*
+- **Should milestone completed** April 16th *(actual completion date: April
+  13th)*
+
+![A Gantt chart representing my set goals versus the final completion
+dates.](gantt-chart.svg)
+
+<!-- FIXME: Text not visible and the damn thing is an eyesore. -->
 
 After setting my focus, I decided my solution would take the form of a web
 application. Ruby on Rails was chosen as the development platform. The QOC

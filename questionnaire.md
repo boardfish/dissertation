@@ -12,7 +12,7 @@ features:
 - social sharing
 - membership
 - communication with party before escape room starts - chatbot, group?
-- timer visible both to owner and participants
+- timer visible both to maintainer and enthusiasts
 
 ---
 

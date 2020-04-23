@@ -89,16 +89,27 @@ and best practices amassed during the degree programme.
 This dissertation paper serves to document, and justify decisions made along,
 the process of development of this product.
 
+### COVID-19 Impact statement
+
+COVID-19 has reduced the value of the initial product specification to its
+intended audience. This in turn has made it impractical to begin user testing.
+Plans were in place to engage with the local escape room maintainers and show
+them the platform as part of user testing. These were made impractical by the
+lockdown orders, which jeopardise escape room businesses. As discussed in the
+chapter on the results of the project, changes could be made to the final
+product to cater for the changing nature of the industry in the face of the
+virus.
+
 ### Acknowledgements
 
-My deepest thanks to my family, my friends at University of Sheffield Tea
-Society, and my mentor Dalbinder Kular. All have strongly supported me this
-year. Thanks also to Andrew Stratton for supervising and providing a guiding
-hand during the project. Thanks to Liam Woff of the Lockup Escape Room in
-Sheffield for providing helpful insights and allowing me to bring a group to his
-escape room. Finally, thank you to those working in Development at UKCloud for
-giving me the skills needed to build Blacklight - special mentions to Ben
-Saunders, Chris Couzens, and Oliver Nye.
+Thanks to Andrew Stratton for supervising and providing a guiding hand during
+the project. Thanks also to Liam Woff of the Lockup Escape Room in Sheffield for
+providing helpful insights and allowing me to bring a group to his escape room.
+Thank you to those working in Development at UKCloud for giving me the skills
+needed to build Blacklight - special mentions to Ben Saunders, Chris Couzens,
+and Oliver Nye. Finally, my deepest thanks to my family, my friends at
+University of Sheffield Tea Society, and my mentor Dalbinder Kular. All have
+strongly supported me this year.
 
 <!-- Contents -->
 \tableofcontents
