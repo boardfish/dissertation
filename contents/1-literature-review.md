@@ -168,10 +168,23 @@ development.
 
 In summary, technology brings a variety of benefits, from quick resets when used
 as part of a puzzle to interesting and reactive ideas that may not otherwise be
-possible. Many ideas and inspirations have been discussed here. However, care
-must be taken to ensure that if the implementation separates one player from the
-group, it is applied in an engaging manner. Escape room maintainers value
-reliability, with negative reviews being the consequence for ill implementation
-[@liam2019]. The strength of escape rooms as an educational tool has also been
-demonstrated here, which is worth consideration when building for the escape
-room industry.
+possible. Many ideas and inspirations have been discussed here. The strength of
+escape rooms as an educational tool has also been demonstrated here, which is
+worth consideration when building for the escape room industry.
+
+However, there is a debate as to whether the use of technology in escape rooms
+is always a viable option. Escape room maintainers value reliability, with
+negative reviews being the consequence for ill implementation [@liam2019]. One
+of the greatest points of contention is immersion. Care must be taken to ensure
+that if the implementation separates one player from the group, it is applied in
+an engaging manner. Excessive reliance upon screens is something that should be
+avoided in the name of immersion.
+
+It is clear that a balance should be maintained between these factors, and as
+such, it is difficult to approach a one-size-fits-all solution for use inside an
+escape room. However, it is clear that technology can advance escape rooms with
+careful implementation. In particular, it can be used outside of the experience
+itself in matters such as booking rooms, keeping a leaderboard, or advertising
+through social media or otherwise. This research goes on to define the latter of
+these as a feature of interest to maintainers, particularly when technology is
+applied.
