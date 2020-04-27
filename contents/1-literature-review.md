@@ -71,7 +71,10 @@ investment, reliability, and necessary expertise are some of the greatest
 contributing factors. @duplessie2013go approaches this from the perspective of
 immersion - with 70% of escape room games being purely physical activities
 [@nicholson2015peeking], DuPlessie recommends movement away from what he calls
-the "glowing rectangles" as our medium of choice.
+the "glowing rectangles" as our medium of choice. In his example, DuPlessie
+creates immersion through sound and steam to cover for his room's rotating
+mechanic - distracting the participants from this gives a sense of reality to
+the situation they are in, immersing them in the environment and story fully.
 
 The increasing application of IT in education means that computers are often
 part of the school environment, and can be used as a tool when building an
