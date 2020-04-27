@@ -57,6 +57,8 @@ SCRAP has gone on to develop escape rooms at a much larger scale than the
 typical escape room, which serves teams of an average size of 4.58 people
 [@nicholson2015peeking].
 
+<!-- General introduction to argument -->
+
 Escape room maintainers are able to apply technology to varying degrees. On the
 outside of the escape room experience, maintainers implement leaderboards, share
 team photos to social media, and interact with the team via a screen or handheld
@@ -70,26 +72,44 @@ escape rooms, for a variety of reasons. @liam2019 suggests that the time
 investment, reliability, and necessary expertise are some of the greatest
 contributing factors.
 
-@duplessie2013go approaches this from the perspective of immersion - with 70% of
-escape room games being purely physical activities [@nicholson2015peeking],
-DuPlessie recommends movement away from what he calls the "glowing rectangles"
-as our medium of choice. In his example, DuPlessie creates immersion through
-sound and steam to cover for his room's rotating mechanic - distracting the
-participants from this gives a sense of reality to the situation they are in,
-immersing them in the environment and story fully. While this level of theatrics
-provides what appears to be a very captivating experience, there is no doubt
-that such an implementation is costly. It is important to have a variety of
-different types of escape room both with and without this degree of technology
-and scale to allow for variety in the market, particularly with regards to
-escape rooms that are not developed by franchises and larger companies.
+<!-- Reliability Vs. immersion -->
 
-The increasing application of IT in education means that computers are often
-part of the school environment, and can be used as a tool when building an
-escape room experience for educational purposes. Several studies cover the use
-of escape rooms as a means for education [@lopezuse; @rouse2017lessons;
-@peleg2019lab; @beguin2019computer].
+Reliability is one of the strongest factors in an escape room maintainer's
+decision to apply technology. Application of technology in escape rooms comes
+with some uncertainty, and a break in the flow of the escape room experience can
+shatter participants' immersion and lead to negative reviews [@liam2019].
+Immersion can be defined as captivating the participant and making them feel
+invested in a situation or story. It can be achieved through the use of
+theatrics such as special effects, acting, props, and room design.
+
+In his example, @duplessie2013go creates immersion through sound and steam to
+cover for his room's rotating mechanic - distracting the participants from this
+gives a sense of reality to the situation they are in, immersing them in the
+environment and story fully. DuPlessie is critial of digital, rather than
+physical, interaction in escape rooms, citing the importance of immersion, and
+recommends movement away from what he calls the "glowing rectangles" as our
+medium of choice.
+
+<!-- Why physical interaction gets scrapped -->
+
+Physical interaction is often forgone in favour of making escape rooms easy to
+reset to their initial state. It can be considered a foundation point of many
+escape rooms - 70% of escape rooms employ a search for physical objects as part
+of the experience [@nicholson2015peeking]. However, temporary escape rooms,
+particularly those used in the classroom, tend to forgo this for various
+reasons. In discussing this, the apparent necessity for physical interaction in
+escape games can be broken down.
+
+A study by @lopezuse organised its puzzles in a manner whereby puzzles
+could be completed in any order, allowing multiple groups to attend the room at
+once. One example puzzle given in the study was an exercise likely done on
+paper. In this instance, physical interaction and immersion were traded in
+favour of allowing multiple groups to attend the room at once. This is important
+in the context of education, where the whole class should engage with the
+subject matter in the allotted time.
 
 <!-- Visibility -->
+
 @liam2019 highlights that visibility of the puzzle to the entire team should be
 a priority. This is particularly an issue if a puzzle requires one person to
 work at a computer alone - @nicholson2015peeking warns of the danger of removing
@@ -115,12 +135,8 @@ application of technology brings to mind the image of a small group of people
 crowding around a screen, embodying a negative example in following this law of
 visibility.
 
-Application of technology in escape rooms comes with some uncertainty, and a
-break in the flow of the escape room experience can shatter participants'
-immersion and lead to negative reviews [@liam2019]. This also creates some
-difficulty when it comes to visibility - 
+<!-- Resets -->
 
-<!-- TODO: Reshuffle this paragraph? -->
 Poor implementation does not necessarily mean technology should not be excluded
 from escape room environments outright. Instead, technology has the potential to
 inspire change in escape rooms by targetting the time it takes to reset a room
@@ -138,25 +154,17 @@ often take as long as 15 minutes, and that it is something escape room
 maintainers seek to optimise; the shorter a reset takes, the more time is
 available to welcome customers.
 
-Commercial escape rooms are often permanent fixtures. This means that more
-immersive environments and more complex physical puzzles can be built. However,
-puzzles of a physical nature usually need to be reset by the room maintainer
-back to their original state, so that more than one group can attend a room in
-the same day. Contrary to this, escape rooms built in a classroom environment
-are usually of a temporary nature, and may even try to allow for multiple groups
-to attempt the room at once, at the cost of immersion and interactivity. A study
-by @lopezuse organised its puzzles in a manner whereby puzzles could be
-completed in any order, allowing multiple groups to attend the room at once. One
-example puzzle given in the study was an exercise likely done on paper -
-exercises in this form make resets trivial, as a fresh worksheet is all that is
-necessary, but they also demonstrate the lack of immersion.
+Quick resets are a priority in many different situations. Tuzak develops
+portable escape games that are run in shopping centres [@gunduz2018preventing] -
+the move to shopping centres, made as part of their blue ocean strategy, was
+likely chosen in an effort to capture new customers, making it all the more
+important that the room could be reset quickly. Several studies cover the use of
+escape rooms as a means for education [@lopezuse; @rouse2017lessons;
+@peleg2019lab; @beguin2019computer] In particular, the previously-mentioned
+application by @lopezuse allowed multiple groups to tackle the escape rooms at
+the same time by removing the need to reset puzzles entirely.
 
-Commercial escape rooms regularly employ more physical interaction - 78% of
-escape rooms employ a search for physical objects as part of the experience
-[@nicholson2015peeking]. Some varieties of commercial escape room visit the
-other end of this spectrum, such as those developed by Tuzak, an Istanbul
-company developing portable escape games [@gunduz2018preventing]. Portable or
-temporary escape games often trade immersion for greater logical challenge.
+<!-- VR -->
 
 @liam2019 theorises that virtual reality (VR) escape rooms such as *[EXIT
 VR](https://exit-vr.de/en/)* may be the next stage for the industry, which allow
