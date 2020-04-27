@@ -6,7 +6,7 @@ author: |
   Simon Fish | Supervisor: Andrew Stratton \
   This report is submitted in partial fulfilment of the requirement for \
   the degree of Computer Science with a Year in Industry by Simon Fish.
-geometry: margin=1in
+geometry: left=37mm,right=25mm,top=25mm,bottom=25mm
 papersize: a4
 links-as-notes: true
 bibliography: [bibliography.bib]
