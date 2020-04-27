@@ -5,7 +5,7 @@
 
 ### Keywords
 
-I identified the following keywords for use in my search. The search was
+The following keywords were identified for use in the search. The search was
 conducted using the Google Scholar search engine.
 
 - escape room / puzzle hunt
@@ -64,8 +64,8 @@ transceiver in the room. Inside the room, entire puzzles can be based on
 technology, if the maintainer has the necessary expertise. Some more unique
 applications within the room are also possible, such as using a hidden camera to
 take a photo of the team, apply filters, and display the photo among works of
-art as demonstrated in *[The Gallery](https://escapist.nl/en/)*, which I visited
-in July 2019. However, there is a general aversion to the use of technology in
+art as demonstrated in *[The Gallery](https://escapist.nl/en/)* (visited
+in July 2019). However, there is a general aversion to the use of technology in
 escape rooms, for a variety of reasons. @liam2019 suggests that the time
 investment, reliability, and necessary expertise are some of the greatest
 contributing factors. @duplessie2013go approaches this from the perspective of
