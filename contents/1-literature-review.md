@@ -77,12 +77,13 @@ The increasing application of IT in education means that computers are often
 part of the school environment, and can be used as a tool when building an
 escape room experience for educational purposes. Several studies cover the use
 of escape rooms as a means for education [@lopezuse; @rouse2017lessons;
-@peleg2019lab; @beguin2019computer]. @rouse2017lessons applied tecownerhnology to an
+@peleg2019lab; @beguin2019computer]. @rouse2017lessons applied technology to an
 escape room in the classroom using a game loaded from a memory stick. This
-application seems understandable, as Rouse's audience was likely to have some
-basic level of expertise in, and enthusiasm for, handling computers as part of
-the digital native generation. However, in practice, it brings to mind the image
-of a small group of people crowding around a screen. @liam2019 warns against
+application seems understandable; Rouse's audience was likely to have some basic
+level of expertise in, and enthusiasm for, handling computers as part of the
+digital native generation. Though never directly stated, they can be assumed to
+be under 18. However, in practice, this application brings to mind the image of
+a small group of people crowding around a screen. @liam2019 warns against
 situations like this, saying that visibility of the puzzle to the entire team
 should be a priority. 
 
