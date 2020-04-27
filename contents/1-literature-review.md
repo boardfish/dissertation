@@ -89,17 +89,21 @@ should be a priority.
 
 <!-- TODO: Reshuffle this paragraph? -->
 However, poor implementation does not mean technology should not be excluded
-from escape room environments outright. Instead, I feel technology has the
+from escape room environments outright. Instead, technology has the
 potential to inspire change in escape rooms. Escape rooms and technology are
 inherently linked - digital escape-the-room games such as *Myst* precede and
-inspire physical escape rooms [@nicholson2015peeking]. These forms of escape
-room evade one of physical escape room maintainers' greatest anathemas -
-resetting these rooms is as simple as resetting the game. Whether this is done
-by restarting an attempt, restarting the game, or removing save files and
-starting over, it is often trivial compared to how long it takes to reset escape
-rooms. @liam2019 explains that resetting rooms can often take as long as 15
-minutes, and that it is something escape room maintainers seek to optimise; the
-shorter a reset takes, the more time is available to welcome customers.
+inspire physical escape rooms [@nicholson2015peeking]. In these games,
+partipicants solve similar puzzles through digital means, sometimes applying and
+combining an inventory of objects to create new tools for use in their escape.
+
+These forms of escape room evade one of physical escape room maintainers'
+greatest anathemas - resetting these rooms is as simple as resetting the game.
+Whether this is done by restarting an attempt, restarting the game, or removing
+save files and starting over, it is often trivial compared to how long it takes
+to reset escape rooms. @liam2019 explains that resetting rooms can often take as
+long as 15 minutes, and that it is something escape room maintainers seek to
+optimise; the shorter a reset takes, the more time is available to welcome
+customers.
 
 Commercial escape rooms are often permanent fixtures. This means that more
 immersive environments and more complex physical puzzles can be built. However,
