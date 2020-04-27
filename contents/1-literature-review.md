@@ -64,7 +64,7 @@ transceiver in the room. Inside the room, entire puzzles can be based on
 technology, if the maintainer has the necessary expertise. Some more unique
 applications within the room are also possible, such as using a hidden camera to
 take a photo of the team, apply filters, and display the photo among works of
-art as demonstrated in [The Gallery](https://escapist.nl/en/), which I visited
+art as demonstrated in *[The Gallery](https://escapist.nl/en/)*, which I visited
 in July 2019. However, there is a general aversion to the use of technology in
 escape rooms, for a variety of reasons. @liam2019 suggests that the time
 investment, reliability, and necessary expertise are some of the greatest
@@ -134,8 +134,8 @@ interface with a puzzle that applies technology. This is particularly an issue
 if a single typical workstation is set up - @nicholson2015peeking warns of the
 danger of removing just one player from the "mental space" of the team.
 
-@liam2019 theorises that VR escape rooms such as [EXIT
-VR](https://exit-vr.de/en/) may be the next stage for the industry, which allow
+@liam2019 theorises that VR escape rooms such as *[EXIT
+VR](https://exit-vr.de/en/)* may be the next stage for the industry, which allow
 immersive rooms to be created while effectively eliminating the issue of
 resetting the room as above. This would bring the escape room cycle full circle,
 reincarnating the modern wave of physical escape rooms in the digital form that
