@@ -36,6 +36,8 @@ namesake, being:
 At the time of writing, Blacklight can be accessed at
 https://blacklight-dev.herokuapp.com.
 
+![Blacklight's homepage as at commit `87a35f25`.](blacklight-homepage.png)
+
 ## Functionality Overview
 
 Blacklight allows users to log in through the Auth0 authentication service only,
@@ -43,24 +45,37 @@ though this allows for plenty of expansion in and of itself. Users are prompted
 to define themselves as an escape game maintainer, enthusiast, or both. This
 only affects the user's experience, not their level of access.
 
+![Logging in to Blacklight with Auth0. When this screenshot was taken, it was
+not possible to sign up as I did not want to expose the development instance to
+unwanted visitors.\label{create-view}](blacklight-auth0.png)
+
 Escape game maintainers have options revealed to them to create and manage
-escape games. These escape games have an array of associated data that can be
+escape games (Figure \ref{create-view}). These escape games have an array of associated data that can be
 added, including the expected time to complete them, their location (by way of
 Google Maps integration), images, and a Markdown-compatible extended
 description. Listings can also be hidden from view and access via a checkbox on
 the editing form.
 
+![Blacklight's escape game creation form as at commit `87a35f25`.](blacklight-create-escape-game.png)
+
 Enthusiasts can browse these escape games and mark them as cleared by selecting
-the lock icon on any listing. This is consistent across the site. Doing so adds
+the lock icon on any listing (Figure \ref{explore-view}). This is consistent across the site. Doing so adds
 the escape game to the 'My Cleared Games' section of the site for that user.
 There, users can upload photos to associate with each escape room, which also
 appear to the left of the list in a singular photo gallery.
 
-Users have profiles on which they can write a bio, set their location, and link
-to their own website. Here, those interested can see all escape games by a
-single maintainer, and all escape games cleared by a user. Which of these is
-shown depends on whether they have self-assigned as a maintainer, enthusiast, or
-both.
+![Blacklight's Explore view as at commit `87a35f25`. Seed data used in this
+screenshot uses screenshots from *Super Smash Bros. Ultimate*.\label{explore-view}](blacklight-explore.png)
+
+Users have profiles (Figure \ref{profile-view}) on which they can write a bio, set their
+location, and link to their own website. Here, those interested can see all
+escape games by a single maintainer, and all escape games cleared by a user.
+Which of these is shown depends on whether they have self-assigned as a
+maintainer, enthusiast, or both.
+
+![Blacklight's profile view as at commit `87a35f25` from the perspective of a
+user who is a maintainer. Seed data used in this screenshot uses screenshots
+from *Super Smash Bros. Ultimate*.\label{profile-view}](blacklight-profile.png)
 
 ### Practical Use
 
