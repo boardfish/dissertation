@@ -93,7 +93,7 @@ and best practices amassed during the degree programme.
 This dissertation paper serves to document, and justify decisions made along,
 the process of development of this product.
 
-### COVID-19 Impact statement
+### COVID-19 Impact Statement
 
 COVID-19 has reduced the value of the initial product specification to its
 intended audience. This in turn has made it impractical to begin user testing.

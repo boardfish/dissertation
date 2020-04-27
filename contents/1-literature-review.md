@@ -38,7 +38,7 @@ escape rooms as the culmination of a variety of media. He identifies
 puzzle hunts as team-based problem-solving challenges<!-- TODO: is this a quote?
 -->, which, with treasure hunts, appears most similar to escape rooms. Various
 others have lent features to escape rooms, such as immersion in a story as the
-"hero", which @duplessie2013go reports as being something enthusiasts enjoy.
+*"hero"*, which @duplessie2013go reports as being something enthusiasts enjoy.
 This is embodied by live-action roleplaying, another inspiration for the genre
 [@nicholson2015peeking]. Nicholson presents the precursors to escape rooms in
 further depth in his paper - Figure 2.1 summarises these.
@@ -87,7 +87,7 @@ cover for his room's rotating mechanic - distracting the participants from this
 gives a sense of reality to the situation they are in, immersing them in the
 environment and story fully. DuPlessie is critial of digital, rather than
 physical, interaction in escape rooms, citing the importance of immersion, and
-recommends movement away from what he calls the "glowing rectangles" as our
+recommends movement away from what he calls the *"glowing rectangles"* as our
 medium of choice.
 
 <!-- Why physical interaction gets scrapped -->
@@ -113,7 +113,7 @@ subject matter in the allotted time.
 @liam2019 highlights that visibility of the puzzle to the entire team should be
 a priority. This is particularly an issue if a puzzle requires one person to
 work at a computer alone - @nicholson2015peeking warns of the danger of removing
-just one player from the "mental space" of the team. Even if a screen-based
+just one player from the *"mental space"* of the team. Even if a screen-based
 puzzle calls for multiple people, the available space and the visibility of the
 screen dictates how many members of the group can interact with it. Unless
 monitors are suitably placed and large enough to be viewed by a full party, the
@@ -185,14 +185,14 @@ These could be remedied with more effective VR development experience, but user
 interface issues remain something that cannot be tackled without the correct
 principles. In a study by @smith2009using, it was found that the context of
 virtual reality clouded the line between a video game and a simulation of
-reality - one child reportedly asked "How do I kneel?" when inside the
+reality - one child reportedly asked *"How do I kneel?"* when inside the
 simulation. This misunderstanding could be attributed to how crouching in video
 games works - it is most often toggled by, or activated by holding, a button
-input. While @smith2009using acknowledges the "built-in capability for higher
-levels of actual human–computer interaction than traditional video games", this
+input. While @smith2009using acknowledges the *"built-in capability for higher
+levels of actual human–computer interaction than traditional video games"*, this
 boundary should not be ignored.
 
-While the escape room industry cautiously explores the "glowing rectangles"
+While the escape room industry cautiously explores the *"glowing rectangles"*
 @duplessie2013go warns against, the video games industry that lent it
 inspiration sometimes takes small strides to recede from them. This has resulted
 in concepts that escape rooms, and interactive experiences of all kinds, can
@@ -201,11 +201,12 @@ focuses on asynchronous gameplay, in which one player must defuse a bomb while
 the others guide them using the [bomb's manual](https://bombmanual.com).
 Conceptually, the game shares fundamentals with escape rooms, but what is of
 most importance to the point is that the foremost task in the game is
-communication. Escape rooms already apply asynchronous gameplay - The Lockup
-Escape Rooms' *Meltdown* [@liam2019] begins with most of the party in individual
-chambers, with the designated 'leader' communicating from outside - but *Keep
-Talking and Nobody Explodes* demonstrates that with technology, it is possible
-in almost any location.
+communication, encouraged by its asynchronous gameplay. Escape rooms already
+apply asynchronous gameplay - The Lockup Escape Rooms' *Meltdown* [@liam2019]
+begins with most of the party in individual chambers, with the designated
+'leader' communicating from outside - but *Keep Talking and Nobody Explodes*
+demonstrates that with technology, it is possible in almost any location.
+
 [*1-2-Switch*](https://www.nintendo.co.uk/Games/Nintendo-Switch/1-2-Switch-1173186.html)
 similarly pulls away from the screen, with the majority of its minigames relying
 on what is done physically with the Joy-Con controller and instructing players

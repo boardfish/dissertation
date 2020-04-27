@@ -105,7 +105,7 @@ work-in-progress limits [@rehkopf2018kanban]. With this in mind, it would be
 difficult to set more than two development milestones. Treating each MSCW
 category as an epic and taking the amount of time necessary for work on this
 report and my other modules into account, I aimed to work on the project for a
-month, devoting about two weeks to each milestone.
+month, devoting two to three weeks to each milestone.
 
 I figured that each milestone would take a similar amount of time - while Rails'
 built-in generators would likely ease the burden of scaffolding the initial
@@ -128,16 +128,19 @@ application. Ruby on Rails was chosen as the development platform. The QOC
 analysis below was the source of this decision, in which I weighed up other
 potential candidates such as Iron (Rust), ASP.NET MVC 5 (C#), and Next.js.
 
+\pagebreak
+
 |  | **Priority** | 4 | 5 | 4 | 2 | 4 | 3 | 3 | 5 |
 |:-----:|:----------------:|:-----------:|:-------------:|:---------:|:-------------:|:--------------------------:|:----------------------------:|:---------:|:-----------------:|
-|  | **Criteria** | Famili-<br>arity | Documen-<br>tation | Sta-<br>bility | Linux support | Available Docker resources | Developer tools (generators) | Comm-<br>unity | Develop-<br>ment cycle |
+| **Total** | **\hfill Tool \hfill \rotatebox{90}{Criteria}** | \rotatebox{90}{Familiarity} | \rotatebox{90}{Documentation} | \rotatebox{90}{Stability} | \rotatebox{90}{Linux support} | \rotatebox{90}{Docker resources} | \rotatebox{90}{Developer tools (generators)} | \rotatebox{90}{Community} | \rotatebox{90}{Development cycle} |
 | 145 | Rails (ERB) | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4 |
 | 108 | Next.js | 3 | 4 | 3 | 5 | 5 | 1 | 2 | 5 |
 | 109 | ASP.NET MVC 5 | 2 | 5 | 5 | 1 | 5 | 5 | 3 | 2 |
 | 66 | Iron | 1 | 2 | 1 | 5 | 3 | 1 | 1 | 4 |
 | 130 | Rails (React) | 4 | 4 | 5 | 5 | 5 | 3 | 5 | 4 |
 
-Table: QOC chart for choice of stack, with priority values and totals revealed.
+Table: QOC chart [@maclean1991questions] for choice of stack, with priority
+values and totals revealed.
 
 Originally, I weighed ERB and React against one another as view engines. This
 estimation was taken on the assumption that I would use React even where
