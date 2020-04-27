@@ -196,13 +196,13 @@ Check that the...
 - ...CSS is applied to the elements (visual check)
 - ...Bootstrap JS from asset pipeline works (try to open the Filters dropdown on
   Explore)
-- ...Auth0 login flow works - i.e. it's possible to log in and hold a session
-- ...Auth0 logout flow works - i.e. it's possible to log out and your session is
+- ...Auth0 login flow works - i.e. it is possible to log in and hold a session
+- ...Auth0 logout flow works - i.e. it is possible to log out and your session is
   destroyed
 - ...controllers work - i.e. Explore returns escape games if they exist. Create
   one if it does not exist and make sure that the list of escape games you own
   on your user#show page works.
-- ...JS views work - i.e. it's possible to remove images from a listing and
+- ...JS views work - i.e. it is possible to remove images from a listing and
   have the corresponding table row disappear
 
 ## Security Concerns
