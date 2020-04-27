@@ -33,7 +33,19 @@ Escape rooms are physical, interactive experiences in which a group of
 participants must solve puzzles to escape a locked room, solve a mystery, or
 otherwise meet some goal in a particular timespan. They are a phenomenon that
 has existed since around 2007 [@nicholson2015peeking], and are a growing
-industry.
+industry. The concept of an escape room is applied in a variety of forms, from
+portable escape rooms run in shopping centres [@gunduz2018preventing] to
+similarly challenging and captivating experiences that assist education
+[@lopezuse; @rouse2017lessons; @peleg2019lab; @beguin2019computer]. Of late, the
+importance of virtual reality escape rooms and in-home escape rooms is on the
+rise.
+
+Though many escape rooms live up to their name, the aim in an overwhelming 54%
+of cases is not to escape the room - goals in escape rooms can be to investigate
+a crime or mystery, engage with the supernatural, or solve a murder
+[@nicholson2015peeking]. This can be particularly unique in educational
+applications of escape rooms, in which the subject matter and goal often relate
+directly to a learning objective.
 
 ---
 
