@@ -68,27 +68,57 @@ art as demonstrated in *[The Gallery](https://escapist.nl/en/)* (visited
 in July 2019). However, there is a general aversion to the use of technology in
 escape rooms, for a variety of reasons. @liam2019 suggests that the time
 investment, reliability, and necessary expertise are some of the greatest
-contributing factors. @duplessie2013go approaches this from the perspective of
-immersion - with 70% of escape room games being purely physical activities
-[@nicholson2015peeking], DuPlessie recommends movement away from what he calls
-the "glowing rectangles" as our medium of choice. In his example, DuPlessie
-creates immersion through sound and steam to cover for his room's rotating
-mechanic - distracting the participants from this gives a sense of reality to
-the situation they are in, immersing them in the environment and story fully.
+contributing factors.
+
+@duplessie2013go approaches this from the perspective of immersion - with 70% of
+escape room games being purely physical activities [@nicholson2015peeking],
+DuPlessie recommends movement away from what he calls the "glowing rectangles"
+as our medium of choice. In his example, DuPlessie creates immersion through
+sound and steam to cover for his room's rotating mechanic - distracting the
+participants from this gives a sense of reality to the situation they are in,
+immersing them in the environment and story fully. While this level of theatrics
+provides what appears to be a very captivating experience, there is no doubt
+that such an implementation is costly. It is important to have a variety of
+different types of escape room both with and without this degree of technology
+and scale to allow for variety in the market, particularly with regards to
+escape rooms that are not developed by franchises and larger companies.
 
 The increasing application of IT in education means that computers are often
 part of the school environment, and can be used as a tool when building an
 escape room experience for educational purposes. Several studies cover the use
 of escape rooms as a means for education [@lopezuse; @rouse2017lessons;
-@peleg2019lab; @beguin2019computer]. @rouse2017lessons applied technology to an
-escape room in the classroom using a game loaded from a memory stick. This
-application seems understandable; Rouse's audience was likely to have some basic
-level of expertise in, and enthusiasm for, handling computers as part of the
-digital native generation. Though never directly stated, they can be assumed to
-be under 18. However, in practice, this application brings to mind the image of
-a small group of people crowding around a screen. @liam2019 warns against
-situations like this, saying that visibility of the puzzle to the entire team
-should be a priority. 
+@peleg2019lab; @beguin2019computer].
+
+<!-- Visibility -->
+@liam2019 highlights that visibility of the puzzle to the entire team should be
+a priority. This is particularly an issue if a puzzle requires one person to
+work at a computer alone - @nicholson2015peeking warns of the danger of removing
+just one player from the "mental space" of the team. Even if a screen-based
+puzzle calls for multiple people, the available space and the visibility of the
+screen dictates how many members of the group can interact with it. Unless
+monitors are suitably placed and large enough to be viewed by a full party, the
+whole team may not be able to interface with a puzzle that applies technology. 
+
+A greater number of monitors, or larger monitors that allow for multiple users
+to interact with the puzzle (e.g. a multi-touch screen), could both counteract
+this. Having said that, these come with both a literal and figurative price -
+the cost of the resources themselves, and the space within the escape room in
+which they can be implemented. As such, these factors make them difficult to
+implement with repeat effectiveness across different escape rooms.
+
+@rouse2017lessons applied the idea of using a computer in the classroom using a
+game loaded from a memory stick. This application seems understandable; Rouse's
+audience was likely to have some basic level of expertise in, and enthusiasm
+for, handling computers as part of the digital native generation. Though never
+directly stated, they can be assumed to be under 18. In practice, this
+application of technology brings to mind the image of a small group of people
+crowding around a screen, embodying a negative example in following this law of
+visibility.
+
+Application of technology in escape rooms comes with some uncertainty, and a
+break in the flow of the escape room experience can shatter participants'
+immersion and lead to negative reviews [@liam2019]. This also creates some
+difficulty when it comes to visibility - 
 
 <!-- TODO: Reshuffle this paragraph? -->
 Poor implementation does not necessarily mean technology should not be excluded
@@ -128,21 +158,31 @@ other end of this spectrum, such as those developed by Tuzak, an Istanbul
 company developing portable escape games [@gunduz2018preventing]. Portable or
 temporary escape games often trade immersion for greater logical challenge.
 
-Application of technology in escape rooms comes with some uncertainty, and a
-break in the flow of the escape room experience can shatter participants'
-immersion and lead to negative reviews [@liam2019]. This also creates some
-difficulty when it comes to visibility - unless monitors are suitably placed and
-large enough to be viewed by a full party, the whole team may not be able to
-interface with a puzzle that applies technology. This is particularly an issue
-if a single typical workstation is set up - @nicholson2015peeking warns of the
-danger of removing just one player from the "mental space" of the team.
-
-@liam2019 theorises that VR escape rooms such as *[EXIT
+@liam2019 theorises that virtual reality (VR) escape rooms such as *[EXIT
 VR](https://exit-vr.de/en/)* may be the next stage for the industry, which allow
 immersive rooms to be created while effectively eliminating the issue of
 resetting the room as above. This would bring the escape room cycle full circle,
 reincarnating the modern wave of physical escape rooms in the digital form that
 inspired them.
+
+@pendit2017virtual exercised this in the creation of their
+virtual escape room *The Last Breakout*. This application revealed some
+potential caveats that may be visible in the creation of VR escape rooms. Unreal
+Engine 4 assisted in making the project feasible, but limited knowledge of how
+to use it resulted in difficulties. These included motion sickness from
+excessive movement, user experience as regards knowing when they might have
+picked up an object, and display of reading materials [@pendit2017virtual].
+
+These could be remedied with more effective VR development experience, but user
+interface issues remain something that cannot be tackled without the correct
+principles. In a study by @smith2009using, it was found that the context of
+virtual reality clouded the line between a video game and a simulation of
+reality - one child reportedly asked "How do I kneel?" when inside the
+simulation. This misunderstanding could be attributed to how crouching in video
+games works - it is most often toggled by, or activated by holding, a button
+input. While @smith2009using acknowledges the "built-in capability for higher
+levels of actual human–computer interaction than traditional video games", this
+boundary should not be ignored.
 
 While the escape room industry cautiously explores the "glowing rectangles"
 @duplessie2013go warns against, the video games industry that lent it
@@ -170,15 +210,14 @@ In summary, technology brings a variety of benefits, from quick resets when used
 as part of a puzzle to interesting and reactive ideas that may not otherwise be
 possible. Many ideas and inspirations have been discussed here. The strength of
 escape rooms as an educational tool has also been demonstrated here, which is
-worth consideration when building for the escape room industry.
-
-However, there is a debate as to whether the use of technology in escape rooms
-is always a viable option. Escape room maintainers value reliability, with
-negative reviews being the consequence for ill implementation [@liam2019]. One
-of the greatest points of contention is immersion. Care must be taken to ensure
-that if the implementation separates one player from the group, it is applied in
-an engaging manner. Excessive reliance upon screens is something that should be
-avoided in the name of immersion.
+worth consideration when building for the escape room industry. However, there
+is a debate as to whether the use of technology in escape rooms is always a
+viable option. Escape room maintainers value reliability, with negative reviews
+being the consequence for ill implementation [@liam2019]. One of the greatest
+points of contention is immersion. Care must be taken to ensure that if the
+implementation separates one player from the group, it is applied in an engaging
+manner. Excessive reliance upon screens is something that should be avoided in
+the name of immersion.
 
 It is clear that a balance should be maintained between these factors, and as
 such, it is difficult to approach a one-size-fits-all solution for use inside an
