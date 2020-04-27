@@ -17,6 +17,10 @@ header-includes: |
   \usepackage{lscape}
   \newcommand{\blandscape}{\begin{landscape}}
   \newcommand{\elandscape}{\end{landscape}}
+  \usepackage{fancyhdr,ragged2e}
+  \fancyhead{}
+  \fancyhead[CO,CE]{\leftmark}
+  \pagestyle{fancy}
 ---
 \makeatletter
 
