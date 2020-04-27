@@ -88,7 +88,7 @@ situations like this, saying that visibility of the puzzle to the entire team
 should be a priority. 
 
 <!-- TODO: Reshuffle this paragraph? -->
-However, poor implementation does not mean technology should not be excluded
+Poor implementation does not necessarily mean technology should not be excluded
 from escape room environments outright. Instead, technology has the potential to
 inspire change in escape rooms by targetting the time it takes to reset a room
 back into a playable state. Escape rooms and technology are inherently linked -
