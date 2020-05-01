@@ -47,7 +47,8 @@ header-includes: |
 <!-- First page -->
 \hspace{0pt}
 \vfill
-### Signed Declaration
+\subsubsection*{Signed Declaration} 
+\addcontentsline{toc}{chapter}{Signed Declaration}
 
 \begin{center}
 
@@ -75,26 +76,26 @@ abstract a reader should be able to ascertain if the project is of interest to
 them and presents results of which they would like to know more details.
 -->
 
-\topskip0pt
-\vspace*{\fill}
+\hspace{0pt}
+\vfill
+\begin{center}
+\subsubsection*{Abstract} 
+\addcontentsline{toc}{chapter}{Abstract}
 
-### Abstract
-
-<!-- - explain topic -->
 Escape rooms are physical, interactive experiences in which a group of
 participants must solve puzzles to escape a locked room, solve a mystery, or
 otherwise meet some goal in a particular timespan.
-<!-- - explain content -->
 The primary aim of this project is to build a tool for escape room maintainers.
 The original brief expressed intent to craft a networked solution for use within
 the escape room itself. Subsequently, this focus was changed by the literature
 review. The end product is a web application functioning as a social network
 between escape room maintainers and enthusiasts.
-<!-- - explain purpose of paper -->
 This dissertation paper serves to document, and justify decisions made along,
 the process of development of this product.
 
-### COVID-19 Impact Statement
+\begingroup
+\let\clearpage\relax \subsubsection*{COVID-19 Impact Statement}
+\addcontentsline{toc}{chapter}{COVID-19 Impact Statement}
 
 The COVID-19 outbreak meant that escape rooms were completely closed to
 business. This made face-to-face contact with involved escape room maintainers
@@ -105,7 +106,10 @@ this up meaningfully. It was impractical to change the project's focus at the
 point of the pandemic, so a decision was made to continue supporting the project
 for after the lockdown order had been lifted.
 
-### Acknowledgements
+\endgroup
+
+\subsubsection*{Acknowledgements}
+\addcontentsline{toc}{chapter}{Acknowledgements}
 
 Thanks to Andrew Stratton for supervising and providing a guiding hand during
 the project. Thanks also to Liam Woff of the Lockup Escape Room in Sheffield for
@@ -116,7 +120,9 @@ and Oliver Nye. Finally, my deepest thanks to my family, my friends at
 University of Sheffield Tea Society, and my mentor Dalbinder Kular. All have
 strongly supported me this year.
 
-\vspace*{\fill}
+\end{center}
+\vfill
+\hspace{0pt}
 
 <!-- Contents -->
 \tableofcontents
