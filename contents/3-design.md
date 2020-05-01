@@ -1,4 +1,4 @@
-# Design
+# Design and Architectural Decisions
 
 <!--
 This should explain the design technique chosen (and justify why it is
