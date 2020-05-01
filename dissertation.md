@@ -74,6 +74,10 @@ achievements will be described" - this is useless, as it says nothing. From the
 abstract a reader should be able to ascertain if the project is of interest to
 them and presents results of which they would like to know more details.
 -->
+
+\topskip0pt
+\vspace*{\fill}
+
 ### Abstract
 
 <!-- - explain topic -->
@@ -114,6 +118,8 @@ needed to build Blacklight - special mentions to Ben Saunders, Chris Couzens,
 and Oliver Nye. Finally, my deepest thanks to my family, my friends at
 University of Sheffield Tea Society, and my mentor Dalbinder Kular. All have
 strongly supported me this year.
+
+\vspace*{\fill}
 
 <!-- Contents -->
 \tableofcontents
