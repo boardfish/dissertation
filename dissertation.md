@@ -90,23 +90,20 @@ The original brief expressed intent to craft a networked solution for use within
 the escape room itself. Subsequently, this focus was changed by the literature
 review. The end product is a web application functioning as a social network
 between escape room maintainers and enthusiasts.
-<!-- - explain highlights -->
-The final product is built with industry-standard knowledge, principles, tools
-and best practices amassed during the degree programme. 
 <!-- - explain purpose of paper -->
 This dissertation paper serves to document, and justify decisions made along,
 the process of development of this product.
 
 ### COVID-19 Impact Statement
 
-COVID-19 has reduced the value of the initial product specification to its
-intended audience. This in turn has made it impractical to begin user testing.
-Plans were in place to engage with the local escape room maintainers and show
-them the platform as part of user testing. These were made impractical by the
-lockdown orders, which jeopardise escape room businesses. As discussed in the
-chapter on the results of the project, changes could be made to the final
-product to cater for the changing nature of the industry in the face of the
-virus.
+The COVID-19 outbreak meant that escape rooms were completely closed to
+business. This made face-to-face contact with involved escape room maintainers
+impossible. Maintainers were not in a position to discuss student projects due
+to the situation, which is universally jeopardising business. I had already
+engaged with maintainers in person and online. It become impossible to follow
+this up meaningfully. It was impractical to change the project's focus at the
+point of the pandemic, so a decision was made to continue supporting the project
+for after the lockdown order had been lifted.
 
 ### Acknowledgements
 
