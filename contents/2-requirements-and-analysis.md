@@ -40,19 +40,31 @@ of puzzles that can be implemented. I chose to survey this group as it appeared
 to be a central hub for what seemed, to an outsider, to be a sparse online
 community. 
 
-From the seven responses received, the following conclusions were drawn:
+These results were found from the seven responses received:
 
-- The majority of the group already shares photos online, but those that do not
+- Four maintainers already shares photos online, but the remaining three
   are all interested by the prospect of it
 - Memberships, in-character communications, advertisement among other escape
-  rooms, and participant metrics are all of interest
-- Memberships are agreed upon by those interested as something that should not
-  be done without the involvement of technology
+  rooms, and participant metrics are all of interest to at least five members of
+  the group
+- Memberships are agreed upon by the five interested parties as something that
+  should not be done without the involvement of technology
+- Ease of use *always* influences each maintainer's decision when investing in
+  technical solutions to problems
+- Reliability *always* influences all bar one of the group's decisions in the
+  above
 
-Comments of note included that use of technology in escape rooms is
-*"limit[ed]/eliminate[d]"* due to loss of revenue in the event of failure without
-failover - *"dependability and available work around (sic)"* were agreed to be of importance. Additionally, investment in technology as a showpiece is avoided as
-*"each room only lasts 1-[1.5] years"* in that particular offering.
+Notable comments included that one maintainer sought to *"strictly
+limit/eliminate the use of"* technology in their escape rooms. The following
+reasoning was given for these decisions:
+
+- *"Losing revenue"* in the event of failure without failover. Another
+  maintainer agreed that *"dependability and available work around (sic)"* were
+  agreed to be of importance.
+- *"Each room only lasts 1-1½ years"*, meaning investment in technology as
+  a showpiece is avoided in that particular offering. Generally, *"[the
+  maintainers] do not invest as much into props unless they can be reused
+  in another game"*.
 
 I was able to elicit a direction from these conclusions - the idea of a social
 network shared by escape room maintainers and enthusiasts allowed me to
