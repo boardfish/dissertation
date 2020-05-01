@@ -1,12 +1,13 @@
 # Literature Survey
 
+This chapter uses relevant literature to discuss the nature of escape rooms' use
+of technology. The survey identifies factors such as reliability and
+inspirations such as asynchronous gameplay. These go on to form guidance for
+strong implementations of technology in escape rooms.
+
 ## Process
-<!-- TODO: how did you go about the lit review? it was a mini-project of its own, after all -->
 
-### Keywords
-
-The following keywords were identified for use in the search. The search was
-conducted using the Google Scholar search engine.
+The following keywords were identified for use in the search. 
 
 - escape room / puzzle hunt
 - maintainer / owner / host
@@ -26,9 +27,14 @@ This led to the following searches.
 - virtual reality escape room
 - portable escape room
 
-Additional searches were made based on discoveries such as escapED
+The search was conducted using the Google Scholar search engine. Approximately
+40 results from each search were checked. On this basis, approximately 320
+papers were explored, not accounting for overlap.
+
+Some additional searches were made based on discoveries such as escapED
 [@clarke2016escaped] and Breakout EDU @breakoutedu to see where they had been
-applied.
+applied. The white paper by @nicholson2015peeking proved to be a key point of
+reference across much of the relevant literature.
 
 ## Survey
 
