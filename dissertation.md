@@ -85,11 +85,11 @@ Escape rooms are physical, interactive experiences in which a group of
 participants must solve puzzles to escape a locked room, solve a mystery, or
 otherwise meet some goal in a particular timespan.
 <!-- - explain content -->
-This project aimed to build a tool primarily to serve the needs of escape room
-maintainers. Though the original brief expressed intent to craft a networked
-solution for use within the escape room itself, research and scope changed this
-focus. Instead, a web application was developed as a social network between
-escape room maintainers and enthusiasts.
+The primary aim of this project is to build a tool for escape room maintainers.
+The original brief expressed intent to craft a networked solution for use within
+the escape room itself. Subsequently, this focus was changed by the literature
+review. The end product is a web application functioning as a social network
+between escape room maintainers and enthusiasts.
 <!-- - explain highlights -->
 The final product is built with industry-standard knowledge, principles, tools
 and best practices amassed during the degree programme. 
