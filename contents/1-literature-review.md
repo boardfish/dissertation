@@ -66,12 +66,13 @@ typical escape room, which serves teams of an average size of 4.58 people
 
 <!-- General introduction to argument -->
 
-Escape room maintainers apply technology to varying degrees, both inside and
+Escape room maintainers apply technology in varying ways, both inside and
 outside the experience. On the outside of the escape room experience,
 maintainers implement leaderboards, share team photos to social media, and
-interact with the team via a screen or handheld transceiver in the room. Entire
-puzzles are driven by technology in rooms that integrate it comfortably. Some
-more inventive applications within the room are also possible; *[The
+interact with the team via a screen or handheld transceiver in the room. Inside
+the room, entire puzzles are driven by technology in rooms that integrate it
+comfortably, and it can drive visual effects such as lasers and smoke. These
+implementations can be inventive and support rooms in novel ways; *[The
 Gallery](https://escapist.nl/en/)* (visited in July 2019) uses a hidden camera
 to take a photo of attendees, applies filters, and displays the photo among
 works of art. However, there is a general aversion to the use of technology in
