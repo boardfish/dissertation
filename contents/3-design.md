@@ -113,30 +113,42 @@ Auth0 Inc. - puts it in far safer hands.
 
 \pagebreak
 
-## Rich Text
+## Content Input and Presentation
 
-My intent from the offset was to allow escape game maintainers a strong degree
-of control over their profile, with the intent that much of the data could be
-used by enthusiasts for filtering. This would allow them to find escape games to
-suit them. Part of this was allowing them to submit a rich-text description for
-their room, including text formatting and links. The aim here was to take
-inspiration from [Kickstarter](https://kickstarter.com), which allows rich-text
-descriptions that campaign runners use to good effect with images acting as
-subtitles.
+It was a priority to allow escape game maintainers a strong degree of control
+over their profile through intuitive means. They would be able to make their
+escape game more visible on the site through searches by entering details such
+as its relative difficulty and location. In particular, a rich text description
+was identified as an essential feature that would help maintainers to make
+listings that accurately represent their escape games.
+
+This would include both text formatting and external links. Inspiration was
+taken from [Kickstarter](https://kickstarter.com), a crowdfunding site which
+allows rich-text descriptions. Campaign runners use these to good effect with
+inline images acting as headings. Inline images were decided to be out of scope
+during development, but rich text was still essential.
 
 ![A rich-text description from Kickstarter, showcasing use of bold text and
 inline images with captions. Playtonic Games, viewed on April 17, 2020
 "Yooka-Laylee - A 3D Platformer Rare-vival!" (Screenshot by
 author)](kickstarter.png){ width=50% }
 
-@ovadia2014markdown thoroughly describes use and benefits of Markdown in a
-variety of contexts. In selection of Markdown as the engine to drive rich text
-for Blacklight, it was strongly acknowledged that users may find learning
-Markdown "prohibitively difficult". However, Markdown is employed on blogging
+Rails delivers rich text inputs and storage through its ActionText extension,
+which was included in version 5. Restrictions on access to ActionText features
+were not identified - such restrictions would be vital in ensuring a level
+playing field on the site for all maintainers. ActionText was thus foregone in
+favour of Markdown. 
+
+In selection of Markdown as the engine to drive rich text for Blacklight, it was
+strongly acknowledged that users may find learning Markdown "prohibitively
+difficult" [@ovadia2014markdown]. However, Markdown is employed on blogging
 sites such as Tumblr, Reddit and WordPress [@ovadia2014markdown], with which I
-expected escape room maintainers may have some familiarity. Though I could not
-devote time to building a fully-fledged Markdown editor as a React component, I
-endeavoured to build a usable approach with a live preview and a link to a
-Markdown guide for those unfamiliar with it.
+expected escape room maintainers may have some familiarity.
+
+A minimal, yet inuitive, approach was built. A key feature of these was the live
+preview, which showed users how their input would be rendered on
+`escape_game#show` for their escape room. A link to [CommonMark's guide to
+Markdown](https://commonmark.org/help/) is shown beside the input field, which
+gives a quick overview of Markdown syntax.
 
 <!-- TODO: live preview screenshot -->
