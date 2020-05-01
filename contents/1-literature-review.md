@@ -3,7 +3,9 @@
 This chapter uses relevant literature to discuss the nature of escape rooms' use
 of technology. The survey identifies factors such as reliability and
 inspirations such as asynchronous gameplay. These go on to form guidance for
-strong implementations of technology in escape rooms.
+strong implementations of technology in escape rooms. The definition of escape
+rooms was covered in the introduction; this chapter explores them in further depth.
+
 
 ## Process
 
@@ -38,16 +40,15 @@ reference across much of the relevant literature.
 
 ## Survey
 
-Escape rooms are run both by enthusiasts as solo ventures, and as
-franchises across the country. Nicholson [-@nicholson2015peeking] documents
-escape rooms as the culmination of a variety of media. He identifies
-puzzle hunts as team-based problem-solving challenges<!-- TODO: is this a quote?
--->, which, with treasure hunts, appears most similar to escape rooms. Various
-others have lent features to escape rooms, such as immersion in a story as the
-*"hero"*, which @duplessie2013go reports as being something enthusiasts enjoy.
-This is embodied by live-action roleplaying, another inspiration for the genre
-[@nicholson2015peeking]. Nicholson presents the precursors to escape rooms in
-further depth in his paper - Figure 2.1 summarises these.
+In order to explore the priorities of escape rooms, it can be useful to first
+study their history. Nicholson [-@nicholson2015peeking] documents escape rooms
+as the culmination of a variety of media. He identifies puzzle hunts as
+team-based problem-solving challenges<!-- TODO: is this a quote? -->, which,
+with treasure hunts, appears most similar to escape rooms. Live-action
+roleplaying (LARP) is another such inspiration [@nicholson2015peeking]. Both
+escape rooms and LARP can provide entertainment through immersion in a story as
+the *"hero"* [@duplessie2013go]. Nicholson presents the precursors to escape
+rooms in further depth in his paper - Figure 2.1 summarises these.
 
 ![Nicholson (2019) presents the precursors to, and inspirations for, the escape
 room phenomenon in this diagram. Adapted with permission from Nicholson, Scott.
@@ -65,46 +66,44 @@ typical escape room, which serves teams of an average size of 4.58 people
 
 <!-- General introduction to argument -->
 
-Escape room maintainers are able to apply technology to varying degrees. On the
-outside of the escape room experience, maintainers implement leaderboards, share
-team photos to social media, and interact with the team via a screen or handheld
-transceiver in the room. Inside the room, entire puzzles can be based on
-technology, if the maintainer has the necessary expertise. Some more unique
-applications within the room are also possible, such as using a hidden camera to
-take a photo of the team, apply filters, and display the photo among works of
-art as demonstrated in *[The Gallery](https://escapist.nl/en/)* (visited
-in July 2019). However, there is a general aversion to the use of technology in
-escape rooms, for a variety of reasons. @liam2019 suggests that the time
-investment, reliability, and necessary expertise are some of the greatest
-contributing factors.
+Escape room maintainers apply technology to varying degrees, both inside and
+outside the experience. On the outside of the escape room experience,
+maintainers implement leaderboards, share team photos to social media, and
+interact with the team via a screen or handheld transceiver in the room. Entire
+puzzles are driven by technology in rooms that integrate it comfortably. Some
+more inventive applications within the room are also possible; *[The
+Gallery](https://escapist.nl/en/)* (visited in July 2019) uses a hidden camera
+to take a photo of attendees, applies filters, and displays the photo among
+works of art. However, there is a general aversion to the use of technology in
+escape rooms, for a variety of reasons.
 
-<!-- Reliability Vs. immersion -->
+In discussion with @liam2019, it was suggested that the time investment,
+reliability, and necessary expertise are some of the greatest contributing
+factors against the use of technology in escape rooms. Reliability particularly
+guides this; a break in the flow of the escape room experience can shatter
+participants' immersion and lead to negative reviews [@liam2019]. Application of
+technology in escape rooms thus brings with it some uncertainty.
 
-Reliability is one of the strongest factors in an escape room maintainer's
-decision to apply technology. Application of technology in escape rooms comes
-with some uncertainty, and a break in the flow of the escape room experience can
-shatter participants' immersion and lead to negative reviews [@liam2019].
 Immersion can be defined as captivating the participant and making them feel
 invested in a situation or story. It can be achieved through the use of
-theatrics such as special effects, acting, props, and room design.
-
-In his example, @duplessie2013go creates immersion through sound and steam to
-cover for his room's rotating mechanic - distracting the participants from this
-gives a sense of reality to the situation they are in, immersing them in the
-environment and story fully. DuPlessie is critial of digital, rather than
-physical, interaction in escape rooms, citing the importance of immersion, and
-recommends movement away from what he calls the *"glowing rectangles"* as our
-medium of choice.
+theatrics such as special effects, acting, props, and room design. In his
+example, @duplessie2013go creates immersion through sound and steam to cover for
+his room's rotating mechanic - distracting the participants from this gives a
+sense of reality to the situation they are in, immersing them in the environment
+and story fully. DuPlessie is critial of digital, rather than physical,
+interaction in escape rooms, citing the importance of immersion, and recommends
+movement away from what he calls the *"glowing rectangles"* as our medium of
+choice.
 
 <!-- Why physical interaction gets scrapped -->
 
-Physical interaction is often forgone in favour of making escape rooms easy to
-reset to their initial state. It can be considered a foundation point of many
-escape rooms - 70% of escape rooms employ a search for physical objects as part
-of the experience [@nicholson2015peeking]. However, temporary escape rooms,
-particularly those used in the classroom, tend to forgo this for various
-reasons. In discussing this, the apparent necessity for physical interaction in
-escape games can be broken down.
+Physical interaction can be considered a foundation point of many escape rooms -
+70% of escape rooms employ a search for physical objects as part of the
+experience [@nicholson2015peeking]. However, temporary escape rooms,
+particularly those used in the classroom, tend to forgo this. Rooms of this
+nature may prioritise having multiple participating groups in the room at one
+time. They may also use less props in order to cut down on the time it takes to
+reset the room.
 
 A study by @lopezuse organised its puzzles in a manner whereby puzzles
 could be completed in any order, allowing multiple groups to attend the room at
@@ -133,10 +132,9 @@ which they can be implemented. As such, these factors make them difficult to
 implement with repeat effectiveness across different escape rooms.
 
 @rouse2017lessons applied the idea of using a computer in the classroom using a
-game loaded from a memory stick. This application seems understandable; Rouse's
-audience was likely to have some basic level of expertise in, and enthusiasm
-for, handling computers as part of the digital native generation. Though never
-directly stated, they can be assumed to be under 18. In practice, this
+game loaded from a memory stick. This application seems understandable; assuming
+a younger audience, students would be likely to have some basic level of
+expertise in, and enthusiasm for, handling computers. However, in practice, this
 application of technology brings to mind the image of a small group of people
 crowding around a screen, embodying a negative example in following this law of
 visibility.
@@ -155,24 +153,26 @@ objects to create new tools for use in their escape.
 These forms of escape room can be reset instantly by resetting the game. Whether
 this is done by restarting an attempt, restarting the game, or removing save
 files and starting over, it is often trivial compared to how long it takes to
-reset escape rooms. @liam2019 explains that resetting physical escape rooms can
-often take as long as 15 minutes, and that it is something escape room
-maintainers seek to optimise; the shorter a reset takes, the more time is
-available to welcome customers.
+reset escape rooms. In discussion with @liam2019, he established that resetting
+physical escape rooms can often take as long as 15 minutes, and that it is
+something escape room maintainers seek to optimise; the shorter a reset takes,
+the more time is available to welcome customers.
 
 Quick resets are a priority in many different situations. Tuzak develops
-portable escape games that are run in shopping centres [@gunduz2018preventing] -
-the move to shopping centres, made as part of their blue ocean strategy, was
-likely chosen in an effort to capture new customers, making it all the more
-important that the room could be reset quickly. Several studies cover the use of
-escape rooms as a means for education [@lopezuse; @rouse2017lessons;
-@peleg2019lab; @beguin2019computer] In particular, the previously-mentioned
+portable escape games that are run in shopping centres [@gunduz2018preventing].
+Their choice to move to shopping centres was likely made in an effort to capture
+new customers, making it all the more important that the room could be reset
+quickly. Several studies cover the use of escape rooms as a means for education
+[@lopezuse; @rouse2017lessons; @peleg2019lab; @beguin2019computer], which would
+also prioritise this to fit within timetabled school hours. The aforementioned
 application by @lopezuse allowed multiple groups to tackle the escape rooms at
 the same time by removing the need to reset puzzles entirely.
 
 <!-- VR -->
 
-@liam2019 theorises that virtual reality (VR) escape rooms such as *[EXIT
+The field of virtual reality is capable of creating escape rooms that bridge the
+boundary between the digital (e.g. *Myst*) and the physical. @liam2019 theorises
+that virtual reality (VR) escape rooms such as *[EXIT
 VR](https://exit-vr.de/en/)* may be the next stage for the industry, which allow
 immersive rooms to be created while effectively eliminating the issue of
 resetting the room as above. This would bring the escape room cycle full circle,
