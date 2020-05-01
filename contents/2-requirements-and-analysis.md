@@ -18,27 +18,27 @@ work. For a design project it is appropriate to consider testing at the same
 time as specification.
 -->
 
-The objective of the project was to build a tool for the escape room community.
-The exact form in which this would come was to be dictated by the nature of the
-problem - if the scenario called for a tool that would be active inside escape
-rooms themselves, it would have been more likely to be hardware. At the initial
-stage, this was the intent - a set of networked microcontrollers/SoCs that would
-unite to track the escape room experience - but this was abandoned. The idea of
-building an escape room, even in the form of a prototype, was out of scope.
-Additionally, @liam2019 warned that digital uptake in traditional escape rooms
-may be middling due to the inherent risk and time involvement, as discussed in
-the literature survey.
+The initial specification for the project was a set of networked
+microcontrollers/SoCs that would unite to track the escape room experience. This
+was abandoned as the idea of building an escape room, even in the form of a
+prototype, was out of scope. To seal this decision, my literature survey
+concluded digital uptake in escape rooms may be middling due to the inherent
+risk and time involved.
 
 To find some insight into the challenges escape room maintainers face, I met
-with Liam Woff on the 20th November. Liam and I discussed some areas that could
-be targeted, which inspired a survey I sent to the Facebook group created by
-@nicholson2015peeking. This group is for escape room enthusiasts, of which a
-subset are maintainers. I sought and gained access to the group as part of my
-work. The majority of posts during research were from enthusiasts who would
-report back from rooms they have attended, though I have seen posts about types
-of puzzles that can be implemented. I chose to survey this group as it appeared
-to be a central hub for what seemed, to an outsider, to be a sparse online
-community. 
+with Liam Woff on the 20th November. Woff maintains The Lockup Escape Rooms in
+Sheffield, and had around two years' experience in donig so at that time. We
+discussed some areas that could be targeted and some ideas that I had previously
+prepared. This would go on to inspire a survey I would distribute to the wider
+community of maintainers.
+
+The survey used the ideas Woff and I had discussed, reinforced by our
+discussion.  The Facebook group created by @nicholson2015peeking would serve as
+the audience for the survey. This group is for escape room enthusiasts, and
+includes a smaller number of maintainers.I chose to survey this group as it
+appeared to be a central hub for what seemed, to an outsider, to be a sparse
+online community. The survey needed to be agreed to by the group moderators
+before being sent out. 
 
 These results were found from the seven responses received:
 
@@ -61,10 +61,10 @@ reasoning was given for these decisions:
 - *"Losing revenue"* in the event of failure without failover. Another
   maintainer agreed that *"dependability and available work around (sic)"* were
   agreed to be of importance.
-- *"Each room only lasts 1-1½ years"*, meaning investment in technology as
-  a showpiece is avoided in that particular offering. Generally, *"[the
-  maintainers] do not invest as much into props unless they can be reused
-  in another game"*.
+- *"Each room only lasts 1-1½ years"*, reducing the maintainer's budget for
+  props for each room. *"[The maintainers] do not invest as much into props
+  unless they can be reused in another game"*, meaning investment in technology
+  as a showpiece is generally avoided in that particular offering.
 
 I was able to elicit a direction from these conclusions - the idea of a social
 network shared by escape room maintainers and enthusiasts allowed me to
