@@ -101,7 +101,7 @@ The COVID-19 outbreak meant that escape rooms were completely closed to
 business. This made face-to-face contact with involved escape room maintainers
 impossible. Maintainers were not in a position to discuss student projects due
 to the situation, which is universally jeopardising business. I had already
-engaged with maintainers in person and online. It become impossible to follow
+engaged with maintainers in person and online. It became impossible to follow
 this up meaningfully. It was impractical to change the project's focus at the
 point of the pandemic, so a decision was made to continue supporting the project
 for after the lockdown order had been lifted.

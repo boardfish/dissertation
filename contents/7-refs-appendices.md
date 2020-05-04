@@ -9,7 +9,7 @@
 
 \pagebreak
 
-## Appendix I: initial requirements
+## Appendix I: Initial Requirements
 
 \blandscape
 

@@ -67,11 +67,11 @@ appear to the left of the list in a singular photo gallery.
 ![Blacklight's Explore view as at commit `87a35f25`. Seed data used in this
 screenshot uses screenshots from *Super Smash Bros. Ultimate*.\label{explore-view}](blacklight-explore.png)
 
-Users have profiles (Figure \ref{profile-view}) on which they can write a bio, set their
-location, and link to their own website. Here, those interested can see all
-escape games by a single maintainer, and all escape games cleared by a user.
-Which of these is shown depends on whether they have self-assigned as a
-maintainer, enthusiast, or both.
+Users have profiles (Figure \ref{profile-view}) on which they can write a bio,
+set their location, and link to their own website. Here, those interested can
+see all escape games by a maintainer, and all escape games cleared by an
+enthusiast. Which of these is shown depends on whether the user being viewed has
+self-assigned as a maintainer, enthusiast, or both.
 
 ![Blacklight's profile view as at commit `87a35f25` from the perspective of a
 user who is a maintainer. Seed data used in this screenshot uses screenshots
@@ -86,8 +86,9 @@ Were Blacklight to be released, I would encourage its use in the following ways:
 - Linking to escape games during discussion and recommendations on other
   platforms
 - After completion, marking an escape game as cleared and uploading photos
-  directly to the site
+  directly to the site to commemorate the experience
 - Showing records of escape games cleared, and the associated photos, to others
+  in person or online
 
 ## Discussion
 
@@ -112,8 +113,8 @@ Docker layer caching. I was alerted to a potentially more suitable option in
 GitHub Actions, which would have alleviated both woes - with 3,000 free minutes
 of running available under my current GitHub plan, I would have been able to run
 somewhere over 400 builds at the average rate per month, which I expect would
-have been more than enough. For comparison, I have run 201 builds against
-CircleCI at the time of writing.
+have been more than enough. For comparison, development completed with 234
+builds in total.
 
 I recognise that my focus towards industry as opposed to academia complicated
 the process and used much of my available time. Some might also say that my

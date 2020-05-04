@@ -26,7 +26,7 @@ form greater wholes.
 This is best expressed with an example. A component classed as an atom would be
 a `div` with its inner text mapped to its state and passed in through props - it
 does not control or communicate with any other components. A molecule may
-containthis element and a `button` that, when clicked, changes the state of the
+contain this element and a `button` that, when clicked, changes the state of the
 controllable `div` to something predefined. While Atomic Design in full uses a
 five-level hierarchy - atoms, molecules, organisms, templates, and pages - I
 did not employ organisms or templates in my use of the methodology.
@@ -39,10 +39,9 @@ ascertain what should be an atom and what should be a molecule. In the final
 codebase, some components are considered atoms where they should be molecules.
 
 Atoms were designed with the intent of taking in one or several Rails objects as
-props, and representing those. They would not use asynchronous calls to APIs.
-Molecules would comprise atoms, and in some specific cases use API calls to
-retrieve the objects to display. Both of these would be used for rendering as
-part of a page by the Rails templating engine.
+props, and representing those. Molecules would comprise atoms, and in some
+specific cases use API calls to retrieve the objects to display. Both of these
+would be used for rendering as part of a page by the Rails templating engine.
 
 I was introduced to the concept by an internal development team during my year
 in industry. Personal projects I have taken on in React thus far were all in
@@ -58,11 +57,11 @@ my year in industry, I gained a thorough knowledge of it. Other options explored
 included Dex, ORY Hydra, and Auth0. Auth0 differs in that it is authentication
 as a service - it hosts its own authentication instance for one to use and
 manage through their platform. The rest are self-hosted. Self-hosting was a
-trade-off I almost immediately acknowleged - control and convenience were in the
+trade-off I almost immediately acknowledged - control and convenience were in the
 balance. Though I would usually elect to favour the first option, convenience
 and stability drove my decision.
 
-| Option            | SaaS?      | Documentation | Frontend   | Devise compatibility        |
+| Option            | SaaS?      | Documentation | Provides frontend?   | Devise compatibility        |
 |-------------------|------------|---------------|------------|-----------------------------|
 | ORY Hydra         | No         | Good          | No         | `omniauth_openid_connect`   |
 | Keycloak          | No         | Familiar      | Yes        | `omniauth_openid_connect`   |
@@ -81,8 +80,9 @@ software architecture perspective. If the developer is responsible for
 self-hosting the solution, they should be able to diagnose problems with the
 database. They should also be able to optimise its performance not just through
 additional resource, but through manual changes such as indexing. Conversely,
-Devise's user model is dictated by what the user generates, and can be changed
-in line with other Rails models, making it preferable.
+Devise's user model is dictated by what the user generates, and the
+corresponding database table can be changed in line with other Rails models,
+making it preferable.
 
 Hydra presents itself as being a thinner and faster alternative which does not
 serve its own frontend. This is positive, but demands that the developer create
@@ -146,7 +146,7 @@ difficult" [@ovadia2014markdown]. However, Markdown is employed on blogging
 sites such as Tumblr, Reddit and WordPress [@ovadia2014markdown], with which I
 expected escape room maintainers may have some familiarity.
 
-A minimal, yet inuitive, approach was built (Figure \ref{markdown-preview}).
+A minimal, yet intuitive, approach was built (Figure \ref{markdown-preview}).
 This used a live preview, which showed users how their input would be rendered
 on `escape_game#show` for their escape room. A link to [CommonMark's guide to
 Markdown](https://commonmark.org/help/) is shown beside the input field, which

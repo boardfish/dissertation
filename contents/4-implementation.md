@@ -28,9 +28,10 @@ Continuous integration tests code at each commit. I was able to configure
 CircleCI to build the Docker image used locally, and lint and test the code -
 this combined well with my use of the [GitHub
 Flow](https://guides.github.com/introduction/flow/), in which I would aim to get
-both tests and linting passing before merging. Towards the end of my development
-cycle, when I had deployed to Heroku, I would also run through a set of checkout
-testing steps I devised as a manual end-to-end regression test.
+both tests and linting passing before merging a development branch into the
+`master` branch. Towards the end of my development cycle, when I had deployed to
+Heroku, I would also run through a set of checkout testing steps I devised as a
+manual end-to-end regression test.
 
 ## Automated Testing
 
@@ -59,23 +60,33 @@ integration served to ensure that the `master` branch continued to pass and was
 stable.
 
 There were instances in which merging was delayed. CircleCI limits usage and
-fails all builds that fall outside a given quota. In these instances, I
-would either wait until my credits with CircleCI had reset and rerun the build,
-or trust that running the tests locally qualified instead and merge. In the
-event of a CI failure in an industry scenario, this would be discussed in the
-department - generally, CI serves as a strict gatekeep to `master`, so in the
-majority of cases, development departments would resolve not to merge to
-`master` until their CI server functioned again. Due to time constraints, I was
-not quite so strict around it.
+fails all builds that fall outside a given quota. In these instances, I would
+either wait until my credits with CircleCI had reset and rerun the build, or
+trust that running the tests locally qualified instead and merge. In the event
+of a CI failure in an industry scenario, this would be discussed in the
+development department - generally, CI serves as a strict gatekeep to `master`,
+so in the majority of cases, development departments would resolve not to merge
+to `master` until their CI server functioned again. Due to time constraints, I
+was not quite so strict around it.
+
+As I expected, this created a difficulty. With `master` having been changed
+without being monitored by regular CI runs, new issues had reached the branch -
+particularly, absence of the Rails master key meant that encrypted credentials
+couldn't be accessed during the application's initialisation cycle. I was able
+to fix this and proceed, but in an industry environment with several developers
+merging to `master`, this could have caused a significant slowdown in
+development due to potentially overlapping changes.
 
 Below, an example from `spec/controllers/clears_controller_spec.rb` is featured.
-These tests ensure that none other than the creator of a clear can edit it - the
-helper method `random_user`, when given an `owner`, selects or creates a user
-other than the `owner`. This user becomes what the tests call the
-`attacking_user` - they are signed in and try to act against the `Clear` record.
-Both instances should raise a `404` error. `404` is generally returned across
-Blacklight when the user does not have access to the record in question, and is
-given back in the instance of an `ActiveRecord::RecordNotFound` error.
+This is one of the automated tests in the application's RSpec suite, which is
+run by CircleCI at each commit. These tests
+ensure that none other than the creator of a clear can edit it - the helper
+method `random_user`, when given an `owner`, selects or creates a user other
+than the `owner`. This user becomes what the tests call the `attacking_user` -
+they are signed in and try to act against the `Clear` record. Both instances
+should raise a `404` error. `404` is generally returned across Blacklight when
+the user does not have access to the record in question, and is given back in
+the instance of an `ActiveRecord::RecordNotFound` error.
 
 ```ruby
 RSpec.describe ClearsController, type: :controller do
@@ -201,7 +212,7 @@ Check that the...
   destroyed
 - ...controllers work - i.e. Explore returns escape games if they exist. Create
   one if it does not exist and make sure that the list of escape games you own
-  on your user#show page works.
+  on your `user#show` page displays it.
 - ...JS views work - i.e. it is possible to remove images from a listing and
   have the corresponding table row disappear
 
@@ -217,8 +228,8 @@ submit. There are two parts to this:
 
 In Blacklight, this is done as follows:
 
-1. retrieving the object by way of a query that asks for it among only the
-   current user's escape games; returning a 404 status code otherwise
+1. retrieving the object by way of a query that asks for it among only those the
+   current user owns; returning a 404 status code otherwise
 2. setting the object's associated user to the current user
 
 On its own, the second part of my solution would be insecure. The more standard

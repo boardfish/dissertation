@@ -6,10 +6,10 @@ inspirations such as asynchronous gameplay. These go on to form guidance for
 strong implementations of technology in escape rooms. The definition of escape
 rooms was covered in the introduction; this chapter explores them in further depth.
 
-
 ## Process
 
-The following keywords were identified for use in the search. 
+The following keywords were identified for use when searching for material to
+reference and discuss in the literature survey. 
 
 - escape room / puzzle hunt
 - maintainer / owner / host
@@ -43,12 +43,13 @@ reference across much of the relevant literature.
 In order to explore the priorities of escape rooms, it can be useful to first
 study their history. Nicholson [-@nicholson2015peeking] documents escape rooms
 as the culmination of a variety of media. He identifies puzzle hunts as
-team-based problem-solving challenges<!-- TODO: is this a quote? -->, which,
-with treasure hunts, appears most similar to escape rooms. Live-action
-roleplaying (LARP) is another such inspiration [@nicholson2015peeking]. Both
-escape rooms and LARP can provide entertainment through immersion in a story as
-the *"hero"* [@duplessie2013go]. Nicholson presents the precursors to escape
-rooms in further depth in his paper - Figure 2.1 summarises these.
+team-based problem-solving challenges. Treasure hunts and generic team-based
+problem-solving challenges, such as those used in corporate team-building
+exercises, appear most similar to escape rooms. Live-action roleplaying (LARP)
+is another such inspiration [@nicholson2015peeking]. Both escape rooms and LARP
+can provide entertainment through immersion in a story as the *"hero"*, a factor
+that players enjoy [@duplessie2013go]. Nicholson presents the precursors to
+escape rooms in further depth in his paper - Figure 2.1 summarises these.
 
 ![Nicholson (2019) presents the precursors to, and inspirations for, the escape
 room phenomenon in this diagram. Adapted with permission from Nicholson, Scott.
@@ -100,11 +101,10 @@ choice.
 
 Physical interaction can be considered a foundation point of many escape rooms -
 70% of escape rooms employ a search for physical objects as part of the
-experience [@nicholson2015peeking]. However, temporary escape rooms,
-particularly those used in the classroom, tend to forgo this. Rooms of this
-nature may prioritise having multiple participating groups in the room at one
-time. They may also use less props in order to cut down on the time it takes to
-reset the room.
+experience [@nicholson2015peeking]. However, escape rooms in the classroom tend
+to forgo this. Rooms of this nature may prioritise having multiple participating
+groups in the room at one time. They may also use less props in order to cut
+down on the time it takes to reset the room.
 
 A study by @lopezuse organised its puzzles in a manner whereby puzzles
 could be completed in any order, allowing multiple groups to attend the room at
@@ -148,26 +148,29 @@ inspire change in escape rooms by targetting the time it takes to reset a room
 back into a playable state. Escape rooms and technology are inherently linked -
 digital escape-the-room games such as *Myst* precede and inspire physical escape
 rooms [@nicholson2015peeking]. In these games, partipicants solve similar
-puzzles through digital means, sometimes applying and combining an inventory of
-objects to create new tools for use in their escape.
+puzzles within the limits of the player-character's capabilities, applying and
+sometimes combining an inventory of objects to create new tools for use in their
+escape.
 
-These forms of escape room can be reset instantly by resetting the game. Whether
-this is done by restarting an attempt, restarting the game, or removing save
-files and starting over, it is often trivial compared to how long it takes to
-reset escape rooms. In discussion with @liam2019, he established that resetting
-physical escape rooms can often take as long as 15 minutes, and that it is
-something escape room maintainers seek to optimise; the shorter a reset takes,
-the more time is available to welcome customers.
+These forms of escape room can be reset instantly by simply resetting the game.
+Whether this is done by restarting an attempt or restarting the program itself,
+it is often trivial compared to how long it takes to reset escape rooms. In
+discussion with @liam2019, he established that resetting physical escape rooms
+can often take as long as 15 minutes, and that it is something escape room
+maintainers generally seek to optimise; the shorter a reset takes, the more time
+is available to welcome customers.
 
-Quick resets are a priority in many different situations. Tuzak develops
-portable escape games that are run in shopping centres [@gunduz2018preventing].
-Their choice to move to shopping centres was likely made in an effort to capture
-new customers, making it all the more important that the room could be reset
-quickly. Several studies cover the use of escape rooms as a means for education
-[@lopezuse; @rouse2017lessons; @peleg2019lab; @beguin2019computer], which would
-also prioritise this to fit within timetabled school hours. The aforementioned
-application by @lopezuse allowed multiple groups to tackle the escape rooms at
-the same time by removing the need to reset puzzles entirely.
+Quick resets are a priority in many different situations. A Turkish company,
+Tuzak, develops portable escape games that are run in shopping centres
+[@gunduz2018preventing]. Their choice to move to shopping centres was likely
+made in an effort to capture new customers, making it all the more important
+that the room could be reset quickly. Several studies cover the use of escape
+rooms as a means for education [@lopezuse; @rouse2017lessons; @peleg2019lab;
+@beguin2019computer], which would also prioritise this to fit within timetabled
+school hours. The aforementioned application by @lopezuse allowed multiple
+groups to tackle the escape rooms at the same time by removing the need to reset
+puzzles entirely - students needed to combine the solutions to puzzles on
+different worksheets to complete the room.
 
 <!-- VR -->
 
@@ -197,40 +200,43 @@ simulation. This misunderstanding could be attributed to how crouching in video
 games works - it is most often toggled by, or activated by holding, a button
 input. While @smith2009using acknowledges the *"built-in capability for higher
 levels of actual human–computer interaction than traditional video games"*, this
-boundary should not be ignored.
+boundary should not be ignored as the escape room industry explores VR.
 
-While the escape room industry cautiously explores the *"glowing rectangles"*
+While the escape room industry investigates the *"glowing rectangles"*
 @duplessie2013go warns against, the video games industry that lent it
 inspiration sometimes takes small strides to recede from them. This has resulted
 in concepts that escape rooms, and interactive experiences of all kinds, can
 learn from. [*Keep Talking and Nobody Explodes*](https://keeptalkinggame.com/)
 focuses on asynchronous gameplay, in which one player must defuse a bomb while
 the others guide them using the [bomb's manual](https://bombmanual.com).
-Conceptually, the game shares fundamentals with escape rooms, but what is of
-most importance to the point is that the foremost task in the game is
-communication, encouraged by its asynchronous gameplay. Escape rooms already
-apply asynchronous gameplay - The Lockup Escape Rooms' *Meltdown* [@liam2019]
-begins with most of the party in individual chambers, with the designated
-'leader' communicating from outside - but *Keep Talking and Nobody Explodes*
-demonstrates that with technology, it is possible in almost any location.
+Conceptually, the game shares fundamentals with escape rooms - players work
+together to solve puzzles through logic and communication. The communication
+aspect is of most importance to this point: the game's asynchronous gameplay
+depends on communication for success. Escape rooms already apply asynchronous
+gameplay - The Lockup Escape Rooms' *Meltdown* [@liam2019] begins with most of
+the party in individual chambers, with the designated 'leader' communicating
+from outside - but *Keep Talking and Nobody Explodes* demonstrates that with
+technology, it is possible in almost any location through the use of portable
+platforms like the Oculus Quest or Nintendo Switch.
 
 [*1-2-Switch*](https://www.nintendo.co.uk/Games/Nintendo-Switch/1-2-Switch-1173186.html)
 similarly pulls away from the screen, with the majority of its minigames relying
-on what is done physically with the Joy-Con controller and instructing players
-to face their opponent directly. It is an effective example of how to apply
-technology in a way that does not lock singular players into staring at a
-screen. Such examples as these can serve as positive influences in escape room
-development.
+on what is done physically with the Joy-Con controller. Players are often
+instructed to face their opponent directly, and may rely on audio cues and/or
+precise vibration in the Joy-Con during gameplay. It is an effective example of
+how to apply technology in a way that does not lock singular players into
+staring at a screen. Such examples as these can serve as positive influences in
+escape room development.
 
 In summary, technology brings a variety of benefits, from quick resets when used
-as part of a puzzle to interesting and reactive ideas that may not otherwise be
-possible. Many ideas and inspirations have been discussed here. The strength of
-escape rooms as an educational tool has also been demonstrated here, which is
-worth consideration when building for the escape room industry. However, there
-is a debate as to whether the use of technology in escape rooms is always a
-viable option. Escape room maintainers value reliability, with negative reviews
-being the consequence for ill implementation [@liam2019]. One of the greatest
-points of contention is immersion. Care must be taken to ensure that if the
+as part of a puzzle to novel ideas that may not otherwise be possible. Many
+ideas and inspirations have been discussed here. The strength of escape rooms as
+an educational tool has also been demonstrated here, which is worth
+consideration when building for the escape room industry. However, there is a
+debate as to whether the use of technology in escape rooms is always a viable
+option. Escape room maintainers value reliability, with negative reviews being
+the consequence for ill implementation [@liam2019]. One of the greatest points
+of contention is immersion. Care must be taken to ensure that if the
 implementation separates one player from the group, it is applied in an engaging
 manner. Excessive reliance upon screens is something that should be avoided in
 the name of immersion.
@@ -241,5 +247,5 @@ escape room. However, it is clear that technology can advance escape rooms with
 careful implementation. In particular, it can be used outside of the experience
 itself in matters such as booking rooms, keeping a leaderboard, or advertising
 through social media or otherwise. This research goes on to define the latter of
-these as a feature of interest to maintainers, particularly when technology is
+these as a feature of interest to maintainers, particularly where technology is
 applied.

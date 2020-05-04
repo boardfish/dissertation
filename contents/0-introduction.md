@@ -62,24 +62,24 @@ a firm interest in them, regardless of their degree of experience.
 
 ---
 
+The escape room industry ranges from
+enthusiasts-turned-maintainers, who run singular escape rooms for small groups,
+to major companies such as SCRAP, which deliver escape games to dozens, if not
+hundreds, of people. There are many varieties - escape rooms on permanent
+fixtures, portable escape games, and applications in education such as EscapED
+[@clarke2016escaped], to name a few. It is particularly notable that during the
+COVID-19 pandemic taking hold at the time of writing, maintainers are moving
+towards products that enthusiasts can use in their own homes.
+
 My goal in this project was to understand the needs of the commercial escape
 room industry, such that a product could be developed to remedy them. Such a
 product would aim to increase efficiency or expand the industry with new
-capabilities. The escape room industry has a wide variation of scale in
-application, from maintainers running singular escape rooms to major companies
-such as SCRAP delivering escape games to dozens, if not hundreds, of people. It
-also has varied contexts - escape rooms on permanent fixtures, portable escape
-games, and applications in education such as EscapED [@clarke2016escaped]. It
-can also be noted that during the COVID-19 pandemic taking hold at the time of
-writing, maintainers are moving towards products that enthusiasts can use in
-their own homes.
-
-With a strong understanding of this in mind, and feedback from the community
-itself, a product could then be designed and built to target some subset of
-these needs. These needs may be related to various issues, such as making sure
-a timer is visible to the participating group and maintainer, or to processes
-that currently take more time than necessary, such as posting photos of teams to
-social media [@liam2019].
+capabilities. With a strong understanding of this in mind, and feedback from the
+community itself, a product could then be designed and built to target some
+subset of these needs. These needs may be related to various issues, such as
+making sure a timer is visible to the participating group and maintainer, or to
+processes that currently take more time than necessary, such as posting photos
+of teams to social media [@liam2019].
 
 ## Research Questions
 
@@ -99,24 +99,23 @@ learned from modules such as *COM3505 Internet of Things*, should my solution
 have incorporated microcontroller hardware. In such an instance, I would likely
 have elected to use the ESP32 microcontroller out of familiarity.
 
-However, my approach has been influenced by learnings from software
-development-focused modules such as *COM1001 Introduction to Software
-Development* and *COM3420 Software Hut*. The concept of agile processes was
-introduced in the former, though my experience with *COM390 Year in Industry*
-presented this in a practical manner that more directly inspired my approach.
-The limited time available meant that many Rails best practices were not
-transferred through Software Hut - instead, many of these came through to me
-during my year in industry.
+My approach has, however, been influenced by modules from previous years.
+Particularly, my grounding in software development comes from modules such as
+*COM1001 Introduction to Software Development* and *COM3420 Software Hut*. The
+concept of agile processes was introduced in the former, though my experience
+with *COM390 Year in Industry* presented this in a practical manner that more
+directly inspired my approach. The limited time available in *COM3420 Software
+Hut* meant that many Rails best practices were not transferred through that
+module - instead, many of these came through to me during my year in industry.
 
 My approach was not reminiscent of the Scrum process used in my team last year.
 Instead, I elected to move towards use of Kanban, which would allow me to be
-more flexible with my priorities and adjust my principles in light of time
-constraints. This created a challenge for me. My work at UKCloud during *COM390
-Year In Industry* gave me a strong set of principles regarding software
-development, particularly as regards programming. I wished to include
+more flexible with my priorities in light of time constraints and changes. This
+created a challenge for me. My work during *COM390 Year In Industry* gave me a
+strong set of principles regarding software development - I wished to include
 industry-standard processes in my work, including continuous integration,
-vulnerability testing, and measurement of test coverage. While I was able to
-make efforts towards tackling the first two, I lament that I could not commit to
-any figure on test coverage, let alone track it. In essence, my experience
-during my year in industry widened the scope of my capabilities and priorities
-alike, but due to time constraints, I could not apply them to the fullest.
+vulnerability testing, and measurement of test coverage. Time constraints meant
+I needed to make compromises here - I could not ensure that automated tests
+covered a majority of the code, let alone track test coverage. In essence, my
+experience during my year in industry widened the scope of my capabilities and
+priorities alike, but I could not apply them to the fullest.
