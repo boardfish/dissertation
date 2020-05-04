@@ -19,14 +19,24 @@ choice of approach.
 In summary, [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
 serves as *"not a linear process, but rather a mental model to help us think of
 our user interfaces as both a cohesive whole and a collection of parts *at the
-same time*"* [@atomicdesign]. While Atomic Design in full uses a five-level
-hierarchy - atoms, molecules, organisms, templates, and pages - I employed three
-of these, of which two were expressed in React.
+same time*"* [@atomicdesign]. Atomic Design guides its users to classify
+components by their scale and function, promoting reuse of smaller components to
+form greater wholes.
 
-I was introduced to the concept by an internal development team during my year
-in industry. Personal projects I have taken on in React thus far were all in
-motion before I was introduced to this, so I saw Blacklight as an excellent
-opportunity to apply it.
+This is best expressed with an example. A component classed as an atom would be
+a `div` with its inner text mapped to its state and passed in through props - it
+does not control or communicate with any other components. A molecule may
+containthis element and a `button` that, when clicked, changes the state of the
+controllable `div` to something predefined. While Atomic Design in full uses a
+five-level hierarchy - atoms, molecules, organisms, templates, and pages - I
+did not employ organisms or templates in my use of the methodology.
+
+The rules of Atomic Design make it easier to enforce the Single Responsibility
+Principle [@martin2006agile] and segment code in a way that makes it more
+maintainable. This was the strongest factor in my decision to employ it.
+However, while it served useful in that regard, it was at times difficult to
+ascertain what should be an atom and what should be a molecule. In the final
+codebase, some components are considered atoms where they should be molecules.
 
 Atoms were designed with the intent of taking in one or several Rails objects as
 props, and representing those. They would not use asynchronous calls to APIs.
@@ -34,13 +44,10 @@ Molecules would comprise atoms, and in some specific cases use API calls to
 retrieve the objects to display. Both of these would be used for rendering as
 part of a page by the Rails templating engine.
 
-Atomic Design helped me to define a purpose and a set of rules for components
-that I created. I could limit the scope of a component with quicker
-self-justification if I could express that its capabilities should sit within
-certain bounds I had defined on principle. However, while it served useful in
-that regard, it was at times difficult to ascertain what should be an atom and
-what should be a molecule. <!-- FIXME: review -->In the final codebase, some
-components are considered atoms where they should be molecules.
+I was introduced to the concept by an internal development team during my year
+in industry. Personal projects I have taken on in React thus far were all in
+motion before I was introduced to this, so I saw Blacklight as an excellent
+opportunity to apply it.
 
 ## Choosing an Authentication Service
 
