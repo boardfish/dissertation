@@ -70,7 +70,10 @@ and stability drove my decision.
 | Auth0             | Yes        | Very good     | Yes        | `omniauth-auth0`            |
 | Devise (database) | No         | Very good     | Yes        | `:database_authenticatable` |
 
-<!-- TODO: Table name -->
+Table: Comparison of potential options. Regarding Devise compatibility,
+`:database_authenticatable` is an argument to `ActiveRecord::Model#devise`. The
+rest are Ruby gems (packages) that extend the OmniAuth protocol to provide
+support for those authentication methods.
 
 Keycloak dictates the database structure and must be talked to through its API.
 This leaves control out of the developer's hands, which is a problem from a

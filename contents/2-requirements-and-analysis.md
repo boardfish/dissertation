@@ -133,8 +133,6 @@ to a degree. In the end, the following deadlines were decided:
 ![A Gantt chart representing my set goals versus the final completion
 dates.](gantt-chart.svg)
 
-<!-- FIXME: Text not visible and the damn thing is an eyesore. -->
-
 After setting my focus, I decided my solution would take the form of a web
 application. Ruby on Rails was chosen as the development platform. The QOC
 analysis below was the source of this decision, in which I weighed up other
@@ -151,7 +149,7 @@ potential candidates such as Iron (Rust), ASP.NET MVC 5 (C#), and Next.js.
 | 66 | Iron | 1 | 2 | 1 | 5 | 3 | 1 | 1 | 4 |
 | 130 | Rails (React) | 4 | 4 | 5 | 5 | 5 | 3 | 5 | 4 |
 
-Table: QOC chart [@maclean1991questions] for choice of stack, with priority
+: QOC chart [@maclean1991questions] for choice of stack, with priority
 values and totals revealed.
 
 Originally, I weighed ERB and React against one another as view engines. This
