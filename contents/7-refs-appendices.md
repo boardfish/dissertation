@@ -47,3 +47,110 @@
 | S         | advertising    | maintainer  | use a markup language to write my profile                        | Titles, bolded sections, etc. can be shown with the correct formatting             | 5   |
 
 \elandscape
+
+## Appendix II: Escape Room Owner Survey
+
+\pagebreak
+
+**Eligibility**
+
+Please check if you are a member of the Escape Room Enthusiasts group on
+Facebook: https://www.facebook.com/groups/escaperoomenthusiasts   
+*Checkbox answer*
+
+Do you run/own an escape room?   
+*Option select answer*
+
+- *Yes*
+- *No*
+
+**Your Escape Room**
+*Please note that all questions are optional.*
+
+Please state the location of your escape room(s).   
+*Text entry answer*
+
+For how many years have you been working in the escape room industry?   
+*Option select answer*
+
+- *Less than 1 year*
+- *1 year*
+- *2 years*
+- *3 years*
+- *4 years*
+- *5 years or more*
+
+Which of the following features do you already offer as part of the escape room
+experience?   
+*Matrix answer*
+
+*Rows:*
+
+- *Leaderboard*
+- *Sharing photos with the community*
+- *Membership*
+- *In-character communication with the party before booking*
+- *Communication with the group during the session (e.g. timer,hints)*
+- *Metrics (e.g.: how long does it take for people to complete puzzles?)*
+- *Matching solo participants/small parties into groups*
+- *Advertisement among other escape rooms*
+
+*Columns:*
+
+- *Not offered*
+- *Interested in offering*
+- *Offered*
+
+Please provide any additional details with regards to the previous question
+here.   
+*Text entry answer*
+
+To which of the following features would/do you apply technology in your
+offering?   
+*Matrix answer*
+
+*Rows:*
+
+- *Leaderboard*
+- *Sharing photos with the community*
+- *Membership*
+- *In-character communication with the party before booking*
+- *Communication with the group during the session (e.g. timer, hints)*
+- *Metrics (e.g.: how long does it take for people to complete puzzles?)*
+- *Matching solo participants/small parties into groups*
+- *Advertisement among other escape rooms*
+
+*Columns:*
+
+- *I would not apply technology to this*
+- *I would apply technology to this*
+- *I currently apply technology to this*
+
+Please provide any additional details with regards to the previous question
+here.   
+*Text entry answer*
+
+Which factors influence your decision when investing in technical solutions to
+these problems?   
+*Matrix answer*
+
+*Rows:*
+
+- *Cost*
+- *Time taken to implement*
+- *Reliability*
+- *Ease of use*
+
+*Columns:*
+
+- *Never*
+- *Rarely*
+- *Sometimes*
+- *Often*
+- *Always*
+- *I don't know*
+
+Please name any other factors of importance not mentioned.   
+(In particular, I am interested to know whether they are a priority or
+significant benefit for your business.)   
+*Text entry answer*
