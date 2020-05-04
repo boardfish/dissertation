@@ -146,10 +146,11 @@ difficult" [@ovadia2014markdown]. However, Markdown is employed on blogging
 sites such as Tumblr, Reddit and WordPress [@ovadia2014markdown], with which I
 expected escape room maintainers may have some familiarity.
 
-A minimal, yet inuitive, approach was built. A key feature of these was the live
-preview, which showed users how their input would be rendered on
-`escape_game#show` for their escape room. A link to [CommonMark's guide to
+A minimal, yet inuitive, approach was built (Figure \ref{markdown-preview}).
+This used a live preview, which showed users how their input would be rendered
+on `escape_game#show` for their escape room. A link to [CommonMark's guide to
 Markdown](https://commonmark.org/help/) is shown beside the input field, which
 gives a quick overview of Markdown syntax.
 
-<!-- TODO: live preview screenshot -->
+![The Markdown preview field as at commit
+`fd1d6fd`.\label{markdown-preview}](markdown-preview.png)
