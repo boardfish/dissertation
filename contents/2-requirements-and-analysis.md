@@ -26,20 +26,20 @@ survey concluded that digital uptake in escape rooms may be middling due to the
 inherent risk and time involved.
 
 To find some insight into the challenges escape room maintainers face, I met
-with Liam Woff on the 20th November. Woff maintains The Lockup Escape Rooms in
-Sheffield, and had around two years' experience in doing so at that time. We
+with the maintainer of the Lockup Escape Rooms in Sheffield on the 20th
+November. They had around two years' experience in doing so at that time. We
 discussed some areas that could be targeted and some ideas that I had previously
 prepared. This would go on to inspire a survey I would distribute to the wider
 community of maintainers ([Appendix II][Appendix II: Escape Room Owner Survey]).
 
-The survey used the ideas Woff and I had discussed. The Facebook group created
-by @nicholson2015peeking would serve as the audience for the survey. It is for
-escape room enthusiasts worldwide, and includes a smaller number of maintainers.
-I chose to survey this group as it appeared to be a central hub for what seemed,
-to an outsider, to be a sparse online community. The survey needed to be agreed
-to by the group moderators before being sent out. Hearing the opinions of an
-escape room maintainer helped me to anticipate the potential results and begin
-planning. 
+The survey used the ideas The Lockup Escape Rooms and I had discussed. The
+Facebook group created by @nicholson2015peeking would serve as the audience for
+the survey. It is for escape room enthusiasts worldwide, and includes a smaller
+number of maintainers. I chose to survey this group as it appeared to be a
+central hub for what seemed, to an outsider, to be a sparse online community.
+The survey needed to be agreed to by the group moderators before being sent out.
+Hearing the opinions of an escape room maintainer helped me to anticipate the
+potential results and begin planning. 
 
 These results were found from the seven responses received:
 
@@ -61,7 +61,8 @@ reasoning was given for these decisions:
 
 - *"Losing revenue"* in the event of failure without failover. Another
   maintainer agreed that *"dependability and available work around (sic)"* were
-  agreed to be of importance. This aligned with my discussion with Woff.
+  agreed to be of importance. This aligned with my discussion with Lockup Escape
+  Rooms.
 - *"Each room only lasts 1-1½ years"*, reducing the maintainer's budget for
   props for each room. *"[The maintainers] do not invest as much into props
   unless they can be reused in another game"*, meaning investment in technology

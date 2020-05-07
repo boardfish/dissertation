@@ -79,7 +79,7 @@ community itself, a product could then be designed and built to target some
 subset of these needs. These needs may be related to various issues, such as
 making sure a timer is visible to the participating group and maintainer, or to
 processes that currently take more time than necessary, such as posting photos
-of teams to social media [@liam2019].
+of teams to social media [@lockup2019].
 
 ## Research Questions
 

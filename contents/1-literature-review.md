@@ -79,11 +79,11 @@ to take a photo of attendees, applies filters, and displays the photo among
 works of art. However, there is a general aversion to the use of technology in
 escape rooms, for a variety of reasons.
 
-In discussion with @liam2019, it was suggested that the time investment,
+In discussion with @lockup2019, it was suggested that the time investment,
 reliability, and necessary expertise are some of the greatest contributing
 factors against the use of technology in escape rooms. Reliability particularly
 guides this; a break in the flow of the escape room experience can shatter
-participants' immersion and lead to negative reviews [@liam2019]. Application of
+participants' immersion and lead to negative reviews [@lockup2019]. Application of
 technology in escape rooms thus brings with it some uncertainty.
 
 Immersion can be defined as captivating the participant and making them feel
@@ -116,14 +116,15 @@ subject matter in the allotted time.
 
 <!-- Visibility -->
 
-@liam2019 highlights that visibility of the puzzle to the entire team should be
-a priority. This is particularly an issue if a puzzle requires one person to
-work at a computer alone - @nicholson2015peeking warns of the danger of removing
-just one player from the *"mental space"* of the team. Even if a screen-based
-puzzle calls for multiple people, the available space and the visibility of the
-screen dictates how many members of the group can interact with it. Unless
-monitors are suitably placed and large enough to be viewed by a full party, the
-whole team may not be able to interface with a puzzle that applies technology. 
+Discussion with @lockup2019 highlighted that visibility of the puzzle to the
+entire team should be a priority. This is particularly an issue if a puzzle
+requires one person to work at a computer alone - @nicholson2015peeking warns of
+the danger of removing just one player from the *"mental space"* of the team.
+Even if a screen-based puzzle calls for multiple people, the available space and
+the visibility of the screen dictates how many members of the group can interact
+with it. Unless monitors are suitably placed and large enough to be viewed by a
+full party, the whole team may not be able to interface with a puzzle that
+applies technology. 
 
 A greater number of monitors, or larger monitors that allow for multiple users
 to interact with the puzzle (e.g. a multi-touch screen), could both counteract
@@ -155,7 +156,7 @@ escape.
 These forms of escape room can be reset instantly by simply resetting the game.
 Whether this is done by restarting an attempt or restarting the program itself,
 it is often trivial compared to how long it takes to reset escape rooms. In
-discussion with @liam2019, he established that resetting physical escape rooms
+discussion with @lockup2019, he established that resetting physical escape rooms
 can often take as long as 15 minutes, and that it is something escape room
 maintainers generally seek to optimise; the shorter a reset takes, the more time
 is available to welcome customers.
@@ -175,8 +176,8 @@ different worksheets to complete the room.
 <!-- VR -->
 
 The field of virtual reality is capable of creating escape rooms that bridge the
-boundary between the digital (e.g. *Myst*) and the physical. @liam2019 theorises
-that virtual reality (VR) escape rooms such as *[EXIT
+boundary between the digital (e.g. *Myst*) and the physical. The maintainer of
+@lockup2019 theorises that virtual reality (VR) escape rooms such as *[EXIT
 VR](https://exit-vr.de/en/)* may be the next stage for the industry, which allow
 immersive rooms to be created while effectively eliminating the issue of
 resetting the room as above. This would bring the escape room cycle full circle,
@@ -213,7 +214,7 @@ Conceptually, the game shares fundamentals with escape rooms - players work
 together to solve puzzles through logic and communication. The communication
 aspect is of most importance to this point: the game's asynchronous gameplay
 depends on communication for success. Escape rooms already apply asynchronous
-gameplay - The Lockup Escape Rooms' *Meltdown* [@liam2019] begins with most of
+gameplay - *Meltdown* [@lockup2019] begins with most of
 the party in individual chambers, with the designated 'leader' communicating
 from outside - but *Keep Talking and Nobody Explodes* demonstrates that with
 technology, it is possible in almost any location through the use of portable
@@ -235,7 +236,7 @@ an educational tool has also been demonstrated here, which is worth
 consideration when building for the escape room industry. However, there is a
 debate as to whether the use of technology in escape rooms is always a viable
 option. Escape room maintainers value reliability, with negative reviews being
-the consequence for ill implementation [@liam2019]. One of the greatest points
+the consequence for ill implementation [@lockup2019]. One of the greatest points
 of contention is immersion. Care must be taken to ensure that if the
 implementation separates one player from the group, it is applied in an engaging
 manner. Excessive reliance upon screens is something that should be avoided in

@@ -112,13 +112,13 @@ for after the lockdown order had been lifted.
 \addcontentsline{toc}{chapter}{Acknowledgements}
 
 Thanks to Andrew Stratton for supervising and providing a guiding hand during
-the project. Thanks also to Liam Woff of the Lockup Escape Room in Sheffield for
-providing helpful insights and allowing me to bring a group to his escape room.
-Thank you to those working in Development at UKCloud for giving me the skills
-needed to build Blacklight - special mentions to Ben Saunders, Chris Couzens,
-and Oliver Nye. Finally, my deepest thanks to my family, my friends at
-University of Sheffield Tea Society, and my mentor Dalbinder Kular. All have
-strongly supported me this year.
+the project. Thanks also to the Lockup Escape Room in Sheffield for providing
+helpful insights and allowing me to bring a group to his escape room. Thank you
+to those working in Development at UKCloud for giving me the skills needed to
+build Blacklight - special mentions to Ben Saunders, Chris Couzens, and Oliver
+Nye. Finally, my deepest thanks to my family, my friends at University of
+Sheffield Tea Society, and my mentor Dalbinder Kular. All have strongly
+supported me this year.
 
 \end{center}
 \vfill
