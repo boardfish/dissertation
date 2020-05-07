@@ -29,24 +29,6 @@ discussion, you should mention any advantages or challenges created by this
 relationship.
 -->
 
-Escape rooms are physical, interactive experiences in which a group of
-participants must solve puzzles to escape a locked room, solve a mystery, or
-otherwise meet some goal in a particular timespan. They are a phenomenon that
-has existed since around 2007 [@nicholson2015peeking], and are a growing
-industry. The concept of an escape room is applied in a variety of forms, from
-portable escape rooms run in shopping centres [@gunduz2018preventing] to
-similarly challenging and captivating experiences that assist education
-[@lopezuse; @rouse2017lessons; @peleg2019lab; @beguin2019computer]. Of late, the
-importance of virtual reality escape rooms and in-home escape rooms is on the
-rise.
-
-Though many escape rooms live up to their name, the aim in an overwhelming 54%
-of cases is not to escape the room - goals in escape rooms can be to investigate
-a crime or mystery, engage with the supernatural, or solve a murder
-[@nicholson2015peeking]. This can be particularly unique in educational
-applications of escape rooms, in which the subject matter and goal often relate
-directly to a learning objective.
-
 ---
 
 Please note the following definitions:
@@ -62,16 +44,35 @@ a firm interest in them, regardless of their degree of experience.
 
 ---
 
-The escape room industry ranges from
-enthusiasts-turned-maintainers, who run singular escape rooms for small groups,
-to major companies such as SCRAP, which deliver escape games to dozens, if not
-hundreds, of people. There are many varieties - escape rooms on permanent
-fixtures, portable escape games, and applications in education such as EscapED
-[@clarke2016escaped], to name a few. It is particularly notable that during the
-COVID-19 pandemic taking hold at the time of writing, maintainers are moving
-towards products that enthusiasts can use in their own homes.
+Escape rooms are physical, interactive experiences in which a group of
+participants must solve puzzles to escape a locked room, solve a mystery, or
+otherwise meet some goal in a particular timespan. They are a phenomenon that
+has existed since around 2007 [@nicholson2015peeking] that forms a growing
+industry.
 
-My goal in this project was to understand the needs of the commercial escape
+The concept of an escape room is applied in a variety of forms. Most commonly,
+escape rooms are permanent fixtures on which maintainers might run several
+different escape games. Other variations include portable escape rooms run in
+shopping centres [@gunduz2018preventing] and similarly challenging and
+captivating experiences that assist education [@lopezuse; @rouse2017lessons;
+@peleg2019lab; @beguin2019computer]. Of late, the importance of virtual reality
+escape rooms and in-home escape rooms is on the rise.
+
+The escape room industry ranges from enthusiasts-turned-maintainers, who run
+singular escape rooms for small groups, to major companies such as SCRAP, which
+deliver escape games to dozens, if not hundreds, of people. It is particularly
+notable that during the COVID-19 pandemic taking hold at the time of writing,
+maintainers are moving towards products that enthusiasts can use in their own
+homes.
+
+Though many escape rooms live up to their name, the aim in an overwhelming 54%
+of cases is not to escape the room - goals in escape rooms can be to investigate
+a crime or mystery, engage with the supernatural, or solve a murder
+[@nicholson2015peeking]. This can be particularly unique in educational
+applications of escape rooms, in which the subject matter and goal often relate
+directly to a learning objective.
+
+The goal in this project was to understand the needs of the commercial escape
 room industry, such that a product could be developed to remedy them. Such a
 product would aim to increase efficiency or expand the industry with new
 capabilities. With a strong understanding of this in mind, and feedback from the
