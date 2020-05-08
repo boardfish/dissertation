@@ -62,8 +62,12 @@ recreational activity [@nicholson2015peeking; @stasiak2016escape], even serving
 as a tourist attraction [@dilek2018real]. Nicholson reports that the *Real
 Escape Game* by SCRAP was the earliest well-documented activity branded as such.
 SCRAP has gone on to develop escape rooms at a much larger scale than the
-typical escape room, which serves teams of an average size of 4.58 people
-[@nicholson2015peeking].
+typical escape room. Its *Real Escape Game Event* serves *"hundreds or thousands
+of players in a large space"* - a far cry from the average team size of 4.58
+people [@nicholson2015peeking]. SCRAP remains one of the longest-serving
+purveyors of escape game experiences. Technology plays an active part in rooms
+they have offered, such as *Pacific Rim: Shatterdome Defenders*. <!-- FIXME:
+Cite -->
 
 <!-- General introduction to argument -->
 
@@ -74,57 +78,59 @@ interact with the team via a screen or handheld transceiver in the room. Inside
 the room, entire puzzles are driven by technology in rooms that integrate it
 comfortably, and it can drive visual effects such as lasers and smoke. These
 implementations can be inventive and support rooms in novel ways; *[The
-Gallery](https://escapist.nl/en/)* (visited in July 2019) uses a hidden camera
-to take a photo of attendees, applies filters, and displays the photo among
-works of art. However, there is a general aversion to the use of technology in
-escape rooms, for a variety of reasons.
+Gallery](https://escapist.nl/en/)* (visited in July 2019), for example, uses a
+hidden camera to take a photo of attendees, applies filters, and displays the
+photo among works of art. However, there is a general aversion to the use of
+technology in escape rooms, for a variety of reasons.
 
 In discussion with @lockup2019, it was suggested that the time investment,
 reliability, and necessary expertise are some of the greatest contributing
 factors against the use of technology in escape rooms. Reliability particularly
 guides this; a break in the flow of the escape room experience can shatter
-participants' immersion and lead to negative reviews [@lockup2019]. Application of
-technology in escape rooms thus brings with it some uncertainty.
+participants' immersion and lead to negative reviews [@lockup2019]. Application
+of technology in escape rooms thus brings with it some uncertainty.
 
-Immersion can be defined as captivating the participant and making them feel
-invested in a situation or story. It can be achieved through the use of
-theatrics such as special effects, acting, props, and room design. In his
-example, @duplessie2013go creates immersion through sound and steam to cover for
-his room's rotating mechanic - distracting the participants from this gives a
-sense of reality to the situation they are in, immersing them in the environment
-and story fully. DuPlessie is critial of digital, rather than physical,
-interaction in escape rooms, citing the importance of immersion, and recommends
-movement away from what he calls the *"glowing rectangles"* as our medium of
-choice.
+Escape rooms seek to develop immersion. Technology can bolster or break this,
+depending on the implementation. Immersion can be defined as captivating the
+participant and making them feel invested in a situation or story. It can be
+achieved through the use of theatrics such as special effects, acting, props,
+and room design. In his example, @duplessie2013go creates immersion through
+sound and steam to cover for his room's rotating mechanic - distracting the
+participants from this gives a sense of reality to the situation they are in,
+immersing them in the environment and story fully. DuPlessie is critial of
+digital, rather than physical, interaction in escape rooms, citing the
+importance of immersion, and recommends movement away from what he calls the
+*"glowing rectangles"* as our medium of choice.
 
 <!-- Why physical interaction gets scrapped -->
 
-Physical interaction can be considered a foundation point of many escape rooms -
-70% of escape rooms employ a search for physical objects as part of the
-experience [@nicholson2015peeking]. However, escape rooms in the classroom tend
-to forgo this. Rooms of this nature may prioritise having multiple participating
-groups in the room at one time. They may also use less props in order to cut
-down on the time it takes to reset the room.
+Physical interaction can be considered a foundation point of many escape rooms.
+Inclusion of props, costumes, and mechanics can greatly improve immersion. 70%
+of escape rooms employ a search for physical objects as part of the experience
+[@nicholson2015peeking], which supports this. However, escape rooms in the
+classroom tend to forgo this. Rooms of this nature may prioritise having
+multiple participating groups in the room at one time. They may also use less
+props in order to cut down on the time it takes to reset the room.
 
 A study by @lopezuse organised its puzzles in a manner whereby puzzles
 could be completed in any order, allowing multiple groups to attend the room at
 once. One example puzzle given in the study was an exercise likely done on
-paper. In this instance, physical interaction and immersion were traded in
-favour of allowing multiple groups to attend the room at once. This is important
-in the context of education, where the whole class should engage with the
-subject matter in the allotted time.
+paper. This would allow all groups in the class to attempt the puzzle without it
+needing to be reset, but the absence of physical interaction or props would
+likely reduce participants' immersion in the scenario.
 
 <!-- Visibility -->
 
-Discussion with @lockup2019 highlighted that visibility of the puzzle to the
-entire team should be a priority. This is particularly an issue if a puzzle
-requires one person to work at a computer alone - @nicholson2015peeking warns of
-the danger of removing just one player from the *"mental space"* of the team.
-Even if a screen-based puzzle calls for multiple people, the available space and
-the visibility of the screen dictates how many members of the group can interact
-with it. Unless monitors are suitably placed and large enough to be viewed by a
-full party, the whole team may not be able to interface with a puzzle that
-applies technology. 
+Technology, particularly monitors, may be avoided in the escape room due to the
+issue of visibility. Discussion with @lockup2019 highlighted that visibility of
+the puzzle to the entire team should be a priority. @nicholson2015peeking warns
+of the danger of removing just one player from the *"mental space"* of the team
+- this is particularly an issue if a puzzle requires one person to work at a
+computer alone. Even if a screen-based puzzle calls for multiple people, the
+available space and the visibility of the screen dictates how many members of
+the group can interact with it. Unless monitors are suitably placed and large
+enough to be viewed by a full party, the whole team may not be able to interface
+with a puzzle that applies technology. 
 
 A greater number of monitors, or larger monitors that allow for multiple users
 to interact with the puzzle (e.g. a multi-touch screen), could both counteract
