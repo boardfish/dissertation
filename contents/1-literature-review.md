@@ -253,6 +253,8 @@ such, it is difficult to approach a one-size-fits-all solution for use inside an
 escape room. However, it is clear that technology can advance escape rooms with
 careful implementation. In particular, it can be used outside of the experience
 itself in matters such as booking rooms, keeping a leaderboard, or advertising
-through social media or otherwise. This research goes on to define the latter of
-these as a feature of interest to maintainers, particularly where technology is
-applied.
+through social media or otherwise. Software such as Buzzshot, Xola and Resova
+<!-- TODO: Cite --> capitalise on the potential for this.
+
+This project goes on to define advertising over social media as a feature of
+interest to maintainers.
