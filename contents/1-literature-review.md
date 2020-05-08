@@ -112,6 +112,16 @@ classroom tend to forgo this. Rooms of this nature may prioritise having
 multiple participating groups in the room at one time. They may also use less
 props in order to cut down on the time it takes to reset the room.
 
+Prioritising multiple attendees over immersion, a study by @lopez2019examining
+took place in a computer lab with groups at computers. This helped to *"decrease
+the time investment for the course staff"* who were running the exercise. This
+study also reveals a (context-specific) benefit to using smaller groups. The
+context of programming allowed the pairs of participants to reap the benefits of
+pair programming [@williams2001support; @mcdowell2002effects]. In cases such as
+these, forgoing immersion for additional educational benefit seems worthwhile
+and can make a marked impact. The experience likely contributed to the
+*"statistically significant ($p<0.001$)"* 23% increase in passes.
+
 A study by @lopezuse organised its puzzles in a manner whereby puzzles could be
 completed in any order, allowing multiple groups to attend the room at once. One
 example puzzle given in the study was an exercise likely done on paper. This
