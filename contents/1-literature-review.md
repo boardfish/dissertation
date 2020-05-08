@@ -117,9 +117,16 @@ completed in any order, allowing multiple groups to attend the room at once. One
 example puzzle given in the study was an exercise likely done on paper. This
 would allow all groups in the class to attempt the puzzle without it needing to
 be reset, but the absence of physical interaction or props would likely reduce
-participants' immersion in the scenario. @nicholson2018creating suggests that an
-*"ongoing narrative"* between activities can remedy this - this would *"empower
-them to be more engaged than if the games are over in an hour"*,
+participants' immersion in the scenario.
+
+@nicholson2018creating suggests that an *"ongoing narrative"* between activities
+can remedy this - this would *"empower them to be more engaged than if the games
+are over in an hour"*. @dietrich2018escape trialled a similar escape game in a
+classroom environment, to which 62% of participants with prior escape game
+experience *"felt a similar sensation in the game presented here"*. This
+suggests that strong and imaginative implementations of escape rooms in the
+classroom can preserve the level of immersion traditional escape rooms often
+display with adequate results.
 
 <!-- Visibility -->
 
@@ -219,7 +226,7 @@ virtual reality clouded the line between a video game and a simulation of
 reality - one child reportedly asked *"How do I kneel?"* when inside the
 simulation. This misunderstanding could be attributed to how crouching in video
 games works - it is most often toggled by, or activated by holding, a button
-input. While @smith2009using acknowledges the *"built-in capability for higher
+input. While @smith2009using acknowledge the *"built-in capability for higher
 levels of actual human–computer interaction than traditional video games"*, this
 boundary should not be ignored as the escape room industry explores VR.
 
