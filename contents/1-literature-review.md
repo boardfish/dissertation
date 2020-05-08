@@ -66,8 +66,8 @@ typical escape room. Its *Real Escape Game Event* serves *"hundreds or thousands
 of players in a large space"* - a far cry from the average team size of 4.58
 people [@nicholson2015peeking]. SCRAP remains one of the longest-serving
 purveyors of escape game experiences. Technology plays an active part in rooms
-they have offered, such as *Pacific Rim: Shatterdome Defenders*. <!-- FIXME:
-Cite -->
+they have offered, such as *Pacific Rim: Shatterdome Defenders*
+[@scrap2018pacific].
 
 <!-- General introduction to argument -->
 
@@ -253,8 +253,13 @@ such, it is difficult to approach a one-size-fits-all solution for use inside an
 escape room. However, it is clear that technology can advance escape rooms with
 careful implementation. In particular, it can be used outside of the experience
 itself in matters such as booking rooms, keeping a leaderboard, or advertising
-through social media or otherwise. Software such as Buzzshot, Xola and Resova
-<!-- TODO: Cite --> capitalise on the potential for this.
+through social media or otherwise. Software developed by @buzzshot, @xola and
+@resova (eponymous in each case) capitalise on the potential for this - Buzzshot
+is a general package covering all three listed areas, whereas the others focus
+primarily towards bookings.
 
 This project goes on to define advertising over social media as a feature of
-interest to maintainers.
+interest to maintainers. It was identified during research that the escape room
+community may not have a unifying platform. The project sought to meet both of
+these needs by creating a platform shared by escape room maintainers and
+enthusiasts.
