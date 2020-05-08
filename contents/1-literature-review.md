@@ -138,6 +138,17 @@ suggests that strong and imaginative implementations of escape rooms in the
 classroom can preserve the level of immersion traditional escape rooms often
 display with adequate results.
 
+Technology can enhance these implementations of escape rooms, preserving some
+level of immersion by providing something interactive and physical.
+@ross2019turning applied a decoder box developed for use in educational escape
+rooms [@ross2019design]. @ross2019design reports that "the cost of a single
+complete system is $30.00 AUD" (around £16 at the time of writing) and that it
+is reprogrammable to handle several solutions. This arguably makes it an
+inexpensive and reusable solution for classroom escape rooms. Participants in
+studies that have used the decoder box prefer *"the user interface of something
+physical rather than a computer based abstraction"* [@ross2019design] or *"paper
+and pen or an app on their phone"* [@ross2019turning].
+
 <!-- Visibility -->
 
 Technology, particularly monitors, may be avoided in the escape room due to the
