@@ -112,12 +112,14 @@ classroom tend to forgo this. Rooms of this nature may prioritise having
 multiple participating groups in the room at one time. They may also use less
 props in order to cut down on the time it takes to reset the room.
 
-A study by @lopezuse organised its puzzles in a manner whereby puzzles
-could be completed in any order, allowing multiple groups to attend the room at
-once. One example puzzle given in the study was an exercise likely done on
-paper. This would allow all groups in the class to attempt the puzzle without it
-needing to be reset, but the absence of physical interaction or props would
-likely reduce participants' immersion in the scenario.
+A study by @lopezuse organised its puzzles in a manner whereby puzzles could be
+completed in any order, allowing multiple groups to attend the room at once. One
+example puzzle given in the study was an exercise likely done on paper. This
+would allow all groups in the class to attempt the puzzle without it needing to
+be reset, but the absence of physical interaction or props would likely reduce
+participants' immersion in the scenario. @nicholson2018creating suggests that an
+*"ongoing narrative"* between activities can remedy this - this would *"empower
+them to be more engaged than if the games are over in an hour"*,
 
 <!-- Visibility -->
 
@@ -145,13 +147,25 @@ a younger audience, students would be likely to have some basic level of
 expertise in, and enthusiasm for, handling computers. However, in practice, this
 application of technology brings to mind the image of a small group of people
 crowding around a screen, embodying a negative example in following this law of
-visibility.
+visibility. @nicholson2018creating supports this idea, suggesting that
+games using a screen do not emphasise the *"face-to-face contact"* players share
+in live-action games.
+
+Other forms of technology can still enable this *"face-to-face contact"* that
+escape rooms prioritise. The Nintendo Switch video game
+[*1-2-Switch*](https://www.nintendo.co.uk/Games/Nintendo-Switch/1-2-Switch-1173186.html)
+often makes a point of pulling away from the screen. The majority of its
+minigames rely on what is done physically with the Joy-Con controller. Players
+are often instructed to face their opponent directly, and may rely on audio cues
+and/or precise vibration in the Joy-Con during gameplay. It is an effective
+example of how to apply technology in a way that does not lock singular players
+into staring at a screen.
 
 <!-- Resets -->
 
 Poor implementation does not necessarily mean technology should not be excluded
 from escape room environments outright. Instead, technology has the potential to
-inspire change in escape rooms by targetting the time it takes to reset a room
+inspire change in escape rooms by targeting the time it takes to reset a room
 back into a playable state. Escape rooms and technology are inherently linked -
 digital escape-the-room games such as *Myst* precede and inspire physical escape
 rooms [@nicholson2015peeking]. In these games, partipicants solve similar
@@ -209,31 +223,41 @@ input. While @smith2009using acknowledges the *"built-in capability for higher
 levels of actual human–computer interaction than traditional video games"*, this
 boundary should not be ignored as the escape room industry explores VR.
 
+<!-- Async gameplay -->
+
 While the escape room industry investigates the *"glowing rectangles"*
 @duplessie2013go warns against, the video games industry that lent it
-inspiration sometimes takes small strides to recede from them. This has resulted
-in concepts that escape rooms, and interactive experiences of all kinds, can
-learn from. [*Keep Talking and Nobody Explodes*](https://keeptalkinggame.com/)
-focuses on asynchronous gameplay, in which one player must defuse a bomb while
-the others guide them using the [bomb's manual](https://bombmanual.com).
-Conceptually, the game shares fundamentals with escape rooms - players work
-together to solve puzzles through logic and communication. The communication
-aspect is of most importance to this point: the game's asynchronous gameplay
-depends on communication for success. Escape rooms already apply asynchronous
-gameplay - *Meltdown* [@lockup2019] begins with most of
-the party in individual chambers, with the designated 'leader' communicating
-from outside - but *Keep Talking and Nobody Explodes* demonstrates that with
-technology, it is possible in almost any location through the use of portable
-platforms like the Oculus Quest or Nintendo Switch.
+inspiration sometimes takes small strides to recede from them. One strategy that
+both industries are applying is asynchronous gameplay. In asynchronous gameplay,
+two parties have different experiences that interlink to achieve the same goal.
+Each industry can learn from the other's examples in applying this concept.
 
-[*1-2-Switch*](https://www.nintendo.co.uk/Games/Nintendo-Switch/1-2-Switch-1173186.html)
-similarly pulls away from the screen, with the majority of its minigames relying
-on what is done physically with the Joy-Con controller. Players are often
-instructed to face their opponent directly, and may rely on audio cues and/or
-precise vibration in the Joy-Con during gameplay. It is an effective example of
-how to apply technology in a way that does not lock singular players into
-staring at a screen. Such examples as these can serve as positive influences in
-escape room development.
+The video game [*Keep Talking and Nobody
+Explodes*](https://keeptalkinggame.com/) is a popular example, in which one
+player must defuse a bomb while the others guide them using the [bomb's
+manual](https://bombmanual.com). Conceptually, the game shares fundamentals with
+escape rooms - players work together to solve puzzles through logic and
+communication. The communication aspect is of most importance to this point: the
+game's asynchronous gameplay depends on communication for success.
+
+Escape rooms also exemplify asynchronous gameplay. The escape room *Meltdown*
+[@lockup2019] begins with most of the party in individual chambers, with the
+designated 'leader' communicating from outside to coordinate the group. An
+escape room study by @clarke2016escaped demonstrated a similar mechanic, using
+laptops with Skype to facilitate communication between two groups in separate
+rooms. One of the puzzles in *The Gallery* sees groups pulling ropes to lower a
+metal ball through a hole in a cabinet. This requires two parties - one to pull
+the ropes, and another to monitor the ball as it is lowered - as the cabinet
+cannot be seen from where the ropes are.
+
+Escape rooms already apply asynchronous gameplay, but *Keep Talking and Nobody
+Explodes* demonstrates that with technology, it is possible in almost any
+location through the use of portable gaming platforms like the Oculus Quest or
+Nintendo Switch. This is all the more important during the COVID-19 pandemic, in
+which companies are turning to other measures to continue the escape room
+experience. SCRAP, for example, is even resorting to [livestreamed escape room
+experiences](https://www.facebook.com/events/359013048391029/). This area seems
+to be ripe with potential in such difficult times.
 
 In summary, technology brings a variety of benefits, from quick resets when used
 as part of a puzzle to novel ideas that may not otherwise be possible. Many
