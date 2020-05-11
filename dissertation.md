@@ -115,10 +115,9 @@ Thanks to Andrew Stratton for supervising and providing a guiding hand during
 the project. Thanks also to the Lockup Escape Room in Sheffield for providing
 helpful insights and allowing me to trial an escape room with a group. Thank you
 to those working in Development at UKCloud for giving me the skills needed to
-build Blacklight - special mentions to Ben Saunders, Chris Couzens, and Oliver
-Nye. Finally, my deepest thanks to my family, my friends at University of
-Sheffield Tea Society, and my mentor Dalbinder Kular. All have strongly
-supported me this year.
+build Blacklight - special mentions to Ben, Chris, and Oliver. Finally, my
+deepest thanks to my family, my friends at University of Sheffield Tea Society,
+and my mentor Dalbinder. All have strongly supported me this year.
 
 \end{center}
 \vfill
