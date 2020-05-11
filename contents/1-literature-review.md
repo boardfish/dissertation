@@ -154,9 +154,9 @@ and pen or an app on their phone"* [@ross2019turning].
 Technology, particularly monitors, may be avoided in the escape room due to the
 issue of visibility. Discussion with @lockup2019 highlighted that visibility of
 the puzzle to the entire team should be a priority. @nicholson2015peeking warns
-of the danger of removing just one player from the *"mental space"* of the team
-- this is particularly an issue if a puzzle requires one person to work at a
-computer alone. Even if a screen-based puzzle calls for multiple people, the
+of the danger of removing just one player from the *"mental space"* of the
+team---this is particularly an issue if a puzzle requires one person to work at
+a computer alone. Even if a screen-based puzzle calls for multiple people, the
 available space and the visibility of the screen dictates how many members of
 the group can interact with it. Unless monitors are suitably placed and large
 enough to be viewed by a full party, the whole team may not be able to interface
