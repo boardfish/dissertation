@@ -68,12 +68,12 @@ reasoning was given for these decisions:
   unless they can be reused in another game"*, meaning investment in technology
   as a showpiece is generally avoided in that particular offering.
 
-I was able to elicit a direction from these conclusions - the idea of a social
+I was able to elicit a direction from these results---the idea of a social
 network shared by escape room maintainers and enthusiasts allowed me to
-potentially target several of these factors at once. In particular, the purpose
-of this social network would be to allow escape rooms to advertise among others
-of their ilk and share photos. I concluded my analysis of the results by setting
-a goal statement.
+potentially target several of these factors at once. Primarily, this social
+network would allow escape rooms to advertise among others of their ilk and
+share photos. I concluded my analysis of the results by setting a goal
+statement.
 
 ---
 
@@ -98,10 +98,9 @@ In agile software development, complexity estimates are preferred to time
 estimates as the former are easier to settle upon [@karlesky2008agile]. Stories
 with estimates any greater than 13 would need to be broken down into smaller
 stories. This was a principle employed by my team and I on my year in industry.
-Atlassian suggests a differing scale and limit, but in either case, it is a
+@atlassian suggests a differing scale and limit, but in either case, it is a
 priority to keep stories small and manageable. Velocity is of the essence, and
-smaller tickets assist with that. <!-- FIXME:
-https://www.atlassian.com/agile/project-management/estimation -->
+smaller tickets assist with that.
 
 Another factor that was kept in mind when creating stories was keeping them open
 to interpretation. Stories, as often as possible, would need to describe what
@@ -120,7 +119,7 @@ category as an epic and taking the amount of time necessary for work on this
 report and my other modules into account, I aimed to work on the project for a
 month, devoting two to three weeks to each milestone.
 
-I figured that each milestone would take a similar amount of time - while Rails'
+I figured that each milestone would take a similar amount of time---while Rails'
 built-in generators would likely ease the burden of scaffolding the initial
 functionality, setting that groundwork in the right way would take slow and
 careful design decisions. These would dictate the flow of the rest of the
@@ -156,7 +155,7 @@ values and totals revealed.
 I chose to prioritise documentation and speed of development cycle over all
 else. With sufficient documentation and fast compile times, I would be able to
 work quickly and effectively. Stability and familiarity also factored into my
-decision strongly - I would need to be sure that the language interface would
+decision strongly---I would need to be sure that the language interface would
 not radically change during the course of development, and that I would feel
 comfortable with the language chosen. Docker resources were also prioritised so
 that less work would be necessary to deploy the application in a container in a
@@ -170,11 +169,11 @@ React only where functional improved the quality of the application without
 hampering development time.
 
 However, doing so came at the cost of accessibility. With wider prior knowledge,
-perhaps this may not have been the case - the web design strategy of progressive
+perhaps this may not have been the case---the web design strategy of progressive
 enhancement [@champeon2020web], in combination with use of the WAI-ARIA standard
 [@aria], could have been used to mitigate this from the outset. I was not aware
 of progressive enhancement as a priority during development. [@herlihy2013how]
 investigated that 1.1% of `gov.uk` users were not getting JS enhancements at
-that time - though this may have changed in either direction over time, it is
+that time---though this may have changed in either direction over time, it is
 still a significant figure and signifies the importance of the need for
 `noscript` fallbacks.

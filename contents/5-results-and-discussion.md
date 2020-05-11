@@ -25,7 +25,7 @@ which were not completed due to time constraints and/or problems encountered.
 
 The product of my development process is a web application written in Ruby on
 Rails, with React.js used to generate and drive some areas of the frontend. This
-is titled Blacklight - its namesake is the kind of UV light which is employed in
+is titled Blacklight---its namesake is the kind of UV light which is employed in
 puzzles in escape rooms all too regularly. Blacklight serves to emulate its
 namesake, being:
 
@@ -100,17 +100,17 @@ been taken to ensure that it is secure, functionally consistent, well-designed
 and feature-complete. Despite this, I cannot shake the notion that with more
 time available, Blacklight would feel whole, and potentially viable for public
 rollout. Of course, in the current climate, Blacklight may serve little purpose
-unless it were repurposed - in any other world, my personal feelings towards it
+unless it were repurposed---in any other world, my personal feelings towards it
 would be justified.
 
 My implementation of continuous integration and containerisation surpasses
 previous attempts I have made in personal projects. I feel as though I have
 refined skills related to testing, and have particularly made strides in
 building more interactive frontends with React. Room for improvement still
-remains - late in development of Blacklight, I encountered limits around my use
+remains---late in development of Blacklight, I encountered limits around my use
 of CircleCI, and I might have been able to capitalise on the premium feature of
 Docker layer caching. I was alerted to a potentially more suitable option in
-GitHub Actions, which would have alleviated both woes - with 3,000 free minutes
+GitHub Actions, which would have alleviated both woes---with 3,000 free minutes
 of running available under my current GitHub plan, I would have been able to run
 somewhere over 400 builds at the average rate per month, which I expect would
 have been more than enough. For comparison, development completed with 234
@@ -131,7 +131,7 @@ to make.
 The existing framework should serve to make the following features
 straightforward to implement. Security, basic stability, and social features
 take priority. Blacklight would be in a deployable state with features listed
-under **Immediate Priorities** - these would provide a stable experience with
+under **Immediate Priorities**---these would provide a stable experience with
 strong social links between users. Particularly, the increase in test coverage
 would make Blacklight a more stable platform on which to develop.
 

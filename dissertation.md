@@ -84,14 +84,16 @@ them and presents results of which they would like to know more details.
 
 Escape rooms are physical, interactive experiences in which a group of
 participants must solve puzzles to escape a locked room, solve a mystery, or
-otherwise meet some goal in a particular timespan.
-The primary aim of this project is to build a tool for escape room maintainers.
-The original brief expressed intent to craft a networked solution for use within
-the escape room itself. Subsequently, this focus was changed by the literature
-review. The end product is a web application functioning as a social network
-between escape room maintainers and enthusiasts.
-This dissertation paper serves to document, and justify decisions made along,
-the process of development of this product.
+otherwise meet some goal in a particular timespan. The primary aim of this
+project is to build a tool for escape room maintainers. The original brief
+expressed intent to craft a networked solution for use within the escape room
+itself. Subsequently, this focus was changed by the literature survey, which
+concluded that implementation of technology inside escape games requires careful
+consideration. The end product is a web application functioning as a social
+network between escape room maintainers and enthusiasts, which meets
+requirements established by surveying and discussing with maintainers. This
+dissertation paper serves to document, and justify decisions made along, the
+process of development of this product.
 
 \begingroup
 \let\clearpage\relax \subsubsection*{COVID-19 Impact Statement}
@@ -115,7 +117,7 @@ Thanks to Andrew Stratton for supervising and providing a guiding hand during
 the project. Thanks also to the Lockup Escape Room in Sheffield for providing
 helpful insights and allowing me to trial an escape room with a group. Thank you
 to those working in Development at UKCloud for giving me the skills needed to
-build Blacklight - special mentions to Ben, Chris, and Oliver. Finally, my
+build Blacklight---special mentions to Ben, Chris, and Oliver. Finally, my
 deepest thanks to my family, my friends at University of Sheffield Tea Society,
 and my mentor Dalbinder. All have strongly supported me this year.
 

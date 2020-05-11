@@ -39,7 +39,7 @@ running the experience for groups. In many cases, they are also responsible for
 elements of the escape room experience outside of the room itself, such as
 maintaining its image on social media.
 
-**Enthusiasts** refer to attendees of escape rooms - particularly those who take
+**Enthusiasts** refer to attendees of escape rooms---particularly those who take
 a firm interest in them, regardless of their degree of experience. 
 
 ---
@@ -66,7 +66,7 @@ maintainers are moving towards products that enthusiasts can use in their own
 homes.
 
 Though many escape rooms live up to their name, the aim in an overwhelming 54%
-of cases is not to escape the room - goals range from investigating
+of cases is not to escape the room---goals range from investigating
 a crime or mystery to engaging with the supernatural or solving a murder
 [@nicholson2015peeking]. The goal can be particularly unique in educational
 applications of escape rooms, in which the subject matter and goal are often
@@ -107,16 +107,16 @@ concept of agile processes was introduced in the former, though my experience
 with *COM390 Year in Industry* presented this in a practical manner that more
 directly inspired my approach. The limited time available in *COM3420 Software
 Hut* meant that many Rails best practices were not transferred through that
-module - instead, many of these came through to me during my year in industry.
+module---instead, many of these came through to me during my year in industry.
 
 My approach was not reminiscent of the Scrum process used in my team last year.
 Instead, I elected to move towards use of Kanban, which would allow me to be
 more flexible with my priorities in light of time constraints and changes. This
 created a challenge for me. My work during *COM390 Year In Industry* gave me a
-strong set of principles regarding software development - I wished to include
+strong set of principles regarding software development---I wished to include
 industry-standard processes in my work, including continuous integration,
 vulnerability testing, and measurement of test coverage. Time constraints meant
-I needed to make compromises here - I could not ensure that automated tests
+I needed to make compromises here---I could not ensure that automated tests
 covered a majority of the code, let alone track test coverage. In essence, my
 experience during my year in industry widened the scope of my capabilities and
 priorities alike, but I could not apply them to the fullest.

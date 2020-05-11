@@ -3,7 +3,7 @@
 <!--
 In addition to illustrating "coding traps", this should highlight particular
 novel aspects to algorithms. Testing should be according to the scheme presented
-in the Analysis chapter and should follow some suitable model - e.g. category
+in the Analysis chapter and should follow some suitable model---e.g. category
 partition, state machine-based. Both functional testing and user-acceptance
 testing are appropriate. For experimental/investigative projects, techniques
 developed should be evaluated against a standard result set for calibration, as
@@ -21,12 +21,12 @@ While there is still some discourse over whether containerisation in development
 environments is entirely appropriate, I chose to use it to maintain some degree
 of parity between running locally and running in CI. Another reason why I made
 this choice was that popular production platforms such as Amazon Web Services
-are backed by containers - running the app using containers sets a good
+are backed by containers---running the app using containers sets a good
 precedent to running it on a platform like Kubernetes with the right expertise.
 
 Continuous integration tests code at each commit. I was able to configure
-CircleCI to build the Docker image used locally, and lint and test the code -
-this combined well with my use of the [GitHub
+CircleCI to build the Docker image used locally, and lint and test the
+code---this combined well with my use of the [GitHub
 Flow](https://guides.github.com/introduction/flow/), in which I would aim to get
 both tests and linting passing before merging a development branch into the
 `master` branch. Towards the end of my development cycle, when I had deployed to
@@ -42,7 +42,7 @@ the standard Rails scaffold functioned as expected. This included:
 - additional routes created beyond a standard Rails scaffold, such as those that
   make the current user a maintainer/enthusiast or those that remove image
   associations from a `Clear` or `EscapeGame` object
-- secured routes - tests were created that challenged whether some attacking
+- secured routes---tests were created that challenged whether some attacking
   user could change a user ID in a form to steal ownership of a record
 - some validations, such as those relating to limits on the number of image
   uploads for `EscapeGame`s and `Clear`s.
@@ -64,29 +64,29 @@ fails all builds that fall outside a given quota. In these instances, I would
 either wait until my credits with CircleCI had reset and rerun the build, or
 trust that running the tests locally qualified instead and merge. In the event
 of a CI failure in an industry scenario, this would be discussed in the
-development department - generally, CI serves as a strict gatekeep to `master`,
+development department---generally, CI serves as a strict gatekeep to `master`,
 so in the majority of cases, development departments would resolve not to merge
 to `master` until their CI server functioned again. Due to time constraints, I
 was not quite so strict around it.
 
 As I expected, this created a difficulty. With `master` having been changed
-without being monitored by regular CI runs, new issues had reached the branch -
-particularly, absence of the Rails master key meant that encrypted credentials
-couldn't be accessed during the application's initialisation cycle. I was able
-to fix this and proceed, but in an industry environment with several developers
-merging to `master`, this could have caused a significant slowdown in
+without being monitored by regular CI runs, new issues had reached the
+branch---particularly, absence of the Rails master key meant that encrypted
+credentials couldn't be accessed during the application's initialisation cycle.
+I was able to fix this and proceed, but in an industry environment with several
+developers merging to `master`, this could have caused a significant slowdown in
 development due to potentially overlapping changes.
 
 Below, an example from `spec/controllers/clears_controller_spec.rb` is featured.
 This is one of the automated tests in the application's RSpec suite, which is
-run by CircleCI at each commit. These tests
-ensure that none other than the creator of a clear can edit it - the helper
-method `random_user`, when given an `owner`, selects or creates a user other
-than the `owner`. This user becomes what the tests call the `attacking_user` -
-they are signed in and try to act against the `Clear` record. Both instances
-should raise a `404` error. `404` is generally returned across Blacklight when
-the user does not have access to the record in question, and is given back in
-the instance of an `ActiveRecord::RecordNotFound` error.
+run by CircleCI at each commit. These tests ensure that none other than the
+creator of a clear can edit it---the helper method `random_user`, when given an
+`owner`, selects or creates a user other than the `owner`. This user becomes
+what the tests call the `attacking_user`---they are signed in and try to act
+against the `Clear` record. Both instances should raise a `404` error. `404` is
+generally returned across Blacklight when the user does not have access to the
+record in question, and is given back in the instance of an
+`ActiveRecord::RecordNotFound` error.
 
 ```ruby
 RSpec.describe ClearsController, type: :controller do
@@ -168,12 +168,12 @@ the Explore page means that swathes of the app are untested.
 
 `react-rails` documents [component testing against rendered Rails
 views](https://github.com/reactjs/react-rails/blob/d5da11129459cd75fd003c75319b1f7440c37322/README.md#test-component).
-Stateless components such as `Avatar`s would be better tested this way - all
+Stateless components such as `Avatar`s would be better tested this way---all
 that would need to be asserted is that they are rendered with the correct props.
 To state that more generically, the assertion is that the correct arguments are
 passed to them at page render.
 
-Some components are dependent on asynchronous functionality - the Explore view
+Some components are dependent on asynchronous functionality---the Explore view
 makes a request to the app's `/explore.json` endpoint on first render, and again
 afterwards. In these situations, directly employing Facebook's
 [Jest](https://jestjs.io) would be preferable.
@@ -189,7 +189,7 @@ During my year in industry, checkout testing after deployment was not automated.
 Developers sought to automate the process so that deployment might not consume
 as much time. Libraries such as
 [Puppeteer](https://github.com/puppeteer/puppeteer/) can be useful for such a
-purpose - previously, I have used Puppeteer to [create PDF forms of webpages
+purpose---previously, I have used Puppeteer to [create PDF forms of webpages
 repeatably](https://github.com/boardfish/CV/blob/ed664d0e87e4d0ec1d6afab8214a5753e033669e/topdf.js).
 
 I have documented checkout testing steps in Blacklight's README, with clear
@@ -207,13 +207,13 @@ Check that the...
 - ...CSS is applied to the elements (visual check)
 - ...Bootstrap JS from asset pipeline works (try to open the Filters dropdown on
   Explore)
-- ...Auth0 login flow works - i.e. it is possible to log in and hold a session
-- ...Auth0 logout flow works - i.e. it is possible to log out and your session is
+- ...Auth0 login flow works---i.e. it is possible to log in and hold a session
+- ...Auth0 logout flow works---i.e. it is possible to log out and your session is
   destroyed
-- ...controllers work - i.e. Explore returns escape games if they exist. Create
+- ...controllers work---i.e. Explore returns escape games if they exist. Create
   one if it does not exist and make sure that the list of escape games you own
   on your `user#show` page displays it.
-- ...JS views work - i.e. it is possible to remove images from a listing and
+- ...JS views work---i.e. it is possible to remove images from a listing and
   have the corresponding table row disappear
 
 ## Security Concerns
