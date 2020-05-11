@@ -66,11 +66,11 @@ maintainers are moving towards products that enthusiasts can use in their own
 homes.
 
 Though many escape rooms live up to their name, the aim in an overwhelming 54%
-of cases is not to escape the room - goals in escape rooms can be to investigate
-a crime or mystery, engage with the supernatural, or solve a murder
-[@nicholson2015peeking]. This can be particularly unique in educational
-applications of escape rooms, in which the subject matter and goal often relate
-directly to a learning objective.
+of cases is not to escape the room - goals range from investigating
+a crime or mystery to engaging with the supernatural or solving a murder
+[@nicholson2015peeking]. The goal can be particularly unique in educational
+applications of escape rooms, in which the subject matter and goal are often
+inspired by a learning objective.
 
 The goal in this project was to understand the needs of the commercial escape
 room industry, such that a product could be developed to remedy them. Such a
