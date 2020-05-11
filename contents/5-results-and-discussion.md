@@ -66,8 +66,9 @@ escape room, which also appear to the left of the list in a singular photo
 gallery.
 
 ![Blacklight's Explore view as at commit `87a35f25`. Seed data used in this
-screenshot uses screenshots from *Super Smash Bros. Ultimate* \copyright 2018
-Nintendo [^2].\label{explore-view}](blacklight-explore.png)
+screenshot uses screenshots and names of stages and character icons from *Super
+Smash Bros. Ultimate* \copyright 2018 Nintendo
+[^2].\label{explore-view}](blacklight-explore.png)
 
 [^2]: Original Game: \copyright Nintendo / HAL Laboratory Inc.   
 Characters: \copyright Nintendo / HAL Laboratory, Inc. / Pokémon. / Creatures
