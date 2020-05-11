@@ -82,18 +82,12 @@ them and presents results of which they would like to know more details.
 \subsubsection*{Abstract} 
 \addcontentsline{toc}{chapter}{Abstract}
 
-Escape rooms are physical, interactive experiences in which a group of
-participants must solve puzzles to escape a locked room, solve a mystery, or
-otherwise meet some goal in a particular timespan. The primary aim of this
-project is to build a tool for escape room maintainers. The original brief
-expressed intent to craft a networked solution for use within the escape room
-itself. Subsequently, this focus was changed by the literature survey, which
-concluded that implementation of technology inside escape games requires careful
-consideration. The end product is a web application functioning as a social
-network between escape room maintainers and enthusiasts, which meets
-requirements established by surveying and discussing with maintainers. This
-dissertation paper serves to document, and justify decisions made along, the
-process of development of this product.
+The primary aim of this project is to build a tool for escape room maintainers.
+The literature survey was used to explore options for implementation. The end
+product was built as a web application functioning as a social network between
+escape room maintainers and enthusiasts. This meets requirements established by
+surveying and discussing with maintainers. This dissertation paper documents,
+and justifies decisions made along, the process of development of this product.
 
 \begingroup
 \let\clearpage\relax \subsubsection*{COVID-19 Impact Statement}
