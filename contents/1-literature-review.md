@@ -96,11 +96,18 @@ participant and making them feel invested in a situation or story. It can be
 achieved through the use of theatrics such as special effects, acting, props,
 and room design. In his example, @duplessie2013go creates immersion through
 sound and steam to cover for his room's rotating mechanic---distracting the
-participants from this gives a sense of reality to the situation they are in,
-immersing them in the environment and story fully. DuPlessie is critial of
+participants from this gives a sense of reality to the situation they are in[^1],
+immersing them in the environment and story fully. DuPlessie is critical of
 digital, rather than physical, interaction in escape rooms, citing the
 importance of immersion, and recommends movement away from what he calls the
 *"glowing rectangles"* as our medium of choice.
+
+[^1]: The escape room is made up of three rooms - a laboratory, a centre
+section, and a ruined laboratory. The party moves from the laboratory to the
+centre section, and special effects emulate a catastrophe. During this
+distraction, the centre section rotates such that the *"doors [the participants]
+walked in through [...] are facing another room"*, giving the illusion that the
+laboratory was destroyed while they were in the centre section.
 
 <!-- Why physical interaction gets scrapped -->
 
@@ -194,12 +201,12 @@ into staring at a screen.
 Poor implementation does not necessarily mean technology should not be excluded
 from escape room environments outright. Instead, technology has the potential to
 inspire change in escape rooms by targeting the time it takes to reset a room
-back into a playable state. Escape rooms and technology are inherently linked---
-digital escape-the-room games such as *Myst* precede and inspire physical escape
-rooms [@nicholson2015peeking]. In these games, partipicants solve similar
-puzzles within the limits of the player-character's capabilities, applying and
-sometimes combining an inventory of objects to create new tools for use in their
-escape.
+back into a playable state. Escape rooms and technology are inherently
+linked---digital escape-the-room games such as *Myst* precede and inspire
+physical escape rooms [@nicholson2015peeking]. In these games, participants
+solve similar puzzles within the limits of the player-character's capabilities,
+applying and sometimes combining an inventory of objects to create new tools for
+use in their escape.
 
 These forms of escape room can be reset instantly by simply resetting the game.
 Whether this is done by restarting an attempt or restarting the program itself,

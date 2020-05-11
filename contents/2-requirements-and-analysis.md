@@ -59,10 +59,11 @@ Notable comments included that one maintainer sought to *"strictly
 limit/eliminate the use of"* technology in their escape rooms. The following
 reasoning was given for these decisions:
 
-- *"Losing revenue"* in the event of failure without failover. Another
-  maintainer agreed that *"dependability and available work around (sic)"* were
-  agreed to be of importance. This aligned with my discussion with Lockup Escape
-  Rooms.
+- *"Losing revenue"* in the event of failure without failover.  Switchover that
+  necessitates *"an electrician or computer programer (sic)"* was specified as a
+  potential cause of revenue loss. Another maintainer agreed that
+  *"dependability and available work around (sic)"* were agreed to be of
+  importance. This aligned with my discussion with Lockup Escape Rooms.
 - *"Each room only lasts 1-1½ years"*, reducing the maintainer's budget for
   props for each room. *"[The maintainers] do not invest as much into props
   unless they can be reused in another game"*, meaning investment in technology
@@ -161,8 +162,8 @@ comfortable with the language chosen. Docker resources were also prioritised so
 that less work would be necessary to deploy the application in a container in a
 production environment.
 
-Originally, I weighed ERB and React against one another as view engines. This
-estimation was taken on the assumption that I would use React even where
+Originally, ERB and React were weighed against one another as view engines. This
+estimation was taken on the assumption that React would be used even where
 interactivity and state management were not required. In hindsight, this
 approach would have slowed development. Instead, my final decision to apply
 React only where functional improved the quality of the application without

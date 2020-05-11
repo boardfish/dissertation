@@ -67,10 +67,10 @@ of a CI failure in an industry scenario, this would be discussed in the
 development department---generally, CI serves as a strict gatekeep to `master`,
 so in the majority of cases, development departments would resolve not to merge
 to `master` until their CI server functioned again. Due to time constraints, I
-was not quite so strict around it.
+was not quite so strict around it. This came at a cost.
 
-As I expected, this created a difficulty. With `master` having been changed
-without being monitored by regular CI runs, new issues had reached the
+As I fully expected, this created a difficulty. With `master` having been
+changed without being monitored by regular CI runs, new issues had reached the
 branch---particularly, absence of the Rails master key meant that encrypted
 credentials couldn't be accessed during the application's initialisation cycle.
 I was able to fix this and proceed, but in an industry environment with several
@@ -195,21 +195,21 @@ repeatably](https://github.com/boardfish/CV/blob/ed664d0e87e4d0ec1d6afab8214a575
 I have documented checkout testing steps in Blacklight's README, with clear
 indication that if the project were to continue, checkout testing would be
 automated. If possible, I would also follow up deployment with automated
-checkout testing at every instance. The checkout testing steps are replicated
-below.
+checkout testing at every instance using continuous integration. The checkout
+testing steps are replicated below.
 
 #### Checkout Testing Steps
 
 Check that the...
 
 - ...homepage renders correctly, particularly with regards to React components
-  like the navbar (visual check)
+  such as the navbar (visual check)
 - ...CSS is applied to the elements (visual check)
-- ...Bootstrap JS from asset pipeline works (try to open the Filters dropdown on
-  Explore)
+- ...Bootstrap JS from asset pipeline works---i.e. it is possible to open the
+  Filters dropdown on Explore and collapsed navbar on mobile
 - ...Auth0 login flow works---i.e. it is possible to log in and hold a session
-- ...Auth0 logout flow works---i.e. it is possible to log out and your session is
-  destroyed
+- ...Auth0 logout flow works---i.e. it is possible to log out and your session
+  is destroyed
 - ...controllers work---i.e. Explore returns escape games if they exist. Create
   one if it does not exist and make sure that the list of escape games you own
   on your `user#show` page displays it.
@@ -232,8 +232,9 @@ In Blacklight, this is done as follows:
    current user owns; returning a 404 status code otherwise
 2. setting the object's associated user to the current user
 
-On its own, the second part of my solution would be insecure. The more standard
-way of doing this on update would be to strip out the incoming user ID from the
-hidden field in the form. However, there is good reasoning behind it.
+On its own, the second part of my solution would be insecure---if an attacking
+user accessed an object, they could make themselves its associated user and thus
+"steal" it. The more standard way of doing this, in the case of a `PUT`/`PATCH`,
+would be to strip out the incoming user ID from the hidden field in the form.
 This methodology is used on create as well as on update, which means that users
 cannot create records in other users' names.

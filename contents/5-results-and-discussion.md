@@ -65,7 +65,15 @@ There, users can upload photos to associate with each escape room, which also
 appear to the left of the list in a singular photo gallery.
 
 ![Blacklight's Explore view as at commit `87a35f25`. Seed data used in this
-screenshot uses screenshots from *Super Smash Bros. Ultimate*.\label{explore-view}](blacklight-explore.png)
+screenshot uses screenshots from *Super Smash Bros. Ultimate* \copyright 2018
+Nintendo [^2].\label{explore-view}](blacklight-explore.png)
+
+[^2]: Original Game: \copyright Nintendo / HAL Laboratory Inc.   
+Characters: \copyright Nintendo / HAL Laboratory, Inc. / Pokémon. / Creatures
+Inc. / GAME FREAK inc. / SHIGESATO ITOI / APE inc. / INTELLIGENT SYSTEMS /
+Konami Digital Entertainment / SEGA / CAPCOM CO., LTD. / BANDAI NAMCO
+Entertainment Inc. / MONOLITHSOFT / CAPCOM U.S.A., INC. / SQUARE ENIX CO., LTD.
+/ ATLUS / Microsoft / SNK CORPORATION.
 
 Users have profiles (Figure \ref{profile-view}) on which they can write a bio,
 set their location, and link to their own website. Here, those interested can
