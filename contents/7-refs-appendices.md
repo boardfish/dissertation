@@ -1,7 +1,8 @@
 # References
 
 N.B.: Dates given for webpages link to the earliest recorded scrape of the
-webpage by the [Wayback Machine](https://archive.org/web/web.php).
+webpage by the [Wayback Machine](https://archive.org/web/web.php), or the date
+of access if this is unavailable.
 
 ::: {#refs}
 :::
