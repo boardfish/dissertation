@@ -59,10 +59,11 @@ the editing form.
 ![Blacklight's escape game creation form as at commit `87a35f25`.](blacklight-create-escape-game.png)
 
 Enthusiasts can browse these escape games and mark them as cleared by selecting
-the lock icon on any listing (Figure \ref{explore-view}). This is consistent across the site. Doing so adds
-the escape game to the 'My Cleared Games' section of the site for that user.
-There, users can upload photos to associate with each escape room, which also
-appear to the left of the list in a singular photo gallery.
+the lock icon on any listing (Figure \ref{explore-view}). This is consistent
+across the site. Doing so adds the escape game to the 'My Cleared Games' section
+of the site for that user. There, users can upload photos to associate with each
+escape room, which also appear to the left of the list in a singular photo
+gallery.
 
 ![Blacklight's Explore view as at commit `87a35f25`. Seed data used in this
 screenshot uses screenshots from *Super Smash Bros. Ultimate* \copyright 2018
