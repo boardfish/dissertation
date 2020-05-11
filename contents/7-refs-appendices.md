@@ -158,3 +158,42 @@ Please name any other factors of importance not mentioned.
 (In particular, I am interested to know whether they are a priority or
 significant benefit for your business.)   
 *Text entry answer*
+
+\pagebreak
+
+## Appendix III: Collated Survey Results
+
+\blandscape
+
+**Q: Which of the following features do you already offer as part of the escape room experience?**   
+**Q: To which of the following features would/do you apply technology in your offering?**
+
+Answers combined to give a better picture of maintainers' perspectives on the requirements.
+
+| Respondent ID | Leaderboard                            | Sharing photos with...     | Membership                             | In-character...                     | Communications with...                      | Metrics (e.g. ...)                               | Matching...                              |
+|---------------|----------------------------------------|-----------------------------------|----------------------------------------|----------------------------------------|---------------------------------------|----------------------------------------|---------------------------------------|
+| 1             | Not implemented, not interested        | Implemented, technology used      | Not implemented, not interested        | Implemented, technology used           | Implemented, technology used          | Not implemented, not interested        | Implemented, technology used          |
+| 2             | Would not implement without technology | Implemented, technology used      | Would not implement without technology | Interested, would use technology       | Implemented, technology used          | Would not implement without technology | Implemented, technology used          |
+| 3             | Not implemented, not interested        | Implemented, technology used      | Would not implement without technology | Implemented, would use technology      | Implemented, technology used          | Not implemented, not interested        | Implemented, technology used          |
+| 4             | Not implemented, not interested        | Implemented, would use technology | Not implemented, not interested        | Not implemented, not interested        | Implemented, would use technology     | Would not implement without technology | Not implemented, not interested       |
+| 5             | Interested, would use technology       | Implemented, would use technology | Implemented, would use technology      | Interested, would use technology       | Implemented, technology used          | Implemented, would use technology      | Not implemented, not interested       |
+| 6             | Implemented, would not use technology  | Implemented, technology used      | Implemented, would use technology      | Would not implement without technology | Implemented, would not use technology | Implemented, technology used           | Implemented, would not use technology |
+| 7             | Not implemented, not interested        | Implemented, would use technology | Would not implement without technology | Not implemented, not interested        | Implemented, would use technology     | Interested, would use technology       | Not implemented, not interested       |
+
+\elandscape
+
+**Q: Please provide any additional details with regards to the previous question
+here.**
+
+| Respondent ID | Comment                                                                                                                                                                                                                                                                                                                                                                |
+|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2  | These aren't really helpful.                                                                                                                                                                                                                                                                                                                                           |
+| 6  | We have a loyalty program because we change the story and in our room often. Wouldn't reccommend for a place that doesn't. In terms of Metrics - we tell people the success rate of the room but not of individual puzzles. We try and push people into bigger groups but if someone doesn't want to play with strangers we let them move to a different room or time. |
+
+**Q: Please name any other factors of importance not mentioned.**
+
+| Respondent ID | Comment                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | Dependability and available work around in the event of technology failure                                                                                                                                                                                                                                                                                                                                                         |
+| 2  | This was a completely useless survey from an owner standpoint. Only conclusion is that you are deciding to apply tech to completely trivial features.                                                                                                                                                                                                                                                                              |
+| 6  | We strictly limit/eliminate the use of tech for 2 reasons. 1st is reliability. If a critical game prop breaks and requires an electrician or computer programer then I am losing revenue on that game. 2nd is since we change our rooms, we do not invest as much into props unless they can be re-used in another game or another room. Each room only lasts 1-1 1/2 years so there is no point on investing in something flashy. |

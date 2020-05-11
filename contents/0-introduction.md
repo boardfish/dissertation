@@ -47,8 +47,8 @@ a firm interest in them, regardless of their degree of experience.
 Escape rooms are physical, interactive experiences in which a group of
 participants must solve puzzles to escape a locked room, solve a mystery, or
 otherwise meet some goal in a particular timespan. They are a phenomenon that
-has existed since around 2007 [@nicholson2015peeking] that forms a growing
-industry.
+has existed since around 2007 [@nicholson2015peeking, p. 3, para. 3] that
+forms a growing industry.
 
 The concept of an escape room is applied in a variety of forms. Most commonly,
 escape rooms are permanent fixtures on which maintainers might run several
@@ -66,11 +66,11 @@ maintainers are moving towards products that enthusiasts can use in their own
 homes.
 
 Though many escape rooms live up to their name, the aim in an overwhelming 54%
-of cases is not to escape the room---goals range from investigating
-a crime or mystery to engaging with the supernatural or solving a murder
-[@nicholson2015peeking]. The goal can be particularly unique in educational
-applications of escape rooms, in which the subject matter and goal are often
-inspired by a learning objective.
+of cases is not to escape the room---goals range from investigating a crime or
+mystery to engaging with the supernatural or solving a murder
+[@nicholson2015peeking, p. 15]. The goal can be particularly unique in
+educational applications of escape rooms, in which the subject matter and goal
+are often inspired by a learning objective.
 
 The goal in this project was to understand the needs of the commercial escape
 room industry, such that a product could be developed to remedy them. Such a

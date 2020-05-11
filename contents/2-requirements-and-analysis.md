@@ -64,7 +64,7 @@ reasoning was given for these decisions:
   potential cause of revenue loss. Another maintainer agreed that
   *"dependability and available work around (sic)"* were agreed to be of
   importance. This aligned with my discussion with Lockup Escape Rooms.
-- *"Each room only lasts 1-1½ years"*, reducing the maintainer's budget for
+- *"Each room only lasts 1--1½ years"*, reducing the maintainer's budget for
   props for each room. *"[The maintainers] do not invest as much into props
   unless they can be reused in another game"*, meaning investment in technology
   as a showpiece is generally avoided in that particular offering.

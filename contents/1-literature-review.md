@@ -46,10 +46,11 @@ as the culmination of a variety of media. He identifies puzzle hunts as
 team-based problem-solving challenges. Treasure hunts and generic team-based
 problem-solving challenges, such as those used in corporate team-building
 exercises, appear most similar to escape rooms. Live-action roleplaying (LARP)
-is another such inspiration [@nicholson2015peeking]. Both escape rooms and LARP
-can provide entertainment through immersion in a story as the *"hero"*, a factor
-that players enjoy [@duplessie2013go]. Nicholson presents the precursors to
-escape rooms in further depth in his paper---Figure 2.1 summarises these.
+is another such inspiration [@nicholson2015peeking, p. 29]. Both escape rooms
+and LARP can provide entertainment through immersion in a story as the *"hero"*,
+a factor that players enjoy [@duplessie2013go]. Nicholson presents the
+precursors to escape rooms in further depth in his paper---Figure 2.1 summarises
+these.
 
 ![Nicholson (2019) presents the precursors to, and inspirations for, the escape
 room phenomenon in this diagram. Adapted with permission from Nicholson, Scott.
@@ -64,7 +65,7 @@ Escape Game* by SCRAP was the earliest well-documented activity branded as such.
 SCRAP has gone on to develop escape rooms at a much larger scale than the
 typical escape room. Its *Real Escape Game Event* serves *"hundreds or thousands
 of players in a large space"*---a far cry from the average team size of 4.58
-people [@nicholson2015peeking]. SCRAP remains one of the longest-serving
+people [@nicholson2015peeking, 11]. SCRAP remains one of the longest-serving
 purveyors of escape game experiences. Technology plays an active part in rooms
 they have offered, such as *Pacific Rim: Shatterdome Defenders*
 [@scrap2018pacific].
@@ -112,9 +113,9 @@ laboratory was destroyed while they were in the centre section.
 <!-- Why physical interaction gets scrapped -->
 
 Physical interaction can be considered a foundation point of many escape rooms.
-Inclusion of props, costumes, and mechanics can greatly improve immersion. 70%
+Inclusion of props, costumes, and mechanics can greatly improve immersion. 78%
 of escape rooms employ a search for physical objects as part of the experience
-[@nicholson2015peeking], which supports this. However, escape rooms in the
+[@nicholson2015peeking, 19], which supports this. However, escape rooms in the
 classroom tend to forgo this. Rooms of this nature may prioritise having
 multiple participating groups in the room at one time. They may also use less
 props in order to cut down on the time it takes to reset the room.
@@ -127,7 +128,8 @@ context of programming allowed the pairs of participants to reap the benefits of
 pair programming [@williams2001support; @mcdowell2002effects]. In cases such as
 these, forgoing immersion for additional educational benefit seems worthwhile
 and can make a marked impact. The experience likely contributed to the
-*"statistically significant ($p<0.001$)"* 23% increase in passes.
+*"statistically significant ($p<0.001$)"* [@lopez2019examining, p. 31732] 23%
+increase in passes.
 
 A study by @lopezuse organised its puzzles in a manner whereby puzzles could be
 completed in any order, allowing multiple groups to attend the room at once. One
@@ -136,14 +138,14 @@ would allow all groups in the class to attempt the puzzle without it needing to
 be reset, but the absence of physical interaction or props would likely reduce
 participants' immersion in the scenario.
 
-@nicholson2018creating suggests that an *"ongoing narrative"* between activities
-can remedy this---this would *"empower them to be more engaged than if the games
-are over in an hour"*. @dietrich2018escape trialled a similar escape game in a
-classroom environment, to which 62% of participants with prior escape game
-experience *"felt a similar sensation in the game presented here"*. This
-suggests that strong and imaginative implementations of escape rooms in the
-classroom can preserve the level of immersion traditional escape rooms often
-display with adequate results.
+@nicholson2018creating suggests that an *"ongoing narrative"* [p. 48] between
+activities can remedy this---this would *"empower them to be more engaged than
+if the games are over in an hour"*. @dietrich2018escape trialled a similar
+escape game in a classroom environment, to which 62% of participants with prior
+escape game experience *"felt a similar sensation in the game presented here"*
+[p. 7]. This suggests that strong and imaginative implementations of escape
+rooms in the classroom can preserve the level of immersion traditional escape
+rooms often display with adequate results.
 
 Technology can enhance these implementations of escape rooms, preserving some
 level of immersion by providing something interactive and physical.
@@ -153,19 +155,19 @@ complete system is $30.00 AUD" (around £16 at the time of writing) and that it
 is reprogrammable to handle several solutions. This arguably makes it an
 inexpensive and reusable solution for classroom escape rooms. Participants in
 studies that have used the decoder box prefer *"the user interface of something
-physical rather than a computer based abstraction"* [@ross2019design] or *"paper
-and pen or an app on their phone"* [@ross2019turning].
+physical rather than a computer based abstraction"* [@ross2019design, p. 145782]
+or *"paper and pen or an app on their phone"* [@ross2019turning, p. 3].
 
 <!-- Visibility -->
 
 Technology, particularly monitors, may be avoided in the escape room due to the
 issue of visibility. Discussion with @lockup2019 highlighted that visibility of
 the puzzle to the entire team should be a priority. @nicholson2015peeking warns
-of the danger of removing just one player from the *"mental space"* of the
-team---this is particularly an issue if a puzzle requires one person to work at
-a computer alone. Even if a screen-based puzzle calls for multiple people, the
-available space and the visibility of the screen dictates how many members of
-the group can interact with it. Unless monitors are suitably placed and large
+of the danger of removing just one player from the *"mental space"* [p. 20] of
+the team, particularly in the instance of a puzzle requiring one person to work
+at a computer alone. Even if a screen-based puzzle calls for multiple people,
+the available space and the visibility of the screen dictates how many members
+of the group can interact with it. Unless monitors are suitably placed and large
 enough to be viewed by a full party, the whole team may not be able to interface
 with a puzzle that applies technology. 
 
@@ -182,12 +184,13 @@ a younger audience, students would be likely to have some basic level of
 expertise in, and enthusiasm for, handling computers. However, in practice, this
 application of technology brings to mind the image of a small group of people
 crowding around a screen, embodying a negative example in following this law of
-visibility. @nicholson2018creating supports this idea, suggesting that
-games using a screen do not emphasise the *"face-to-face contact"* players share
-in live-action games.
+visibility. @nicholson2018creating supports this idea, suggesting that games
+using a screen do not emphasise the *"face-to-face contact"* [p. 45] players
+share in live-action games.
 
-Other forms of technology can still enable this *"face-to-face contact"* that
-escape rooms prioritise. The Nintendo Switch video game
+Other forms of technology can still enable this *"face-to-face contact"*
+[@nicholson2018creating, p. 45] that escape rooms prioritise. The Nintendo
+Switch video game
 [*1-2-Switch*](https://www.nintendo.co.uk/Games/Nintendo-Switch/1-2-Switch-1173186.html)
 often makes a point of pulling away from the screen. The majority of its
 minigames rely on what is done physically with the Joy-Con controller. Players
@@ -203,10 +206,10 @@ from escape room environments outright. Instead, technology has the potential to
 inspire change in escape rooms by targeting the time it takes to reset a room
 back into a playable state. Escape rooms and technology are inherently
 linked---digital escape-the-room games such as *Myst* precede and inspire
-physical escape rooms [@nicholson2015peeking]. In these games, participants
-solve similar puzzles within the limits of the player-character's capabilities,
-applying and sometimes combining an inventory of objects to create new tools for
-use in their escape.
+physical escape rooms [@nicholson2015peeking, p. 4]. In these games,
+participants solve similar puzzles within the limits of the player-character's
+capabilities, applying and sometimes combining an inventory of objects to create
+new tools for use in their escape.
 
 These forms of escape room can be reset instantly by simply resetting the game.
 Whether this is done by restarting an attempt or restarting the program itself,
@@ -239,24 +242,25 @@ resetting the room as above. This would bring the escape room cycle full circle,
 reincarnating the modern wave of physical escape rooms in the digital form that
 inspired them.
 
-@pendit2017virtual exercised this in the creation of their
-virtual escape room *The Last Breakout*. This application revealed some
-potential caveats that may be visible in the creation of VR escape rooms. Unreal
-Engine 4 assisted in making the project feasible, but limited knowledge of how
-to use it resulted in difficulties. These included motion sickness from
-excessive movement, user experience as regards knowing when they might have
-picked up an object, and display of reading materials [@pendit2017virtual].
+@pendit2017virtual exercised this in the creation of their virtual escape room
+*The Last Breakout*. This application revealed some potential caveats that may
+be visible in the creation of VR escape rooms. Unreal Engine 4 assisted in
+making the project feasible, but limited knowledge of how to use it resulted in
+difficulties. These included motion sickness from excessive movement, user
+experience as regards knowing when they might have picked up an object, and
+display of reading materials [@pendit2017virtual, p. 3].
 
 These could be remedied with more effective VR development experience, but user
 interface issues remain something that cannot be tackled without the correct
 principles. In a study by @smith2009using, it was found that the context of
 virtual reality clouded the line between a video game and a simulation of
-reality---one child reportedly asked *"How do I kneel?"* when inside the
-simulation. This misunderstanding could be attributed to how crouching in video
-games works---it is most often toggled by, or activated by holding, a button
-input. While @smith2009using acknowledge the *"built-in capability for higher
-levels of actual human–computer interaction than traditional video games"*, this
-boundary should not be ignored as the escape room industry explores VR.
+reality---one child reportedly asked *"How do I kneel?"* [@smith2009using, p.
+96] when inside the simulation. This misunderstanding could be attributed to how
+crouching in video games works---it is most often toggled by, or activated by
+holding, a button input. While @smith2009using acknowledge the *"built-in
+capability for higher levels of actual human–computer interaction than
+traditional video games"*, this boundary should not be ignored as the escape
+room industry explores VR.
 
 <!-- Async gameplay -->
 
