@@ -113,7 +113,7 @@ for after the lockdown order had been lifted.
 
 Thanks to Andrew Stratton for supervising and providing a guiding hand during
 the project. Thanks also to the Lockup Escape Room in Sheffield for providing
-helpful insights and allowing me to bring a group to his escape room. Thank you
+helpful insights and allowing me to trial an escape room with a group. Thank you
 to those working in Development at UKCloud for giving me the skills needed to
 build Blacklight - special mentions to Ben Saunders, Chris Couzens, and Oliver
 Nye. Finally, my deepest thanks to my family, my friends at University of
