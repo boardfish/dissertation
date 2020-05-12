@@ -82,12 +82,15 @@ them and presents results of which they would like to know more details.
 \subsubsection*{Abstract} 
 \addcontentsline{toc}{chapter}{Abstract}
 
-The primary aim of this project is to build a tool for escape room maintainers.
-The literature survey was used to explore options for implementation. The end
-product was built as a web application functioning as a social network between
-escape room maintainers and enthusiasts. This meets requirements established by
-surveying and discussing with maintainers. This dissertation paper documents,
-and justifies decisions made along, the process of development of this product.
+The primary aim of this project is to build a user-friendly tool to support
+escape room maintainers and their relationships with their audience. The
+literature survey exposed concerns regarding use of technology within an escape
+room setting, and a gap in the market for an external technological tool. The
+end product was built as a web application functioning as a social network
+between escape room maintainers and enthusiasts. This meets requirements
+established by surveying and discussing with maintainers. This dissertation
+paper documents, and justifies decisions made along, the process of development
+of this product.
 
 \begingroup
 \let\clearpage\relax \subsubsection*{COVID-19 Impact Statement}
