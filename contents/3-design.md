@@ -87,8 +87,8 @@ making it preferable.
 Hydra presents itself as being a thinner and faster alternative which does not
 serve its own frontend. This is positive, but demands that the developer create
 their own frontend---combined with unfamiliarity towards Hydra, this would use
-more time than necessary. Were time not an issue, Hydra may had far stronger
-consideration. 
+more time than necessary. Were time not an issue, Hydra may have had far
+stronger consideration. 
 
 In the instance that Devise vulnerabilities were revealed and patched in Ruby,
 Blacklight would need to be upgraded in line with this. Using OmniAuth with
@@ -145,8 +145,8 @@ favour of Markdown, as Markdown engines for Rails such as
 as HTML backwards compatibility and the inclusion of inline images.
 
 In selection of Markdown as the engine to drive rich text for Blacklight, it was
-strongly acknowledged that users may find learning Markdown "prohibitively
-difficult" [@ovadia2014markdown]. However, Markdown is employed on blogging
+strongly acknowledged that users may find learning Markdown *"prohibitively
+difficult"* [@ovadia2014markdown]. However, Markdown is employed on blogging
 sites such as Tumblr, Reddit and WordPress [@ovadia2014markdown], with which I
 expected escape room maintainers may have some familiarity.
 
@@ -156,5 +156,6 @@ on `escape_game#show` for their escape room. A link to [CommonMark's guide to
 Markdown](https://commonmark.org/help/) is shown beside the input field, which
 gives a quick overview of Markdown syntax.
 
-![The Markdown preview field as at commit
-`fd1d6fd`.\label{markdown-preview}](markdown-preview.png)
+![The Markdown preview field as at commit `fd1d6fd`. An early draft of this
+section is used to demonstrate Markdown rendering for headers, code blocks, and
+tables.\label{markdown-preview}](markdown-preview.png)

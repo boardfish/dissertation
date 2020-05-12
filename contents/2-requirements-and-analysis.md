@@ -27,10 +27,11 @@ inherent risk and time involved.
 
 To find some insight into the challenges escape room maintainers face, I met
 with the maintainer of the Lockup Escape Rooms in Sheffield on the 20th
-November. They had around two years' experience in doing so at that time. We
-discussed some areas that could be targeted and some ideas that I had previously
-prepared. This would go on to inspire a survey I would distribute to the wider
-community of maintainers ([Appendix II][Appendix II: Escape Room Owner Survey]).
+November. They had around two years' experience in maintaining their escape
+rooms at that time. We discussed some areas that could be targeted and some
+ideas that I had previously prepared. This would go on to inspire a survey I
+would distribute to the wider community of maintainers ([Appendix II][Appendix
+II: Escape Room Owner Survey]).
 
 The survey used the ideas The Lockup Escape Rooms and I had discussed. The
 Facebook group created by @nicholson2015peeking would serve as the audience for
@@ -112,15 +113,15 @@ implementation to remain open to change and interpretation. By not enforcing
 how a ticket should be implemented until it is worked on, it could be ensured
 that the right tool for the job would be chosen.
 
-Kanban prioritises throughput and encourages a "culture of 'done'" by enforcing
-work-in-progress limits [@rehkopf2018kanban]. It is often employed when more
-flexibility is desired---this drove my decision to use is in spite of previous
-experience with Scrum. When defining personal deadlines, It was necessary to
-take the amount of time needed for work on this dissertation paper and my other
-modules into account. With this in mind, the scope for the project was limited
-to tackling the Must- and Should-Have tickets. These were defined as the
-development milestones. I aimed to work on the project for around a month and a
-half.
+Kanban prioritises throughput and encourages a *"culture of 'done'"* by
+enforcing work-in-progress limits [@rehkopf2018kanban]. It is often employed
+when more flexibility is desired---this drove my decision to use is in spite of
+previous experience with Scrum. When defining personal deadlines, it was
+necessary to take the amount of time needed for work on this dissertation paper
+and my other modules into account. With this in mind, the scope for the project
+was limited to tackling the Must- and Should-Have tickets. These were defined as
+the development milestones. I aimed to work on the project for around a month
+and a half.
 
 Two to three weeks were devoted to each milestone. I figured that each milestone
 would take a similar amount of time---while Rails' built-in generators would

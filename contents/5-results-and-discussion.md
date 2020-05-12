@@ -47,7 +47,7 @@ only affects the user's experience, not their level of access.
 
 ![Logging in to Blacklight with Auth0. When this screenshot was taken, it was
 not possible to sign up as I did not want to expose the development instance to
-unwanted visitors.\label{create-view}](blacklight-auth0.png)
+unwanted visitors.\label{login-view}](blacklight-auth0.png)
 
 Escape game maintainers have options revealed to them to create and manage
 escape games (Figure \ref{create-view}). These escape games have an array of associated data that can be
@@ -56,19 +56,24 @@ Google Maps integration), images, and a Markdown-compatible extended
 description. Listings can also be hidden from view and access via a checkbox on
 the editing form.
 
-![Blacklight's escape game creation form as at commit `87a35f25`.](blacklight-create-escape-game.png)
+![Blacklight's escape game creation form as at commit
+`87a35f25`.\label{create-view}](blacklight-create-escape-game.png)
 
 Enthusiasts can browse these escape games and mark them as cleared by selecting
 the lock icon on any listing (Figure \ref{explore-view}). This is consistent
 across the site. Doing so adds the escape game to the 'My Cleared Games' section
-of the site for that user. There, users can upload photos to associate with each
-escape room, which also appear to the left of the list in a singular photo
-gallery.
+of the site for that user (Figure \ref{clears-view}). There, users can upload
+photos to associate with each escape room, which also appear to the left of the
+list in a singular photo gallery.
+
+![Blacklight's clears view as at commit `87a35f25`. Seed data used in this
+screenshot uses stage names from *Super Smash Bros. Ultimate* \copyright 2018
+Nintendo [^2], and art and screenshots from *Luigi's Mansion 3* \copyright 2019
+Nintendo.\label{clears-view}](blacklight-clears.png)
 
 ![Blacklight's Explore view as at commit `87a35f25`. Seed data used in this
 screenshot uses screenshots and names of stages and character icons from *Super
-Smash Bros. Ultimate* \copyright 2018 Nintendo
-[^2].\label{explore-view}](blacklight-explore.png)
+Smash Bros. Ultimate* \copyright 2018 Nintendo.\label{explore-view}](blacklight-explore.png)
 
 [^2]: Original Game: \copyright Nintendo / HAL Laboratory Inc.   
 Characters: \copyright Nintendo / HAL Laboratory, Inc. / Pokémon. / Creatures
@@ -85,8 +90,8 @@ self-assigned as a maintainer, enthusiast, or both.
 
 ![Blacklight's profile view as at commit `87a35f25` from the perspective of a
 user who is a maintainer. Seed data used in this screenshot uses screenshots
-from *Super Smash Bros. Ultimate* \copyright 2018 Nintendo
-[^2].\label{profile-view}](blacklight-profile.png)
+from *Super Smash Bros. Ultimate* \copyright 2018
+Nintendo.\label{profile-view}](blacklight-profile.png)
 
 ### Practical Use
 
@@ -108,11 +113,11 @@ project have been met. A tool has been developed that allows escape room
 maintainers to advertise their rooms and upload photos, and allows enthusiasts
 to do the same in relation to escape rooms that they have cleared. Measures have
 been taken to ensure that it is secure, functionally consistent, well-designed
-and feature-complete. Despite this, I cannot shake the notion that with more
-time available, Blacklight would feel whole, and potentially viable for public
-rollout. Of course, in the current climate, Blacklight may serve little purpose
-unless it were repurposed---in any other world, my personal feelings towards it
-would be justified.
+and feature-complete. With more time available to implement some further
+features, Blacklight would potentially be viable for rollout to the escape game
+community. Of course, in the current climate, Blacklight may serve little
+purpose unless it were repurposed---necessary steps to make it more suitable for
+use during the pandemic are discussed later in this chapter.
 
 My implementation of continuous integration and containerisation surpasses
 previous attempts I have made in personal projects. I feel as though I have
@@ -132,10 +137,8 @@ the process and used much of my available time. Some might also say that my
 focus on the practical, as opposed to the theoretical, limited the potential for
 my project to be particularly novel in its approach. One survey respondent even
 suggested that the intention was to introduce technology to *"trivial
-features"*. Still, in spite of having had to limit the scope of the project
-further and forgo many ideas that might have even given Blacklight commercial
-viability, I am very satisfied with the quality of the product that I was able
-to make.
+features"*. Still, in spite of the initial scope limitation, I am very satisfied
+with the quality of the product that I was able to make.
 
 ## Further Work
 
