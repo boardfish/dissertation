@@ -37,10 +37,16 @@ choice---authentication was not a concern after its initial implementation in
 the application. Effectively, the impact of this dependency was almost zero
 during development.
 
-The implementation of Markdown was a difficult choice due to
-uncertainty over whether it is intuitive for users---suitability of this
-feature, and thus the correctness of this choice, would have to be determined
-through user testing.
+The implementation of Markdown was a difficult choice due to uncertainty over
+whether it is intuitive for users---suitability of this feature, and thus the
+correctness of this choice, would have to be determined through user testing. I
+predict that this may cause some difficulty, as some users may prefer more
+typical rich text formatting fields. The approach could have been improved by
+providing button controls to quickly apply formatting to selected text.
+Prioritising this change would have been justifiable, as it would have made the
+description field more intuitive for more of the project's potential user base.
+Comfort in using this field may have prompted an increase in quality of escape
+game listings on the site.
 
 Atomic Design [@atomicdesign] helped to guide the structure of the frontend
 code---it had particular strength in maintaining the sanctity of the single
