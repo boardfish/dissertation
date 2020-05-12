@@ -214,10 +214,10 @@ new tools for use in their escape.
 These forms of escape room can be reset instantly by simply resetting the game.
 Whether this is done by restarting an attempt or restarting the program itself,
 it is often trivial compared to how long it takes to reset escape rooms. In
-discussion with @lockup2019, he established that resetting physical escape rooms
-can often take as long as 15 minutes, and that it is something escape room
-maintainers generally seek to optimise; the shorter a reset takes, the more time
-is available to welcome customers.
+discussion with the maintainer of @lockup2019, they established that resetting
+physical escape rooms can often take as long as 15 minutes, and that it is
+something escape room maintainers generally seek to optimise; the shorter a
+reset takes, the more time is available to welcome customers.
 
 Quick resets are a priority in many different situations. A Turkish company,
 Tuzak, develops portable escape games that are run in shopping centres

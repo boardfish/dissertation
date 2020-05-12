@@ -85,7 +85,8 @@ self-assigned as a maintainer, enthusiast, or both.
 
 ![Blacklight's profile view as at commit `87a35f25` from the perspective of a
 user who is a maintainer. Seed data used in this screenshot uses screenshots
-from *Super Smash Bros. Ultimate*.\label{profile-view}](blacklight-profile.png)
+from *Super Smash Bros. Ultimate* \copyright 2018 Nintendo
+[^2].\label{profile-view}](blacklight-profile.png)
 
 ### Practical Use
 
@@ -197,9 +198,9 @@ These included the following:
     rooms charge per team and 55% charge per person, with others pricing either
     via a *"base cost...plus an additional fee per player"*, or *"banded
     models"* in which groups of different sizes are charged differently.
-    [@nicholson2015peeking]. Such a difference calls for at least two unique
-    approaches to both collecting the data from, and representing the data to,
-    the user.
+    [@nicholson2015peeking, p. 10]. Such a difference calls for at least two
+    unique approaches to both collecting the data from, and representing the
+    data to, the user.
 - **An extensive tagging system** 
 - **Increased depth of filtering in the Explore view**   
   Included with a view to allowing those with accessibility issues to quickly

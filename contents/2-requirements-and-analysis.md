@@ -41,7 +41,8 @@ The survey needed to be agreed to by the group moderators before being sent out.
 Hearing the opinions of an escape room maintainer helped me to anticipate the
 potential results and begin planning. 
 
-These results were found from the seven responses received:
+These results were drawn from the seven responses received ([Appendix
+III][Appendix III: Collated Survey Results]):
 
 - Four maintainers already share photos online, but the remaining three
   are all interested by the prospect of it
@@ -111,20 +112,22 @@ implementation to remain open to change and interpretation. By not enforcing
 how a ticket should be implemented until it is worked on, it could be ensured
 that the right tool for the job would be chosen.
 
-As mentioned in the previous chapter, I have had more hands-on experience with
-Scrum than with Kanban. Kanban is employed when more flexibility is desired. It
-prioritises throughput and encourages a "culture of 'done'" by enforcing
-work-in-progress limits [@rehkopf2018kanban]. With this in mind, it would be
-difficult to set more than two development milestones. Treating each MSCW
-category as an epic and taking the amount of time necessary for work on this
-report and my other modules into account, I aimed to work on the project for a
-month, devoting two to three weeks to each milestone.
+Kanban prioritises throughput and encourages a "culture of 'done'" by enforcing
+work-in-progress limits [@rehkopf2018kanban]. It is often employed when more
+flexibility is desired---this drove my decision to use is in spite of previous
+experience with Scrum. When defining personal deadlines, It was necessary to
+take the amount of time needed for work on this dissertation paper and my other
+modules into account. With this in mind, the scope for the project was limited
+to tackling the Must- and Should-Have tickets. These were defined as the
+development milestones. I aimed to work on the project for around a month and a
+half.
 
-I figured that each milestone would take a similar amount of time---while Rails'
-built-in generators would likely ease the burden of scaffolding the initial
-functionality, setting that groundwork in the right way would take slow and
-careful design decisions. These would dictate the flow of the rest of the
-project. In the end, the following deadlines were decided:
+Two to three weeks were devoted to each milestone. I figured that each milestone
+would take a similar amount of time---while Rails' built-in generators would
+likely ease the burden of scaffolding the initial functionality, setting that
+groundwork in the right way would take slow and careful design decisions. These
+decisions would dictate the flow of the rest of the project. In the end, the
+following deadlines were decided:
 
 - **Development commences** March 12th
 - **Must milestone completed** March 26th *(actual completion date: March 24th)*
@@ -138,8 +141,6 @@ After setting my focus, I decided my solution would take the form of a web
 application. Ruby on Rails was chosen as the development platform. The QOC
 analysis below was the source of this decision, in which I weighed up other
 potential candidates such as Iron (Rust), ASP.NET MVC 5 (C#), and Next.js (JS).
-
-\pagebreak
 
 |  | **Priority** | 4 | 5 | 4 | 2 | 4 | 3 | 3 | 5 |
 |:-----:|:----------------:|:-----------:|:-------------:|:---------:|:-------------:|:--------------------------:|:----------------------------:|:---------:|:-----------------:|
@@ -155,12 +156,12 @@ values and totals revealed.
 
 I chose to prioritise documentation and speed of development cycle over all
 else. With sufficient documentation and fast compile times, I would be able to
-work quickly and effectively. Stability and familiarity also factored into my
-decision strongly---I would need to be sure that the language interface would
-not radically change during the course of development, and that I would feel
-comfortable with the language chosen. Docker resources were also prioritised so
-that less work would be necessary to deploy the application in a container in a
-production environment.
+work quickly and effectively, with sufficient fallback in case of problems.
+Stability and familiarity also factored into my decision strongly---I would need
+to be sure that the language interface would not radically change during the
+course of development, and that I would feel comfortable with the language
+chosen. Docker resources were also prioritised so that less work would be
+necessary to deploy the application in a container in a production environment.
 
 Originally, ERB and React were weighed against one another as view engines. This
 estimation was taken on the assumption that React would be used even where

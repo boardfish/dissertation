@@ -190,6 +190,19 @@ here.**
 | 2  | These aren't really helpful.                                                                                                                                                                                                                                                                                                                                           |
 | 6  | We have a loyalty program because we change the story and in our room often. Wouldn't reccommend for a place that doesn't. In terms of Metrics - we tell people the success rate of the room but not of individual puzzles. We try and push people into bigger groups but if someone doesn't want to play with strangers we let them move to a different room or time. |
 
+**Q: Which factors influence your decision when investing in technical solutions
+to these problems?**
+
+| Respondent ID | Cost      | Time taken to implement | Reliability | Ease of use |
+|---------------|-----------|-------------------------|-------------|-------------|
+| 1             | Always    | Often                   | Always      | Always      |
+| 2             | Always    | Always                  | Always      | Always      |
+| 3             | Sometimes | Sometimes               | Always      | Always      |
+| 4             | Always    | Always                  | Often       | Always      |
+| 5             | Often     | Sometimes               | Always      | Always      |
+| 6             | Always    | Often                   | Always      | Always      |
+| 7             | Always    | Sometimes               | Always      | Always      |
+
 **Q: Please name any other factors of importance not mentioned.**
 
 | Respondent ID | Comment                                                                                                                                                                                                                                                                                                                                                                                                                            |

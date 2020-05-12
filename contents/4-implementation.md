@@ -13,9 +13,9 @@ approaches.
 -->
 
 My commitment to emulating industry best practices carried through to
-implementation. I felt it vital to use and work with such things as continuous
-integration servers, containerisation, and linting tools to maintain code
-quality and readability. Of course, none of these decisions were taken lightly. 
+implementation. I felt it vital to use and work with such tools as continuous
+integration servers, containerisation, and linters to maintain code quality and
+readability. Of course, none of these decisions were taken lightly. 
 
 While there is still some discourse over whether containerisation in development
 environments is entirely appropriate, I chose to use it to maintain some degree
@@ -50,8 +50,9 @@ the standard Rails scaffold functioned as expected. This included:
   hiding.
 
 SimpleCov was the standard on my year in industry with regards to coverage
-testing. I would have employed this and aimed for at least 80% test coverage
-across controllers, models and helpers, had time allowed for it.
+testing. I would have employed this or a suitable alternative, aiming for at
+least 80% test coverage across controllers, models and helpers, had time allowed
+for it.
 
 The RSpec test suite ran at each commit on CircleCI's platform, halting in the
 instance of a failed Docker build, linting failure, or failed test. Though the
@@ -65,9 +66,9 @@ either wait until my credits with CircleCI had reset and rerun the build, or
 trust that running the tests locally qualified instead and merge. In the event
 of a CI failure in an industry scenario, this would be discussed in the
 development department---generally, CI serves as a strict gatekeep to `master`,
-so in the majority of cases, development departments would resolve not to merge
-to `master` until their CI server functioned again. Due to time constraints, I
-was not quite so strict around it. This came at a cost.
+so development departments may resolve not to merge to `master` until their CI
+server functioned again. Due to time constraints, I was not quite so strict
+around it. This came at a cost.
 
 As I fully expected, this created a difficulty. With `master` having been
 changed without being monitored by regular CI runs, new issues had reached the
