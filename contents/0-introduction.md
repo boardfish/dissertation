@@ -116,7 +116,7 @@ created a challenge for me. My work during *COM390 Year In Industry* gave me a
 strong set of principles regarding software development---I wished to include
 industry-standard processes in my work, including continuous integration,
 vulnerability testing, and measurement of test coverage. Time constraints meant
-I needed to make compromises here---I could not ensure that automated tests
-covered a majority of the code, let alone track test coverage. In essence, my
-experience during my year in industry widened the scope of my capabilities and
-priorities alike, but I could not apply them to the fullest.
+I needed to make compromises here---I could not commit to covering a majority of
+the code through tests, let alone track test coverage. In essence, my experience
+during my year in industry widened the scope of my capabilities and priorities
+alike, but I could not apply them to the fullest.

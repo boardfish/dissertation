@@ -9,7 +9,7 @@ rooms was covered in the introduction; this chapter explores them in further dep
 ## Process
 
 The following keywords were identified for use when searching for material to
-reference and discuss in the literature survey. 
+reference and discuss in the literature survey:
 
 - escape room / puzzle hunt
 - maintainer / owner / host
@@ -18,7 +18,7 @@ reference and discuss in the literature survey.
 - virtual reality
 - education / classroom
 
-This led to the following searches.
+This led to the following searches:
 
 - escape room owner
 - escape room host
@@ -48,9 +48,9 @@ problem-solving challenges, such as those used in corporate team-building
 exercises, appear most similar to escape rooms. Live-action roleplaying (LARP)
 is another such inspiration [@nicholson2015peeking, p. 29]. Both escape rooms
 and LARP can provide entertainment through immersion in a story as the *"hero"*,
-a factor that players enjoy [@duplessie2013go]. Nicholson presents the
-precursors to escape rooms in further depth in his paper---Figure 2.1 summarises
-these.
+a factor that contributes to players' enjoyment [@duplessie2013go]. Nicholson
+presents the precursors to escape rooms in further depth in his paper---Figure
+2.1 summarises these.
 
 ![Nicholson (2019) presents the precursors to, and inspirations for, the escape
 room phenomenon in this diagram. Adapted with permission from Nicholson, Scott.
@@ -131,43 +131,44 @@ and can make a marked impact. The experience likely contributed to the
 *"statistically significant ($p<0.001$)"* [@lopez2019examining, p. 31732] 23%
 increase in passes.
 
-A study by @lopezuse organised its puzzles in a manner whereby puzzles could be
-completed in any order, allowing multiple groups to attend the room at once. One
-example puzzle given in the study was an exercise likely done on paper. This
-would allow all groups in the class to attempt the puzzle without it needing to
-be reset, but the absence of physical interaction or props would likely reduce
-participants' immersion in the scenario.
+Similarly, a study by @lopezuse organised its puzzles in a manner whereby
+puzzles could be completed in any order, allowing multiple groups to attend the
+room at once. One example puzzle given in the study was an exercise likely done
+on paper. This would allow all groups in the class to attempt the puzzle without
+it needing to be reset. Again, the absence of physical interaction or props
+would likely reduce participants' immersion in the scenario. This provokes the
+question of how immersion is, or can be, preserved in such scenarios.
 
 @nicholson2018creating suggests that an *"ongoing narrative"* [p. 48] between
-activities can remedy this---this would *"empower them to be more engaged than
-if the games are over in an hour"*. @dietrich2018escape trialled a similar
-escape game in a classroom environment, to which 62% of participants with prior
-escape game experience *"felt a similar sensation in the game presented here"*
-[p. 7]. This suggests that strong and imaginative implementations of escape
-rooms in the classroom can preserve the level of immersion traditional escape
-rooms often display with adequate results.
+activities can preserve immersion---this would *"empower [participants] to be
+more engaged than if the games are over in an hour"*. @dietrich2018escape
+trialled a similar escape game in a classroom environment, to which 62% of
+participants with prior escape game experience *"felt a similar sensation in the
+game presented here"* [p. 7]. This suggests that strong and imaginative
+implementations of escape rooms in the classroom may be able to preserve the
+level of immersion provided by traditional escape rooms, with adequate results.
 
-Technology can enhance these implementations of escape rooms, preserving some
-level of immersion by providing something interactive and physical.
-@ross2019turning applied a decoder box developed for use in educational escape
-rooms [@ross2019design]. @ross2019design reports that "the cost of a single
-complete system is $30.00 AUD" (around £16 at the time of writing) and that it
-is reprogrammable to handle several solutions. This arguably makes it an
-inexpensive and reusable solution for classroom escape rooms. Participants in
-studies that have used the decoder box prefer *"the user interface of something
-physical rather than a computer based abstraction"* [@ross2019design, p. 145782]
-or *"paper and pen or an app on their phone"* [@ross2019turning, p. 3].
+Technology can help to preserve some level of immersion by providing something
+interactive and physical. @ross2019turning applied a decoder box developed for
+use in educational escape rooms [@ross2019design]. @ross2019design reports that
+"the cost of a single complete system is $30.00 AUD" (around £16 at the time of
+writing) and that it is reprogrammable to handle several solutions. This
+arguably makes it an inexpensive and reusable solution for classroom escape
+rooms. Participants in studies that have used the decoder box prefer *"the user
+interface of something physical rather than a computer based abstraction"*
+[@ross2019design, p. 145782] or *"paper and pen or an app on their phone"*
+[@ross2019turning, p. 3].
 
 <!-- Visibility -->
 
-Technology, particularly monitors, may be avoided in the escape room due to the
-issue of visibility. Discussion with @lockup2019 highlighted that visibility of
-the puzzle to the entire team should be a priority. @nicholson2015peeking warns
-of the danger of removing just one player from the *"mental space"* [p. 20] of
-the team, particularly in the instance of a puzzle requiring one person to work
-at a computer alone. Even if a screen-based puzzle calls for multiple people,
-the available space and the visibility of the screen dictates how many members
-of the group can interact with it. Unless monitors are suitably placed and large
+A regular issue arising with the use of technology in escape rooms is that of
+visibility. Discussion with @lockup2019 highlighted that visibility of the
+puzzle to the entire team should be a priority. @nicholson2015peeking warns of
+the danger of removing just one player from the *"mental space"* [p. 20] of the
+team, particularly in the instance of a puzzle requiring one person to work at a
+computer alone. Even if a screen-based puzzle calls for multiple people, the
+available space and the visibility of the screen dictates how many members of
+the group can interact with it. Unless monitors are suitably placed and large
 enough to be viewed by a full party, the whole team may not be able to interface
 with a puzzle that applies technology. 
 
@@ -236,7 +237,7 @@ different worksheets to complete the room.
 The field of virtual reality is capable of creating escape rooms that bridge the
 boundary between the digital (e.g. *Myst*) and the physical. The maintainer of
 @lockup2019 theorises that virtual reality (VR) escape rooms such as *[EXIT
-VR](https://exit-vr.de/en/)* may be the next stage for the industry, which allow
+VR](https://exit-vr.de/en/)* may be the next stage for the industry. These allow
 immersive rooms to be created while effectively eliminating the issue of
 resetting the room as above. This would bring the escape room cycle full circle,
 reincarnating the modern wave of physical escape rooms in the digital form that
@@ -275,9 +276,9 @@ The video game [*Keep Talking and Nobody
 Explodes*](https://keeptalkinggame.com/) is a popular example, in which one
 player must defuse a bomb while the others guide them using the [bomb's
 manual](https://bombmanual.com). Conceptually, the game shares fundamentals with
-escape rooms---players work together to solve puzzles through logic and
-communication. The communication aspect is of most importance to this point: the
-game's asynchronous gameplay depends on communication for success.
+escape rooms---players work together to solve puzzles by communicating. The
+communication aspect is of most importance to this point: the game's
+asynchronous gameplay depends on communication for success.
 
 Escape rooms also exemplify asynchronous gameplay. The escape room *Meltdown*
 [@lockup2019] begins with most of the party in individual chambers, with the
@@ -292,11 +293,15 @@ cannot be seen from where the ropes are.
 Escape rooms already apply asynchronous gameplay, but *Keep Talking and Nobody
 Explodes* demonstrates that with technology, it is possible in almost any
 location through the use of portable gaming platforms like the Oculus Quest or
-Nintendo Switch. This is all the more important during the COVID-19 pandemic, in
-which companies are turning to other measures to continue the escape room
-experience. SCRAP, for example, is even resorting to [livestreamed escape room
+Nintendo Switch. The concept can be cross-applied to VR escape rooms. It is of
+note that during the COVID-19 pandemic, companies are turning to other measures
+to continue the escape room experience. SCRAP, for example, is even resorting to
+[livestreamed escape room
 experiences](https://www.facebook.com/events/359013048391029/). This area seems
-to be ripe with potential in such difficult times.
+to be ripe with potential in such difficult times. Asynchronous gameplay is
+proven possible in the home---new experiences created by the escape game
+industry in these times could capitalise on this fact in novel ways, perhaps
+beyond those documented here.
 
 In summary, technology brings a variety of benefits, from quick resets when used
 as part of a puzzle to novel ideas that may not otherwise be possible. Many
