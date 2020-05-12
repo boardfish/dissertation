@@ -82,6 +82,12 @@ making sure a timer is visible to the participating group and maintainer, or to
 processes that currently take more time than necessary, such as posting photos
 of teams to social media [@lockup2019].
 
+It is notable that due to the timing of the COVID-19 pandemic, requirements were
+not changed. In light of this, the product presented another purpose---it may
+support the escape game community after a return to normalcy. Exposing escape
+rooms to enthusiasts and giving them a platform on which to share their
+experiences could encourage business in the industry.
+
 ## Research Questions
 
 Two research questions were identified, which the literature review stage of the
